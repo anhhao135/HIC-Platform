@@ -47,8 +47,6 @@ public class HIC_Camera : MonoBehaviour
     public bool toggleDepthCapture = false;
     public float fixedFPS = 60;
 
-    public bool toggleBoundingBoxes = false;
-
     public int captureWidth = 1200;
     public int captureHeight = 800;
 
@@ -59,15 +57,9 @@ public class HIC_Camera : MonoBehaviour
 
     public int captureFrames = 100;
 
-    public int startDelayFrames = 0;
-
     public float cameraBoundingBoxDistance = 20f;
 
-    public float labellingPad = 0.1f; //padding around screen space to threshold if label will be YOLO valid.
-
     public bool toggleYOLOFormatRight = false;
-
-    public bool toggleRootObjectBoundingBox = false;
     void Start()
     {
 
@@ -206,6 +198,7 @@ public class HIC_Camera : MonoBehaviour
         {
             foreach (RootObject rootObject in rootObjects)
             {
+                
 
                 Vector3[] pts3D = new Vector3[8];
 
@@ -225,6 +218,7 @@ public class HIC_Camera : MonoBehaviour
                 pts3D[5] = trans.TransformPoint(new Vector3(max_.x, min_.y, max_.z));
                 pts3D[6] = trans.TransformPoint(new Vector3(max_.x, max_.y, min_.z));
                 pts3D[7] = trans.TransformPoint(new Vector3(max_.x, max_.y, max_.z));
+                
 
 
                 string className = rootObject.className;
@@ -252,8 +246,17 @@ public class HIC_Camera : MonoBehaviour
 
                 if (colliderRayCastSuccessful == false)
                 {
-                    //continue; //that means object is occluded so move onto next rootobject
+                    continue; //that means object is occluded so move onto next rootobject
                 }
+
+                Vector3[] minMaxPoints = CalculateBoundingBox(rootObject.gameObject, targetCamera);
+
+                Vector3 min = minMaxPoints[0];
+                Vector3 max = minMaxPoints[1];
+
+
+
+                /*
 
                 for (int i = 0; i < pts3D.Length; i++)
                 {
@@ -269,8 +272,14 @@ public class HIC_Camera : MonoBehaviour
                     max = Vector3.Max(max, pts3D[i]);
                 }
 
+                */
+
+
+
                 min.y = captureHeight - min.y;
                 max.y = captureHeight - max.y; //changing direction of y axis
+
+
 
                 //Construct a rect of the min and max positions and apply some margin
 
@@ -281,6 +290,8 @@ public class HIC_Camera : MonoBehaviour
 
                 float height = Mathf.Abs(r.yMin - r.yMax);
                 float width = Mathf.Abs(r.xMin - r.xMax); //height and width of box in screen space
+
+                /*
 
                 float x1 = XCoord - width / 2f;
                 float y1 = YCoord - height / 2f;
@@ -298,7 +309,7 @@ public class HIC_Camera : MonoBehaviour
                 float y5 = Mathf.Max(y1, y3);
 
                 float x6 = Mathf.Min(x2, x4);
-                float y6 = Mathf.Min(y2, y4);
+                float y6 = Mathf.Min(y2, y4); //clip the box to the screen viewing space
 
                 XCoord = (x5 + x6) / 2f;
                 YCoord = (y5 + y6) / 2f;
@@ -306,10 +317,16 @@ public class HIC_Camera : MonoBehaviour
                 width = x6 - x5;
                 height = y6 - y5;
 
+                */
+
                 if (width <= 0 || height <= 0)
                 {
-                    continue;
+                    continue; //discard if box is out of screen
                 }
+
+                //XCoord and YCoord is corner of box. X is pointing right. Y is pointing down.
+                //Width and height are dimensions of box
+                //All are in terms of pixels
 
                 if (toggleYOLOFormatRight == true)
                 {
@@ -325,10 +342,10 @@ public class HIC_Camera : MonoBehaviour
                     YCoord = YCoord - (height / 2f);
                 }
 
-                if (classes.ContainsKey(className))
+                if (classes.ContainsKey(className)) //if class is not defined, then do not save label
                 {
                     streamWriter.WriteLine(String.Format("{0} {1} {2} {3} {4}", classes[className], XCoord, YCoord, width, height));
-                } //checks if center of box is within specified padded area. prevents bad labels (negative centers)
+                }
             }
         }
 
@@ -360,60 +377,94 @@ public class HIC_Camera : MonoBehaviour
         }
     }
 
-    public Vector3[] CalculateBoundingBox(GameObject aObj, Camera camera)
+    public void getWorldMesh(Transform obj, List<Vector3> worldMesh)
     {
-        Transform myTransform = aObj.transform;
         Mesh mesh = null;
-        MeshFilter mF = aObj.GetComponent<MeshFilter>();
+        MeshFilter mF = obj.GetComponent<MeshFilter>();
         if (mF != null)
             mesh = mF.mesh;
         else
         {
-            SkinnedMeshRenderer sMR = aObj.GetComponent<SkinnedMeshRenderer>();
+            SkinnedMeshRenderer sMR = obj.GetComponent<SkinnedMeshRenderer>();
             if (sMR != null)
                 mesh = sMR.sharedMesh;
         }
+
         if (mesh == null)
         {
-            Debug.LogError(" no mesh found on the given object");
-            return null;
+
+            foreach (Transform child in obj)
+            {
+                getWorldMesh(child, worldMesh);
+            }
+
+            return;
         }
+
         Vector3[] vertices = mesh.vertices;
+
         if (vertices.Length <= 0)
         {
-            Debug.LogError("mesh doesn't have vertices");
-            return null;
+
+            foreach (Transform child in obj)
+            {
+                getWorldMesh(child, worldMesh);
+            }
+
+            return;
         }
-        Vector3 min, max;
-        //convert to world
-        min = max = myTransform.TransformPoint(vertices[0]);
-        // convert to screen
-        min = max = camera.WorldToScreenPoint(min);
-        for (int i = 1; i < vertices.Length; i++)
+
+        foreach (Vector3 vert in vertices)
         {
+            worldMesh.Add(obj.TransformPoint(vert));
+        }
 
-            vertices[i].y = vertices[i].y - 0.1f;
+        foreach (Transform child in obj)
+        {
+            getWorldMesh(child, worldMesh);
+        }
+    }
 
-            Vector3 V = myTransform.TransformPoint(vertices[i]);
-            V = camera.WorldToScreenPoint(V);
+
+
+    public Vector3[] CalculateBoundingBox(GameObject aObj, Camera cam)
+    {
+        Transform parent = aObj.transform.root;
+        Debug.Log("Parent name is: " + parent.name);
+        List<Vector3> worldMesh = new List<Vector3>();
+        getWorldMesh(parent, worldMesh);
+        Debug.Log("world mesh count is " + worldMesh.Count);
+
+        Vector3 min, max;
+        min = max = cam.WorldToScreenPoint(worldMesh[0]);
+        for (int i = 1; i < worldMesh.Count; i++)
+        {
+            Vector3 screenPoint = cam.WorldToScreenPoint(worldMesh[i]);
             for (int n = 0; n < 2; n++)
             {
-                if (V[n] > max[n])
-                    max[n] = V[n];
-                if (V[n] < min[n])
-                    min[n] = V[n];
+                if (screenPoint[n] > max[n])
+                    max[n] = screenPoint[n];
+                if (screenPoint[n] < min[n])
+                    min[n] = screenPoint[n];
             }
         }
-        //Bounds B = new Bounds();
-        //B.SetMinMax(min, max);
-        min[1] = Screen.height - min[1];
-        max[1] = Screen.height - max[1];
-        Vector3 point1 = min;
-        Vector3 point2 = max;
 
-        Vector3[] returnArray = new Vector3[] { min, max };
+        Vector3[] returnPoints = {min, max};
 
-        return returnArray;
+        return returnPoints;
+
+    }
+
+    private void AddDescendantsWithTag(Transform parent, string tag, List<GameObject> list)
+    {
+        foreach (Transform child in parent)
+        {
+            if (child.gameObject.tag == tag)
+            {
+                list.Add(child.gameObject);
+            }
+            AddDescendantsWithTag(child, tag, list);
+        }
     }
 
 
