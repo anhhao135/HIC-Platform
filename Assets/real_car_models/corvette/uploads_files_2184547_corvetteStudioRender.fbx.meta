@@ -1,0 +1,295 @@
+fileFormatVersion: 2
+guid: 488c78ce281537d4cafc995730265ede
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 8967749517121878288
+    second: Camera|CameraAction.001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Car Paint - Red.001
+    second: {fileID: 2100000, guid: 61229fb9b7a1dcc419b68870af054dee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass - Tinted.002
+    second: {fileID: 2100000, guid: 9cd93c0d47c832141aa20f57c060588d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ground
+    second: {fileID: 2100000, guid: 9c067ea6b31c2ff40889335f6cf5f586, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior - Black
+    second: {fileID: 2100000, guid: a0e8efb28b33d67478c95e5db9e72806, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 666a911c770d53d4ca4cc228e5099ec2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rubber - Black
+    second: {fileID: 2100000, guid: 0e60ecee6101d8545b257b7b5145e8f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Border
+    second: {fileID: 2100000, guid: b16d2f9158467624696b9cb919e4efa1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black diffuse
+    second: {fileID: 2100000, guid: 31f59844f710b344d9b816c695512114, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: break disc
+    second: {fileID: 2100000, guid: 1f72e9530f8dc6448950609c56b3e569, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: break hub
+    second: {fileID: 2100000, guid: 84720866c20a4d145a90ba8390c5412f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: car paint black
+    second: {fileID: 2100000, guid: 900879093a697184ca13649914bd4d76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: car paint red
+    second: {fileID: 2100000, guid: a2960a70d4da91c40878eebccf37d2a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: flags
+    second: {fileID: 2100000, guid: a1a559a947c5db84890be3c0db3407a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: flags.001
+    second: {fileID: 2100000, guid: e74e844e16e989d45bcde5c7932bfaf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass-BUMP
+    second: {fileID: 2100000, guid: a55d240d4d6d7ed40acadeb0b81ca2d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass-clear
+    second: {fileID: 2100000, guid: 7f3b092ad3af5b1498c7f3788d3c3138, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass-clear-rigid
+    second: {fileID: 2100000, guid: 6edd6a0088c30674ea5a9cd3dd63fccc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass-clear-rigid UV
+    second: {fileID: 2100000, guid: 15dcf8fdcf3593947a336190965ff442, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass-orange
+    second: {fileID: 2100000, guid: 09ab0822781a4d1429dc7c6328b814da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass-orange-bump
+    second: {fileID: 2100000, guid: b4c373be5fd17a74e9d46b61046a8f39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass-red
+    second: {fileID: 2100000, guid: 1b6b3b6948ac28646a08d4b6234797c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass-red RIGID
+    second: {fileID: 2100000, guid: f673f03d469b1954ea8535195cea3b4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass-red ROUGH.000
+    second: {fileID: 2100000, guid: 29a479b16cbdf1040a5175c92663ff0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass-red-bump
+    second: {fileID: 2100000, guid: 8b8ce1c476c550646a998dc2d7edd5bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: interior - red
+    second: {fileID: 2100000, guid: af50498adc9dbb248908bf4e16e6b4bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light bulb off
+    second: {fileID: 2100000, guid: 165f787c8a035394c863de879958f94e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal-black
+    second: {fileID: 2100000, guid: a9f060c0cdc812244867f0ce60bb4b6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal-black.001
+    second: {fileID: 2100000, guid: 8d05c1fdf1586d245abb6bc48f1dd0dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal-black.2
+    second: {fileID: 2100000, guid: 46e58d48edaf37a48b907d2d972c5998, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal-chrome
+    second: {fileID: 2100000, guid: c5334ac8107e52c44877e33ae1f9dccc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal-chrome-dark
+    second: {fileID: 2100000, guid: ce0b7aba9b5efea4aa8dae254f3939da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal-chrome-rough.2
+    second: {fileID: 2100000, guid: eb3a4282164565c45af73506e4616630, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal-chrome.001
+    second: {fileID: 2100000, guid: 81a67f41c6e5f6844a341fb73c7a5ec1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal-chrome.002
+    second: {fileID: 2100000, guid: 14a605b1e9494b742a681818c2f67d72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pastic-black- bumpy small
+    second: {fileID: 2100000, guid: bc478a9eec8be034bb106e884b0c5213, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rubber-black
+    second: {fileID: 2100000, guid: 3e5316e7a890624408275420e6decd09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tire
+    second: {fileID: 2100000, guid: 198b0ea8c86b0e4469cf08e769aaea02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window border
+    second: {fileID: 2100000, guid: 136f20521bb9cbf43bed177bc0aefc9f, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

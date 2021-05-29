@@ -1,146 +1,410 @@
 fileFormatVersion: 2
 guid: 8a6162aebed146c4a9dd601b3c4027a7
-timeCreated: 1536512862
-licenseType: Store
 ModelImporter:
-  serializedVersion: 21
-  fileIDToRecycleName:
-    100000: Blinkers
-    100002: Body
-    100004: Bumper
-    100006: Chassis
-    100008: Collider
-    100010: Exhaust
-    100012: FogLights
-    100014: FrameWindow
-    100016: Glasses
-    100018: Grilles
-    100020: Handle
-    100022: HeadLight
-    100024: HeadLightTips
-    100026: Interior
-    100028: Interrior_Red
-    100030: Logo
-    100032: Mirrors
-    100034: Plate
-    100036: //RootNode
-    100038: RearBrakeLight
-    100040: Red_Parts
-    100042: Seams
-    100044: Steer
-    100046: TailLights
-    100048: Window
-    100050: Wing
-    100052: Wipers
-    400000: Blinkers
-    400002: Body
-    400004: Bumper
-    400006: Chassis
-    400008: Collider
-    400010: Exhaust
-    400012: FogLights
-    400014: FrameWindow
-    400016: Glasses
-    400018: Grilles
-    400020: Handle
-    400022: HeadLight
-    400024: HeadLightTips
-    400026: Interior
-    400028: Interrior_Red
-    400030: Logo
-    400032: Mirrors
-    400034: Plate
-    400036: //RootNode
-    400038: RearBrakeLight
-    400040: Red_Parts
-    400042: Seams
-    400044: Steer
-    400046: TailLights
-    400048: Window
-    400050: Wing
-    400052: Wipers
-    2300000: Blinkers
-    2300002: Body
-    2300004: Bumper
-    2300006: Chassis
-    2300008: Collider
-    2300010: Exhaust
-    2300012: FogLights
-    2300014: FrameWindow
-    2300016: Glasses
-    2300018: Grilles
-    2300020: Handle
-    2300022: HeadLight
-    2300024: HeadLightTips
-    2300026: Interior
-    2300028: Interrior_Red
-    2300030: Logo
-    2300032: Mirrors
-    2300034: Plate
-    2300036: RearBrakeLight
-    2300038: Red_Parts
-    2300040: Seams
-    2300042: Steer
-    2300044: TailLights
-    2300046: Window
-    2300048: Wing
-    2300050: Wipers
-    3300000: Blinkers
-    3300002: Body
-    3300004: Bumper
-    3300006: Chassis
-    3300008: Collider
-    3300010: Exhaust
-    3300012: FogLights
-    3300014: FrameWindow
-    3300016: Glasses
-    3300018: Grilles
-    3300020: Handle
-    3300022: HeadLight
-    3300024: HeadLightTips
-    3300026: Interior
-    3300028: Interrior_Red
-    3300030: Logo
-    3300032: Mirrors
-    3300034: Plate
-    3300036: RearBrakeLight
-    3300038: Red_Parts
-    3300040: Seams
-    3300042: Steer
-    3300044: TailLights
-    3300046: Window
-    3300048: Wing
-    3300050: Wipers
-    4300000: Wipers
-    4300002: HeadLightTips
-    4300004: FogLights
-    4300006: Mirrors
-    4300008: Plate
-    4300010: Handle
-    4300012: Blinkers
-    4300014: Bumper
-    4300016: Wing
-    4300018: Window
-    4300020: Body
-    4300022: Exhaust
-    4300024: FrameWindow
-    4300026: Chassis
-    4300028: Seams
-    4300030: HeadLight
-    4300032: Steer
-    4300034: TailLights
-    4300036: Logo
-    4300038: Red_Parts
-    4300040: Interior
-    4300042: Interrior_Red
-    4300044: RearBrakeLight
-    4300046: Glasses
-    4300048: Grilles
-    4300050: Collider
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Blinkers
+  - first:
+      1: 100002
+    second: Body
+  - first:
+      1: 100004
+    second: Bumper
+  - first:
+      1: 100006
+    second: Chassis
+  - first:
+      1: 100008
+    second: Collider
+  - first:
+      1: 100010
+    second: Exhaust
+  - first:
+      1: 100012
+    second: FogLights
+  - first:
+      1: 100014
+    second: FrameWindow
+  - first:
+      1: 100016
+    second: Glasses
+  - first:
+      1: 100018
+    second: Grilles
+  - first:
+      1: 100020
+    second: Handle
+  - first:
+      1: 100022
+    second: HeadLight
+  - first:
+      1: 100024
+    second: HeadLightTips
+  - first:
+      1: 100026
+    second: Interior
+  - first:
+      1: 100028
+    second: Interrior_Red
+  - first:
+      1: 100030
+    second: Logo
+  - first:
+      1: 100032
+    second: Mirrors
+  - first:
+      1: 100034
+    second: Plate
+  - first:
+      1: 100036
+    second: //RootNode
+  - first:
+      1: 100038
+    second: RearBrakeLight
+  - first:
+      1: 100040
+    second: Red_Parts
+  - first:
+      1: 100042
+    second: Seams
+  - first:
+      1: 100044
+    second: Steer
+  - first:
+      1: 100046
+    second: TailLights
+  - first:
+      1: 100048
+    second: Window
+  - first:
+      1: 100050
+    second: Wing
+  - first:
+      1: 100052
+    second: Wipers
+  - first:
+      4: 400000
+    second: Blinkers
+  - first:
+      4: 400002
+    second: Body
+  - first:
+      4: 400004
+    second: Bumper
+  - first:
+      4: 400006
+    second: Chassis
+  - first:
+      4: 400008
+    second: Collider
+  - first:
+      4: 400010
+    second: Exhaust
+  - first:
+      4: 400012
+    second: FogLights
+  - first:
+      4: 400014
+    second: FrameWindow
+  - first:
+      4: 400016
+    second: Glasses
+  - first:
+      4: 400018
+    second: Grilles
+  - first:
+      4: 400020
+    second: Handle
+  - first:
+      4: 400022
+    second: HeadLight
+  - first:
+      4: 400024
+    second: HeadLightTips
+  - first:
+      4: 400026
+    second: Interior
+  - first:
+      4: 400028
+    second: Interrior_Red
+  - first:
+      4: 400030
+    second: Logo
+  - first:
+      4: 400032
+    second: Mirrors
+  - first:
+      4: 400034
+    second: Plate
+  - first:
+      4: 400036
+    second: //RootNode
+  - first:
+      4: 400038
+    second: RearBrakeLight
+  - first:
+      4: 400040
+    second: Red_Parts
+  - first:
+      4: 400042
+    second: Seams
+  - first:
+      4: 400044
+    second: Steer
+  - first:
+      4: 400046
+    second: TailLights
+  - first:
+      4: 400048
+    second: Window
+  - first:
+      4: 400050
+    second: Wing
+  - first:
+      4: 400052
+    second: Wipers
+  - first:
+      23: 2300000
+    second: Blinkers
+  - first:
+      23: 2300002
+    second: Body
+  - first:
+      23: 2300004
+    second: Bumper
+  - first:
+      23: 2300006
+    second: Chassis
+  - first:
+      23: 2300008
+    second: Collider
+  - first:
+      23: 2300010
+    second: Exhaust
+  - first:
+      23: 2300012
+    second: FogLights
+  - first:
+      23: 2300014
+    second: FrameWindow
+  - first:
+      23: 2300016
+    second: Glasses
+  - first:
+      23: 2300018
+    second: Grilles
+  - first:
+      23: 2300020
+    second: Handle
+  - first:
+      23: 2300022
+    second: HeadLight
+  - first:
+      23: 2300024
+    second: HeadLightTips
+  - first:
+      23: 2300026
+    second: Interior
+  - first:
+      23: 2300028
+    second: Interrior_Red
+  - first:
+      23: 2300030
+    second: Logo
+  - first:
+      23: 2300032
+    second: Mirrors
+  - first:
+      23: 2300034
+    second: Plate
+  - first:
+      23: 2300036
+    second: RearBrakeLight
+  - first:
+      23: 2300038
+    second: Red_Parts
+  - first:
+      23: 2300040
+    second: Seams
+  - first:
+      23: 2300042
+    second: Steer
+  - first:
+      23: 2300044
+    second: TailLights
+  - first:
+      23: 2300046
+    second: Window
+  - first:
+      23: 2300048
+    second: Wing
+  - first:
+      23: 2300050
+    second: Wipers
+  - first:
+      33: 3300000
+    second: Blinkers
+  - first:
+      33: 3300002
+    second: Body
+  - first:
+      33: 3300004
+    second: Bumper
+  - first:
+      33: 3300006
+    second: Chassis
+  - first:
+      33: 3300008
+    second: Collider
+  - first:
+      33: 3300010
+    second: Exhaust
+  - first:
+      33: 3300012
+    second: FogLights
+  - first:
+      33: 3300014
+    second: FrameWindow
+  - first:
+      33: 3300016
+    second: Glasses
+  - first:
+      33: 3300018
+    second: Grilles
+  - first:
+      33: 3300020
+    second: Handle
+  - first:
+      33: 3300022
+    second: HeadLight
+  - first:
+      33: 3300024
+    second: HeadLightTips
+  - first:
+      33: 3300026
+    second: Interior
+  - first:
+      33: 3300028
+    second: Interrior_Red
+  - first:
+      33: 3300030
+    second: Logo
+  - first:
+      33: 3300032
+    second: Mirrors
+  - first:
+      33: 3300034
+    second: Plate
+  - first:
+      33: 3300036
+    second: RearBrakeLight
+  - first:
+      33: 3300038
+    second: Red_Parts
+  - first:
+      33: 3300040
+    second: Seams
+  - first:
+      33: 3300042
+    second: Steer
+  - first:
+      33: 3300044
+    second: TailLights
+  - first:
+      33: 3300046
+    second: Window
+  - first:
+      33: 3300048
+    second: Wing
+  - first:
+      33: 3300050
+    second: Wipers
+  - first:
+      43: 4300000
+    second: Wipers
+  - first:
+      43: 4300002
+    second: HeadLightTips
+  - first:
+      43: 4300004
+    second: FogLights
+  - first:
+      43: 4300006
+    second: Mirrors
+  - first:
+      43: 4300008
+    second: Plate
+  - first:
+      43: 4300010
+    second: Handle
+  - first:
+      43: 4300012
+    second: Blinkers
+  - first:
+      43: 4300014
+    second: Bumper
+  - first:
+      43: 4300016
+    second: Wing
+  - first:
+      43: 4300018
+    second: Window
+  - first:
+      43: 4300020
+    second: Body
+  - first:
+      43: 4300022
+    second: Exhaust
+  - first:
+      43: 4300024
+    second: FrameWindow
+  - first:
+      43: 4300026
+    second: Chassis
+  - first:
+      43: 4300028
+    second: Seams
+  - first:
+      43: 4300030
+    second: HeadLight
+  - first:
+      43: 4300032
+    second: Steer
+  - first:
+      43: 4300034
+    second: TailLights
+  - first:
+      43: 4300036
+    second: Logo
+  - first:
+      43: 4300038
+    second: Red_Parts
+  - first:
+      43: 4300040
+    second: Interior
+  - first:
+      43: 4300042
+    second: Interrior_Red
+  - first:
+      43: 4300044
+    second: RearBrakeLight
+  - first:
+      43: 4300046
+    second: Glasses
+  - first:
+      43: 4300048
+    second: Grilles
+  - first:
+      43: 4300050
+    second: Collider
+  externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -153,6 +417,8 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -167,19 +433,31 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 0
   tangentSpace:
@@ -187,10 +465,13 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -200,14 +481,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

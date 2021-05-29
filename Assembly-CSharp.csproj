@@ -66,10 +66,14 @@
     <Compile Include="Assets\ImageSynthesis\ColorEncoding.cs" />
     <Compile Include="Assets\GameViewSizeTool\GameViewSizeChanger.cs" />
     <Compile Include="Assets\GameViewSizeTool\ResizeTools\ResizeTool.cs" />
+    <Compile Include="Assets\BoundingBoxUtils.cs" />
+    <Compile Include="Assets\Generation_Platform_2\Scripts\Generation.cs" />
+    <Compile Include="Assets\Generation_Platform_2\Scripts\CarSpawnPointInvisible.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ImageSynthesis\Shaders\UberReplacement.shader" />
     <None Include="Assets\ImageSynthesis\Shaders\OpticalFlow.shader" />
+    <None Include="Assets\real_car_models\lancer evo\CREDITS.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
