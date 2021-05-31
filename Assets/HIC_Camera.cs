@@ -136,17 +136,17 @@ public class HIC_Camera : MonoBehaviour
     void FixedUpdate()
     {
         
-        switch ((int)movementMode)
+        switch (movementMode)
         {
-            case 0: //stat
+            case motions.Static: //stat
                 break;
 
-            case 1: //lin
+            case motions.Linear: //lin
                 float period = ((linearRange / 2f) / linearSpeed) * 4f;
                 cameraChassis.localPosition = new Vector3(TriangleWave(timeSinceStart, linearRange / 2f, period), 0f, 0f);
                 break;
 
-            case 2: //osc
+            case motions.Oscillate: //osc
                 float timeParameter = (3 * Mathf.PI) / 2 + (TriangleWave(timeSinceStart * oscillationAngularSpeed * Mathf.Deg2Rad, Mathf.PI / 2f, (Mathf.PI / 2f) * 4f)); //goes between pi and 2pi
                 Vector3 localPositionSemiCircle = new Vector3(oscillationRadius * Mathf.Cos(timeParameter), oscillationRadius * Mathf.Sin(timeParameter), 0f);
                 cameraChassis.localPosition = localPositionSemiCircle;
