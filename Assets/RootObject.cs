@@ -21,6 +21,9 @@ public class RootObject : MonoBehaviour
 
     void Start()
     {
+
+        gameObject.GetComponent<BoxCollider>().isTrigger = true;
+
         uniqueID = Mathf.Abs(GetInstanceID());
 
         if (GetComponent<BoxCollider>() != null)

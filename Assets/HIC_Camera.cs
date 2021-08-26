@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEngine;
-using Syy.Tools.GameViewSizeTool;
+using System.Drawing;
 
 
 public class HIC_Camera : MonoBehaviour
@@ -57,11 +57,40 @@ public class HIC_Camera : MonoBehaviour
 
     public int captureFrames = 100;
 
-    public float cameraBoundingBoxDistance = 20f;
+    public float cameraBoundingBoxDistance = 10f;
 
     public bool toggleYOLOFormatRight = false;
+
+    public List<GameObject> spawnCarPrefabs;
+
+    private List<GameObject> previousSpawnedCars;
+
+    public int maxNumberOfCars;
+
+    public Projector mainProjector;
+
+    public DirectoryInfo streetviewImages;
+
+    public List<Texture2D> texList;
+
     void Start()
     {
+
+        streetviewImages = new DirectoryInfo(@"C:\Users\h3le\Desktop\Streetview-Synthetic-Data-Generation\directory");
+
+        FileInfo[] Files = streetviewImages.GetFiles("*.jpg"); //Getting Text files
+
+
+        foreach (FileInfo file in Files)
+        {
+
+            Texture2D tex2D = LoadPNG(file.FullName);
+            texList.Add(tex2D);
+
+        }
+
+
+        previousSpawnedCars = new List<GameObject>();
 
 
         fixedUpdateIterations = 0;
@@ -135,6 +164,8 @@ public class HIC_Camera : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+
+        mainProjector.material.SetTexture("_ShadowTex", texList[UnityEngine.Random.Range(0, texList.Count)]);
         
         switch (movementMode)
         {
@@ -153,14 +184,37 @@ public class HIC_Camera : MonoBehaviour
                 break;
         }
 
+        if (previousSpawnedCars.Any())
+        {
+            foreach (GameObject previousSpawnedCar in previousSpawnedCars)
+            {
+                DestroyImmediate(previousSpawnedCar);
+            }
+        }
 
-        BoundingBoxUtils.SaveImageAndBoundingBoxes(cameraChassis, leftCamera, cameraBoundingBoxDistance, leftCamDir, fixedUpdateIterations, captureWidth, captureHeight, classes, toggleYOLOFormatRight, 0);
+
+        previousSpawnedCars.Clear();
+
+        for (int i = 0; i < UnityEngine.Random.Range(1, maxNumberOfCars); i++)
+        {
+            GameObject spawnedCar = Instantiate(spawnCarPrefabs[UnityEngine.Random.Range(0, spawnCarPrefabs.Count)]);
+            spawnedCar.transform.position = transform.position + UnityEngine.Random.Range(1f, 40f) * transform.forward + UnityEngine.Random.Range(-7f, 7f) * transform.right + -1.8f * transform.up;
+            spawnedCar.transform.Rotate(0f, UnityEngine.Random.Range(-20f, 20f), 0f);
+            previousSpawnedCars.Add(spawnedCar);
+        }
+
+
+
+
+        //BoundingBoxUtils.SaveImageAndBoundingBoxes(cameraChassis, leftCamera, cameraBoundingBoxDistance, leftCamDir, fixedUpdateIterations, captureWidth, captureHeight, classes, toggleYOLOFormatRight, 0);
+
         BoundingBoxUtils.SaveImageAndBoundingBoxes(cameraChassis, rightCamera, cameraBoundingBoxDistance, rightCamDir, fixedUpdateIterations, captureWidth, captureHeight, classes, toggleYOLOFormatRight, 0);
 
 
         timeSinceStart = timeSinceStart + framePeriod;
 
         fixedUpdateIterations++;
+
 
         if (toggleCameraCapture == true && fixedUpdateIterations == captureFrames)
         {
@@ -191,5 +245,20 @@ public class HIC_Camera : MonoBehaviour
                 i++;
             }
         }
+    }
+
+    public static Texture2D LoadPNG(string filePath)
+    {
+
+        Texture2D tex = null;
+        byte[] fileData;
+
+        if (File.Exists(filePath))
+        {
+            fileData = File.ReadAllBytes(filePath);
+            tex = new Texture2D(2, 2);
+            tex.LoadImage(fileData); //..this will auto-resize the texture dimensions.
+        }
+        return tex;
     }
 }

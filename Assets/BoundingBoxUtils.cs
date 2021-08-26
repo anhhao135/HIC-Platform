@@ -21,31 +21,68 @@ public class BoundingBoxUtils : MonoBehaviour
 
     static public void SaveImageAndBoundingBoxes(Transform cameraChassis, Camera targetCamera, float cameraBoundingBoxDistance, DirectoryInfo cameraDirectory, int frameNumber, int captureWidth, int captureHeight, IDictionary<string, int> classes, bool toggleYOLOFormatRight, int frameNumberOffset = 0)
     {
-        Collider[] hitColliders = Physics.OverlapSphere(cameraChassis.position, cameraBoundingBoxDistance, ~0, QueryTriggerInteraction.Collide);
+        Collider[] hitColliders = Physics.OverlapSphere(cameraChassis.position, cameraBoundingBoxDistance);
+
 
         List<RootObject> rootObjects = new List<RootObject>();
 
         foreach (Collider hitCollider in hitColliders)
         {
-            if (hitCollider.gameObject.GetComponent<RootObject>() != null)
+            RootObject rootObject = hitCollider.gameObject.GetComponent<RootObject>();
+
+            if (rootObject != null)
             {
                 Vector3 screenPoint = targetCamera.WorldToViewportPoint(hitCollider.transform.position);
-                bool onScreen = screenPoint.z >= 0f; //&& screenPoint.x > 0f && screenPoint.x < 1f && screenPoint.y > 0f && screenPoint.y < 1f;
+                bool onScreen = screenPoint.z >= 0f && screenPoint.x > 0f && screenPoint.x < 1f && screenPoint.y > 0f && screenPoint.y < 1f;
 
                 if (onScreen)
                 {
-                    rootObjects.Add(hitCollider.gameObject.GetComponent<RootObject>());
+
+                    Debug.Log("cam bbox dis" + cameraBoundingBoxDistance);
+                    Debug.Log("bbox center" + rootObject.transform.position);
+                    Debug.Log("chassis center" + cameraChassis.position);
+                    Debug.Log("mag" + Vector3.Magnitude(rootObject.transform.position - cameraChassis.position));
+
+                    if (Vector3.Magnitude(rootObject.transform.position - cameraChassis.position) < cameraBoundingBoxDistance)
+                    {
+                        rootObjects.Add(rootObject);
+                    }
+
                 }
             }
         }
+
+        //at this point, rootObjects contain all car bboxes unsorted
+
+        IDictionary<float, RootObject> boxDepth = new Dictionary<float, RootObject>();
+
+        List<float> depthList = new List<float>();
+
+        foreach (RootObject rootObject in rootObjects)
+        {
+
+            float distanceToCamera = Vector3.Magnitude(cameraChassis.transform.position - rootObject.transform.position);
+
+            boxDepth.Add(distanceToCamera, rootObject); //create dict of the distance from camera, rootObject
+
+            depthList.Add(distanceToCamera);
+        }
+
+        float[] depthArray = depthList.ToArray();
+
+        //QuickSort.Quick_Sort(depthArray, 0, depthArray.Length - 1);
+
+
 
 
         using (StreamWriter streamWriter = File.CreateText(cameraDirectory.FullName + "/" + frameNumber.ToString().PadLeft(10, '0') + ".txt"))
         {
             foreach (RootObject rootObject in rootObjects)
             {
+                string className = rootObject.className;
 
 
+                /*
                 Vector3[] pts3D = new Vector3[8];
 
                 BoxCollider col = rootObject.gameObject.GetComponent<BoxCollider>();
@@ -67,8 +104,10 @@ public class BoundingBoxUtils : MonoBehaviour
 
 
 
-                string className = rootObject.className;
+                
 
+
+                
                 bool colliderRayCastSuccessful = false;
 
                 foreach (Vector3 corner in pts3D) //raycast to the 8 corners of the box to see if it is occluded fully
@@ -94,6 +133,8 @@ public class BoundingBoxUtils : MonoBehaviour
                 {
                     continue; //that means object is occluded so move onto next rootobject
                 }
+
+                */
 
                 Vector3[] minMaxPoints = CalculateBoundingBox(rootObject.gameObject, targetCamera);
 
