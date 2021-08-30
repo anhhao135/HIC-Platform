@@ -69,25 +69,36 @@ public class HIC_Camera : MonoBehaviour
 
     public Projector mainProjector;
 
-    public DirectoryInfo streetviewImages;
+    int viewCount = 0;
 
-    public List<Texture2D> texList;
+    int viewIndex = 0;
+
+    public List<List<Texture2D>> directionTexLists = new List<List<Texture2D>>();
+
+    string streetviewImagesRootDir = @"C:\Repos\Streetview-Synthetic-Data-Generation\directory";
+
+    public ReflectionProbe sceneReflectionProbe;
+
+    int renderID;
+
+    public float carSpawnYOffset;
+
+    Dictionary<int, string> facingDirections = new Dictionary<int, string>()
+    {
+        { 0, "front"},
+        { 1, "right"},
+        { 2, "back"},
+        { 3, "left"},
+        { 4, "up"},
+        { 5, "down"},
+    };
+
+    int delayAmount = 20;
+
+    int frameDelay = 0;
 
     void Start()
     {
-
-        streetviewImages = new DirectoryInfo(@"C:\Users\h3le\Desktop\Streetview-Synthetic-Data-Generation\directory");
-
-        FileInfo[] Files = streetviewImages.GetFiles("*.jpg"); //Getting Text files
-
-
-        foreach (FileInfo file in Files)
-        {
-
-            Texture2D tex2D = LoadPNG(file.FullName);
-            texList.Add(tex2D);
-
-        }
 
 
         previousSpawnedCars = new List<GameObject>();
@@ -159,68 +170,159 @@ public class HIC_Camera : MonoBehaviour
                 }
             }
         }
+
+        for (int i = 0; i < 6; i++)
+        {
+
+            List<Texture2D> texList = new List<Texture2D>();
+            DirectoryInfo tempDir = new DirectoryInfo(Path.Combine(streetviewImagesRootDir, facingDirections[i]));
+            FileInfo[] ImageFiles = tempDir.GetFiles("*.jpg"); //Getting Text files
+
+            foreach (FileInfo file in ImageFiles)
+            {
+
+                Texture2D tex2D = LoadPNG(file.FullName);
+                //tex2D.wrapMode = TextureWrapMode.Clamp;
+                tex2D.name = file.FullName;
+                texList.Add(tex2D);
+
+            }
+
+            directionTexLists.Add(texList);
+
+        }
+
+
+        viewCount = directionTexLists[0].Count; //6 images in one view
+
+        renderID = sceneReflectionProbe.RenderProbe();
+
+
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
 
-        mainProjector.material.SetTexture("_ShadowTex", texList[UnityEngine.Random.Range(0, texList.Count)]);
-        
-        switch (movementMode)
+        Debug.Log(frameDelay);
+
+        if (sceneReflectionProbe.IsFinishedRendering(renderID) && frameDelay == delayAmount)
         {
-            case motions.Static: //stat
-                break;
 
-            case motions.Linear: //lin
-                float period = ((linearRange / 2f) / linearSpeed) * 4f;
-                cameraChassis.localPosition = new Vector3(TriangleWave(timeSinceStart, linearRange / 2f, period), 0f, 0f);
-                break;
+            frameDelay = 0;
 
-            case motions.Oscillate: //osc
-                float timeParameter = (3 * Mathf.PI) / 2 + (TriangleWave(timeSinceStart * oscillationAngularSpeed * Mathf.Deg2Rad, Mathf.PI / 2f, (Mathf.PI / 2f) * 4f)); //goes between pi and 2pi
-                Vector3 localPositionSemiCircle = new Vector3(oscillationRadius * Mathf.Cos(timeParameter), oscillationRadius * Mathf.Sin(timeParameter), 0f);
-                cameraChassis.localPosition = localPositionSemiCircle;
-                break;
-        }
+            viewIndex = UnityEngine.Random.Range(0, viewCount);
 
-        if (previousSpawnedCars.Any())
-        {
-            foreach (GameObject previousSpawnedCar in previousSpawnedCars)
+            mainProjector.material.SetTexture("_ShadowTex", directionTexLists[0][viewIndex]);
+
+            switch (movementMode)
             {
-                DestroyImmediate(previousSpawnedCar);
+                case motions.Static: //stat
+                    break;
+
+                case motions.Linear: //lin
+                    float period = ((linearRange / 2f) / linearSpeed) * 4f;
+                    cameraChassis.localPosition = new Vector3(TriangleWave(timeSinceStart, linearRange / 2f, period), 0f, 0f);
+                    break;
+
+                case motions.Oscillate: //osc
+                    float timeParameter = (3 * Mathf.PI) / 2 + (TriangleWave(timeSinceStart * oscillationAngularSpeed * Mathf.Deg2Rad, Mathf.PI / 2f, (Mathf.PI / 2f) * 4f)); //goes between pi and 2pi
+                    Vector3 localPositionSemiCircle = new Vector3(oscillationRadius * Mathf.Cos(timeParameter), oscillationRadius * Mathf.Sin(timeParameter), 0f);
+                    cameraChassis.localPosition = localPositionSemiCircle;
+                    break;
+            }
+
+            if (previousSpawnedCars.Any())
+            {
+                foreach (GameObject previousSpawnedCar in previousSpawnedCars)
+                {
+                    DestroyImmediate(previousSpawnedCar);
+                }
+            }
+
+
+            previousSpawnedCars.Clear();
+
+            for (int i = 0; i < UnityEngine.Random.Range(1, maxNumberOfCars); i++)
+            {
+                GameObject spawnedCar = Instantiate(spawnCarPrefabs[UnityEngine.Random.Range(0, spawnCarPrefabs.Count)]);
+                spawnedCar.transform.position = transform.position + UnityEngine.Random.Range(1f, 40f) * transform.forward + UnityEngine.Random.Range(-7f, 7f) * transform.right + -carSpawnYOffset * transform.up;
+                spawnedCar.transform.Rotate(0f, UnityEngine.Random.Range(-20f, 20f), 0f);
+                previousSpawnedCars.Add(spawnedCar);
+            }
+
+            Shader skyboxMatShader = Shader.Find("Skybox/6 Sided");
+            Material skyboxMatTemp = new Material(skyboxMatShader);
+            skyboxMatTemp.SetTexture("_FrontTex", directionTexLists[0][viewIndex]); //get first tex list which is for the fronts, then get the index image
+            skyboxMatTemp.SetTexture("_RightTex", directionTexLists[3][viewIndex]); //left and right texs need to be switched
+            skyboxMatTemp.SetTexture("_BackTex", directionTexLists[2][viewIndex]);
+            skyboxMatTemp.SetTexture("_LeftTex", directionTexLists[1][viewIndex]);
+            skyboxMatTemp.SetTexture("_UpTex", directionTexLists[4][viewIndex]);
+            skyboxMatTemp.SetTexture("_DownTex", directionTexLists[5][viewIndex]);
+
+            RenderSettings.skybox = skyboxMatTemp;
+
+            renderID = sceneReflectionProbe.RenderProbe();
+
+
+            /*
+
+            Cubemap reflectionProbeCupeMap = new Cubemap(640, TextureFormat.RGBA32, false);
+            reflectionProbeCupeMap.SetPixels(directionTexLists[0][viewIndex].GetPixels(), CubemapFace.PositiveZ);
+            reflectionProbeCupeMap.SetPixels(directionTexLists[3][viewIndex].GetPixels(), CubemapFace.PositiveX);
+            reflectionProbeCupeMap.SetPixels(directionTexLists[2][viewIndex].GetPixels(), CubemapFace.NegativeZ);
+            reflectionProbeCupeMap.SetPixels(directionTexLists[1][viewIndex].GetPixels(), CubemapFace.NegativeX);
+            reflectionProbeCupeMap.SetPixels(directionTexLists[4][viewIndex].GetPixels(), CubemapFace.PositiveY);
+            reflectionProbeCupeMap.SetPixels(directionTexLists[5][viewIndex].GetPixels(), CubemapFace.NegativeY);
+
+            sceneReflectionProbe.customBakedTexture = reflectionProbeCupeMap;
+
+            */
+
+
+
+            /*
+            { 0, "front"},
+            { 1, "right"},
+            { 2, "back"},
+            { 3, "left"},
+            { 4, "up"},
+            { 5, "down"},
+            */
+
+            viewIndex++;
+
+
+
+
+            //BoundingBoxUtils.SaveImageAndBoundingBoxes(cameraChassis, leftCamera, cameraBoundingBoxDistance, leftCamDir, fixedUpdateIterations, captureWidth, captureHeight, classes, toggleYOLOFormatRight, 0);
+
+
+
+
+            timeSinceStart = timeSinceStart + framePeriod;
+
+            fixedUpdateIterations++;
+
+
+
+
+            if (toggleCameraCapture == true && fixedUpdateIterations == captureFrames)
+            {
+                UnityEditor.EditorApplication.isPlaying = false;
             }
         }
 
 
-        previousSpawnedCars.Clear();
-
-        for (int i = 0; i < UnityEngine.Random.Range(1, maxNumberOfCars); i++)
+        else
         {
-            GameObject spawnedCar = Instantiate(spawnCarPrefabs[UnityEngine.Random.Range(0, spawnCarPrefabs.Count)]);
-            spawnedCar.transform.position = transform.position + UnityEngine.Random.Range(1f, 40f) * transform.forward + UnityEngine.Random.Range(-7f, 7f) * transform.right + -1.8f * transform.up;
-            spawnedCar.transform.Rotate(0f, UnityEngine.Random.Range(-20f, 20f), 0f);
-            previousSpawnedCars.Add(spawnedCar);
+            if (frameDelay == delayAmount - 10)
+            {
+                BoundingBoxUtils.SaveImageAndBoundingBoxes(cameraChassis, rightCamera, cameraBoundingBoxDistance, rightCamDir, fixedUpdateIterations, captureWidth, captureHeight, classes, toggleYOLOFormatRight, 0);
+                Debug.Log("Photo taken");
+            }
+            frameDelay++;
         }
-
-
-
-
-        //BoundingBoxUtils.SaveImageAndBoundingBoxes(cameraChassis, leftCamera, cameraBoundingBoxDistance, leftCamDir, fixedUpdateIterations, captureWidth, captureHeight, classes, toggleYOLOFormatRight, 0);
-
-        BoundingBoxUtils.SaveImageAndBoundingBoxes(cameraChassis, rightCamera, cameraBoundingBoxDistance, rightCamDir, fixedUpdateIterations, captureWidth, captureHeight, classes, toggleYOLOFormatRight, 0);
-
-
-        timeSinceStart = timeSinceStart + framePeriod;
-
-        fixedUpdateIterations++;
-
-
-        if (toggleCameraCapture == true && fixedUpdateIterations == captureFrames)
-        {
-            UnityEditor.EditorApplication.isPlaying = false;
-        }
-        
     }
     public float TriangleWave(float x, float a, float p)
     {
