@@ -52,6 +52,8 @@ public class HIC_Camera : MonoBehaviour
 
     private int fixedUpdateIterations;
 
+    private int cameraCaptureCount = 0;
+
     Camera leftCamera;
     Camera rightCamera;
 
@@ -204,8 +206,6 @@ public class HIC_Camera : MonoBehaviour
     void FixedUpdate()
     {
 
-        Debug.Log(frameDelay);
-
         if (sceneReflectionProbe.IsFinishedRendering(renderID) && frameDelay == delayAmount)
         {
 
@@ -307,7 +307,7 @@ public class HIC_Camera : MonoBehaviour
 
 
 
-            if (toggleCameraCapture == true && fixedUpdateIterations == captureFrames)
+            if (toggleCameraCapture == true && cameraCaptureCount == captureFrames)
             {
                 UnityEditor.EditorApplication.isPlaying = false;
             }
@@ -319,7 +319,7 @@ public class HIC_Camera : MonoBehaviour
             if (frameDelay == delayAmount - 10)
             {
                 BoundingBoxUtils.SaveImageAndBoundingBoxes(cameraChassis, rightCamera, cameraBoundingBoxDistance, rightCamDir, fixedUpdateIterations, captureWidth, captureHeight, classes, toggleYOLOFormatRight, 0);
-                Debug.Log("Photo taken");
+                cameraCaptureCount++;
             }
             frameDelay++;
         }

@@ -15,11 +15,11 @@ C:/Repos/HIC-Platform
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-1132
+9828
 Successfully changed project path to: C:/Repos/HIC-Platform
 C:/Repos/HIC-Platform
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 36.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 37.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -35,2196 +35,132 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001144 seconds.
+Registered in 0.001172 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 36.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 37.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.800 seconds
+- Completed reload, in  0.799 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001014 seconds.
+Registered in 0.001042 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.717 seconds
+- Completed reload, in  0.701 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1410 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.1 MB.
-System memory in use after: 73.1 MB.
+Unloading 1411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1853.
-Total: 2.048300 ms (FindLiveObjects: 0.164900 ms CreateObjectMapping: 0.051000 ms MarkObjects: 1.762700 ms  DeleteObjects: 0.067800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/HIC_test.unity
-  artifactKey: Guid(69aa0fdcca901f94e98ed1a2e2368975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HIC_test.unity using Guid(69aa0fdcca901f94e98ed1a2e2368975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3fa97c6982a468aecb89cd11d59d62') in 0.014760 seconds
-  Import took 0.017345 seconds .
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1854.
+Total: 1.902700 ms (FindLiveObjects: 0.140900 ms CreateObjectMapping: 0.036300 ms MarkObjects: 1.670000 ms  DeleteObjects: 0.054400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 49.370781 seconds.
-  path: Assets/real_car_models
-  artifactKey: Guid(b90ac8fb70514f54d82ed03bdd3586c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models using Guid(b90ac8fb70514f54d82ed03bdd3586c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be517359eddb74ff1bfacc6ca02f18e3') in 0.004306 seconds
-  Import took 0.007102 seconds .
+  path: Assets/Cubemap_test_imgs/New Material.mat
+  artifactKey: Guid(ea8c72464dbcc10488f6750037314299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cubemap_test_imgs/New Material.mat using Guid(ea8c72464dbcc10488f6750037314299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd65d154332d179b2d84cdbbead44224') in 0.087325 seconds
+  Import took 0.089414 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 98.140248 seconds.
-  path: Assets/Cubemap_test_imgs/Create-Cubemap.cs
-  artifactKey: Guid(1820fc50eb377a245bf301b75653f65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/Create-Cubemap.cs using Guid(1820fc50eb377a245bf301b75653f65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864ffd57826d18fd6a0e67b5df9e1254') in 0.021761 seconds
-  Import took 0.023894 seconds .
+  Time since last request: 28.022399 seconds.
+  path: Assets/Cubemap_test_imgs/New Material.mat
+  artifactKey: Guid(ea8c72464dbcc10488f6750037314299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cubemap_test_imgs/New Material.mat using Guid(ea8c72464dbcc10488f6750037314299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bfa463c204c02249548eec62d4efd88') in 0.008777 seconds
+  Import took 0.011002 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001009 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.668 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1371 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.7 MB.
-System memory in use after: 69.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1856.
-Total: 1.376100 ms (FindLiveObjects: 0.126400 ms CreateObjectMapping: 0.035500 ms MarkObjects: 1.198000 ms  DeleteObjects: 0.015200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.475843 seconds.
-  path: Assets/Cubemap_test_imgs/Cubemap_test.unity
-  artifactKey: Guid(144cdcd7685700f478efb5a9ff12136f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/Cubemap_test.unity using Guid(144cdcd7685700f478efb5a9ff12136f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9e2f2f72775eeb3c1bd17a4166d527') in 0.013589 seconds
-  Import took 0.016025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.097877 seconds.
-  path: Assets/Cubemap_test_imgs/Cubemap_Create.cs
-  artifactKey: Guid(d8b3f755b313a2c45bddf735e3c32351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/Cubemap_Create.cs using Guid(d8b3f755b313a2c45bddf735e3c32351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4067642171cb319b94fb95588576b1c') in 0.005370 seconds
-  Import took 0.007492 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001569 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.671 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.7 MB.
-System memory in use after: 69.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1860.
-Total: 1.511300 ms (FindLiveObjects: 0.112500 ms CreateObjectMapping: 0.035000 ms MarkObjects: 1.348100 ms  DeleteObjects: 0.014600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001064 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.676 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.7 MB.
-System memory in use after: 69.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1863.
-Total: 1.635200 ms (FindLiveObjects: 0.145900 ms CreateObjectMapping: 0.038900 ms MarkObjects: 1.433100 ms  DeleteObjects: 0.016500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000989 seconds.
+Registered in 0.001188 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.645 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.8 MB.
-System memory in use after: 69.9 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1866.
-Total: 1.602000 ms (FindLiveObjects: 0.152900 ms CreateObjectMapping: 0.038300 ms MarkObjects: 1.393300 ms  DeleteObjects: 0.016800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001058 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.649 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.8 MB.
-System memory in use after: 69.9 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1869.
-Total: 1.708200 ms (FindLiveObjects: 0.110700 ms CreateObjectMapping: 0.155000 ms MarkObjects: 1.424400 ms  DeleteObjects: 0.017300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 561.030681 seconds.
-  path: Assets/Cubemap_test_imgs/3_back.jpg
-  artifactKey: Guid(dd12eb53d24a7bb40b254162df16de19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/3_back.jpg using Guid(dd12eb53d24a7bb40b254162df16de19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8382d5bccfc3eacf789e2c474276ea98') in 0.089802 seconds
-  Import took 0.091902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Cubemap_test_imgs/3_front.jpg
-  artifactKey: Guid(fe33ce9847281804f8486aff92ffe6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/3_front.jpg using Guid(fe33ce9847281804f8486aff92ffe6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5fd7169d180e060d7c2a193c356cc4') in 0.008819 seconds
-  Import took 0.010760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Cubemap_test_imgs/3_right.jpg
-  artifactKey: Guid(345f8257dd5e3b44f97c42013d7bbc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/3_right.jpg using Guid(345f8257dd5e3b44f97c42013d7bbc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b9a3ae989590058eb49b5ec0653a02') in 0.008355 seconds
-  Import took 0.010300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Cubemap_test_imgs/3_down.jpg
-  artifactKey: Guid(4674537ce9b8bbc41908a97325f2ff74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/3_down.jpg using Guid(4674537ce9b8bbc41908a97325f2ff74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a439d7ae5c054973aa4e220afcda33') in 0.009670 seconds
-  Import took 0.011742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Cubemap_test_imgs/3_left.jpg
-  artifactKey: Guid(8c42307a5dc03f04bbc7f4d230704614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/3_left.jpg using Guid(8c42307a5dc03f04bbc7f4d230704614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873629dd2f0597c0095b4d1ba7b0b123') in 0.008614 seconds
-  Import took 0.010732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Cubemap_test_imgs/3_down.jpg
-  artifactKey: Guid(4674537ce9b8bbc41908a97325f2ff74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/3_down.jpg using Guid(4674537ce9b8bbc41908a97325f2ff74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a439d7ae5c054973aa4e220afcda33') in 0.008385 seconds
-  Import took 0.010304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Cubemap_test_imgs/3_up.jpg
-  artifactKey: Guid(91c75e56874eb854aa8d58b626db8244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/3_up.jpg using Guid(91c75e56874eb854aa8d58b626db8244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138cfe7ae838c95f63004cfd498063f6') in 0.007681 seconds
-  Import took 0.009810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.752624 seconds.
-  path: Assets/Cubemap_test_imgs/3_back.jpg
-  artifactKey: Guid(dd12eb53d24a7bb40b254162df16de19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/3_back.jpg using Guid(dd12eb53d24a7bb40b254162df16de19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b4d089d7196a044d31562d0ea31889') in 0.008601 seconds
-  Import took 0.010722 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Cubemap_test_imgs/3_front.jpg
-  artifactKey: Guid(fe33ce9847281804f8486aff92ffe6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/3_front.jpg using Guid(fe33ce9847281804f8486aff92ffe6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4035a7efa886bb58a21434facc1a56f0') in 0.007969 seconds
-  Import took 0.010166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Cubemap_test_imgs/3_right.jpg
-  artifactKey: Guid(345f8257dd5e3b44f97c42013d7bbc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/3_right.jpg using Guid(345f8257dd5e3b44f97c42013d7bbc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52131b5ca599636e77cd8c4b675cd12c') in 0.009427 seconds
-  Import took 0.011432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Cubemap_test_imgs/3_down.jpg
-  artifactKey: Guid(4674537ce9b8bbc41908a97325f2ff74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/3_down.jpg using Guid(4674537ce9b8bbc41908a97325f2ff74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18ac2d5f15fec1dc035444b492daff2') in 0.007856 seconds
-  Import took 0.009831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Cubemap_test_imgs/3_left.jpg
-  artifactKey: Guid(8c42307a5dc03f04bbc7f4d230704614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/3_left.jpg using Guid(8c42307a5dc03f04bbc7f4d230704614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7019697810f3def663f99f2b2a130396') in 0.008316 seconds
-  Import took 0.010402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Cubemap_test_imgs/3_up.jpg
-  artifactKey: Guid(91c75e56874eb854aa8d58b626db8244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/3_up.jpg using Guid(91c75e56874eb854aa8d58b626db8244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ab14630d7f154bf2ca7874c7a4df4a') in 0.006486 seconds
-  Import took 0.008387 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Cubemap_test_imgs/Cubemap_Create.cs
-  artifactKey: Guid(d8b3f755b313a2c45bddf735e3c32351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/Cubemap_Create.cs using Guid(d8b3f755b313a2c45bddf735e3c32351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef89fed5fd1d518433bf649a0a631a68') in 0.001725 seconds
-  Import took 0.003670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 115.455517 seconds.
-  path: Assets/Cubemap_test_imgs/0_back.jpg
-  artifactKey: Guid(026f8111a502ef74d88cfaa5cd314c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/0_back.jpg using Guid(026f8111a502ef74d88cfaa5cd314c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa4371f46fd3849b7bb5aa6ac7f51c9') in 0.008012 seconds
-  Import took 0.010533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Cubemap_test_imgs/0_up.jpg
-  artifactKey: Guid(2670e639fc8857745bc491165bc52392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/0_up.jpg using Guid(2670e639fc8857745bc491165bc52392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7e0e0c9457efe8c69e5fe7506a5ace') in 0.007464 seconds
-  Import took 0.009484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Cubemap_test_imgs/0_left.jpg
-  artifactKey: Guid(df6d7304225281047ace72ce6a0256e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/0_left.jpg using Guid(df6d7304225281047ace72ce6a0256e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c580a03d61e1a6c702bbd21fd91837') in 0.007857 seconds
-  Import took 0.009829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Cubemap_test_imgs/0_down.jpg
-  artifactKey: Guid(f581ed521795abc41800cd092072e3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/0_down.jpg using Guid(f581ed521795abc41800cd092072e3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe745f78f79fcabaa7f31f86e437ddd6') in 0.008148 seconds
-  Import took 0.010242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Cubemap_test_imgs/0_right.jpg
-  artifactKey: Guid(11c8cd0f573ff1b48a35e34a086cc773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/0_right.jpg using Guid(11c8cd0f573ff1b48a35e34a086cc773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62cfc8792e6ef2fd376a63e23adff96a') in 0.008273 seconds
-  Import took 0.010263 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Cubemap_test_imgs/0_front.jpg
-  artifactKey: Guid(de5b00d8224a76941a984a6b9e5328e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/0_front.jpg using Guid(de5b00d8224a76941a984a6b9e5328e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c041c2dd281aaf243c5d2d36b02d83f') in 0.008197 seconds
-  Import took 0.010214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.562121 seconds.
-  path: Assets/Cubemap_test_imgs/0_back.jpg
-  artifactKey: Guid(026f8111a502ef74d88cfaa5cd314c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/0_back.jpg using Guid(026f8111a502ef74d88cfaa5cd314c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9ea0b407986e428a9fc0c3cc2602fc') in 0.006761 seconds
-  Import took 0.008847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Cubemap_test_imgs/0_up.jpg
-  artifactKey: Guid(2670e639fc8857745bc491165bc52392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/0_up.jpg using Guid(2670e639fc8857745bc491165bc52392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4614db43af09386ad2bbbf53bfaed39f') in 0.007470 seconds
-  Import took 0.009463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Cubemap_test_imgs/0_left.jpg
-  artifactKey: Guid(df6d7304225281047ace72ce6a0256e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/0_left.jpg using Guid(df6d7304225281047ace72ce6a0256e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bfd0066584689d72f8e4f1b605fe96') in 0.006791 seconds
-  Import took 0.008842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Cubemap_test_imgs/0_down.jpg
-  artifactKey: Guid(f581ed521795abc41800cd092072e3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/0_down.jpg using Guid(f581ed521795abc41800cd092072e3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a9cd4ac700a5d2d80a36653b730288') in 0.009313 seconds
-  Import took 0.011555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Cubemap_test_imgs/0_right.jpg
-  artifactKey: Guid(11c8cd0f573ff1b48a35e34a086cc773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/0_right.jpg using Guid(11c8cd0f573ff1b48a35e34a086cc773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c846626337c0051c4897e36e2f8ed259') in 0.008207 seconds
-  Import took 0.010121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Cubemap_test_imgs/0_front.jpg
-  artifactKey: Guid(de5b00d8224a76941a984a6b9e5328e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/0_front.jpg using Guid(de5b00d8224a76941a984a6b9e5328e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb54d3fe8a5cf325053b966e4c697f6') in 0.008530 seconds
-  Import took 0.010458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 523.431210 seconds.
-  path: Assets/Cubemap_test_imgs/0_down.jpg
-  artifactKey: Guid(f581ed521795abc41800cd092072e3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/0_down.jpg using Guid(f581ed521795abc41800cd092072e3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8c1fde19ea13f9af605e6b5fc6a95b') in 0.009383 seconds
-  Import took 0.012022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Cubemap_test_imgs/0_up.jpg
-  artifactKey: Guid(2670e639fc8857745bc491165bc52392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/0_up.jpg using Guid(2670e639fc8857745bc491165bc52392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d770f8d48b751b318c985c9faac0c0d') in 0.006515 seconds
-  Import took 0.008429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Cubemap_test_imgs/0_down.jpg
-  artifactKey: Guid(f581ed521795abc41800cd092072e3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/0_down.jpg using Guid(f581ed521795abc41800cd092072e3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8c1fde19ea13f9af605e6b5fc6a95b') in 0.007319 seconds
-  Import took 0.009338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Cubemap_test_imgs/0_up.jpg
-  artifactKey: Guid(2670e639fc8857745bc491165bc52392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/0_up.jpg using Guid(2670e639fc8857745bc491165bc52392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d770f8d48b751b318c985c9faac0c0d') in 0.006533 seconds
-  Import took 0.008467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.334556 seconds.
-  path: Assets/Cubemap_test_imgs/0_down.jpg
-  artifactKey: Guid(f581ed521795abc41800cd092072e3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/0_down.jpg using Guid(f581ed521795abc41800cd092072e3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377001006285f7f17586e15346fa510d') in 0.006966 seconds
-  Import took 0.009133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Cubemap_test_imgs/0_up.jpg
-  artifactKey: Guid(2670e639fc8857745bc491165bc52392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/0_up.jpg using Guid(2670e639fc8857745bc491165bc52392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f71a2c934954686968563ddf9859e6') in 0.006713 seconds
-  Import took 0.008775 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001090 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.659 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.8 MB.
-System memory in use after: 69.9 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1874.
-Total: 1.526100 ms (FindLiveObjects: 0.130100 ms CreateObjectMapping: 0.090200 ms MarkObjects: 1.290600 ms  DeleteObjects: 0.014200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001086 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.662 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.8 MB.
-System memory in use after: 69.9 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1877.
-Total: 1.500800 ms (FindLiveObjects: 0.131100 ms CreateObjectMapping: 0.036300 ms MarkObjects: 1.320200 ms  DeleteObjects: 0.012400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001102 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.668 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.8 MB.
-System memory in use after: 69.9 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1880.
-Total: 1.614000 ms (FindLiveObjects: 0.134000 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.432400 ms  DeleteObjects: 0.013400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001037 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.653 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.8 MB.
-System memory in use after: 69.9 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1883.
-Total: 1.608800 ms (FindLiveObjects: 0.116700 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.441600 ms  DeleteObjects: 0.013500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000948 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.646 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.8 MB.
-System memory in use after: 69.9 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1886.
-Total: 1.578100 ms (FindLiveObjects: 0.129500 ms CreateObjectMapping: 0.034900 ms MarkObjects: 1.399400 ms  DeleteObjects: 0.013400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001135 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.651 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.8 MB.
-System memory in use after: 69.9 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1889.
-Total: 1.378200 ms (FindLiveObjects: 0.121000 ms CreateObjectMapping: 0.033900 ms MarkObjects: 1.208900 ms  DeleteObjects: 0.013600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001025 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.642 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.8 MB.
-System memory in use after: 69.9 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1892.
-Total: 1.590500 ms (FindLiveObjects: 0.131500 ms CreateObjectMapping: 0.035300 ms MarkObjects: 1.409700 ms  DeleteObjects: 0.013100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001016 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.657 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.8 MB.
-System memory in use after: 69.9 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1895.
-Total: 1.633100 ms (FindLiveObjects: 0.139300 ms CreateObjectMapping: 0.038300 ms MarkObjects: 1.439800 ms  DeleteObjects: 0.015000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001091 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.674 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.8 MB.
-System memory in use after: 70.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1898.
-Total: 1.736700 ms (FindLiveObjects: 0.133700 ms CreateObjectMapping: 0.036100 ms MarkObjects: 1.549500 ms  DeleteObjects: 0.016400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 5381.144469 seconds.
-  path: Assets/real_car_models/russian car/fbx/Side_light.mat
-  artifactKey: Guid(443cd469f376b524085c8ef7e78117da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/russian car/fbx/Side_light.mat using Guid(443cd469f376b524085c8ef7e78117da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925d0e657fa7ebff11e281ead0fe1e40') in 0.181971 seconds
-  Import took 0.184305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/real_car_models/mercedes suv/SpecchioDXMat.mat
-  artifactKey: Guid(982d651ade56ae4468cc7e73eb1e6b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/SpecchioDXMat.mat using Guid(982d651ade56ae4468cc7e73eb1e6b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0218c82c20422ba9666ad85f01f6c75d') in 0.014571 seconds
-  Import took 0.016520 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/real_car_models/mercedes suv/SportelliDXMat.mat
-  artifactKey: Guid(a38ad46310b6e9747a14f1ad9da25306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/SportelliDXMat.mat using Guid(a38ad46310b6e9747a14f1ad9da25306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbcb2a67a46ddf686ecc91da25ad162') in 0.012418 seconds
-  Import took 0.014414 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/real_car_models/elantra/elantra f.fbx
-  artifactKey: Guid(ed1cfe7e9a985ec41a9f31406494d957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/elantra/elantra f.fbx using Guid(ed1cfe7e9a985ec41a9f31406494d957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648ba444a4ec532877aae6ac166af1aa') in 0.879976 seconds
-  Import took 0.884324 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/real_car_models/mercedes suv/SpecchiLatMat.mat
-  artifactKey: Guid(62086ddf233ca934b8f229b4d9699b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/SpecchiLatMat.mat using Guid(62086ddf233ca934b8f229b4d9699b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4e34d9e82a4971b47e91cc247265c1') in 0.012720 seconds
-  Import took 0.014670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/real_car_models/range rover/TailLights.mat
-  artifactKey: Guid(eb24bd74261dbfb458632f09b21ae398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/range rover/TailLights.mat using Guid(eb24bd74261dbfb458632f09b21ae398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13deeeea64bd32f7b1df84f9c0cfa86') in 0.011545 seconds
-  Import took 0.013673 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/real_car_models/russian car/fbx/Side_light.mat
-  artifactKey: Guid(443cd469f376b524085c8ef7e78117da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/russian car/fbx/Side_light.mat using Guid(443cd469f376b524085c8ef7e78117da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925d0e657fa7ebff11e281ead0fe1e40') in 0.005311 seconds
-  Import took 0.007488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/real_car_models/mercedes suv/SuppSXMat.mat
-  artifactKey: Guid(d6305417b3384694b858ef62a59e63a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/SuppSXMat.mat using Guid(d6305417b3384694b858ef62a59e63a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029d6f2234cfa232e9f9ef11f69c7b60') in 0.012136 seconds
-  Import took 0.014171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/real_car_models/mercedes suv/SpecchioSXMat.mat
-  artifactKey: Guid(abb0a3fc9b3d146479f84ddfb48015fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/SpecchioSXMat.mat using Guid(abb0a3fc9b3d146479f84ddfb48015fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bcce1d89a3e1be5c3e25cdb7ebb4387') in 0.011815 seconds
-  Import took 0.013910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/real_car_models/mercedes suv/SuppDXMat.mat
-  artifactKey: Guid(44787c4f991c0b745958283521b6aeef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/SuppDXMat.mat using Guid(44787c4f991c0b745958283521b6aeef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a91c47f38b58ac58ba0ae5a891ec39') in 0.011930 seconds
-  Import took 0.014016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/real_car_models/mercedes suv/SportelliSXMat.mat
-  artifactKey: Guid(674282e5fd1be2a48ae5547063b5a214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/SportelliSXMat.mat using Guid(674282e5fd1be2a48ae5547063b5a214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f769f1f3e1f348d1bc8fd88ff5ef64') in 0.011643 seconds
-  Import took 0.013730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/real_car_models/mercedes suv/SpoilerMat.mat
-  artifactKey: Guid(3d743a253b4ee104789cf6cd8454e583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/SpoilerMat.mat using Guid(3d743a253b4ee104789cf6cd8454e583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d71718d1322312f15891fb4de3a3322') in 0.011966 seconds
-  Import took 0.014062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/real_car_models/range rover/TailLight LEDs.mat
-  artifactKey: Guid(3f0f4195b12ebbf49abf80cbe2657c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/range rover/TailLight LEDs.mat using Guid(3f0f4195b12ebbf49abf80cbe2657c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77baeda4e514db9aabe8c2da13774aa3') in 0.012484 seconds
-  Import took 0.014527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/real_car_models/mercedes suv/TergiAntMat.mat
-  artifactKey: Guid(199d6a065007ebd46bedf85fb84494e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/TergiAntMat.mat using Guid(199d6a065007ebd46bedf85fb84494e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ad5c4c41a12c00ab2456a293d820ef') in 0.011528 seconds
-  Import took 0.013599 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/real_car_models/mustang/temir.001.mat
-  artifactKey: Guid(78358fd7a4eed38449e886e2555e6ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mustang/temir.001.mat using Guid(78358fd7a4eed38449e886e2555e6ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a704b23835388358f991203d3ee6dc') in 0.012201 seconds
-  Import took 0.014301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/real_car_models/mercedes suv/Tetto2Mat.mat
-  artifactKey: Guid(36d750e6da52a66479617aa6b5d8d74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/Tetto2Mat.mat using Guid(36d750e6da52a66479617aa6b5d8d74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656bc9cc84084ca5ae66cc229f1464f5') in 0.011744 seconds
-  Import took 0.013761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/real_car_models/mercedes suv/TergiPostMat.mat
-  artifactKey: Guid(18c665b9f6ebdcc4b85328bafb307ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/TergiPostMat.mat using Guid(18c665b9f6ebdcc4b85328bafb307ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9271d278035274b901fbca281e709f7d') in 0.011637 seconds
-  Import took 0.013728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.227064 seconds.
-  path: Assets/real_car_models/mercedes suv/TettoMat.mat
-  artifactKey: Guid(1c6d8cf4ca437bf4aaacea25a9232c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/TettoMat.mat using Guid(1c6d8cf4ca437bf4aaacea25a9232c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dce91057cd3752e114b3bec1d3b305c') in 0.012326 seconds
-  Import took 0.014601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/real_car_models/mercedes suv/TettuccioMat.mat
-  artifactKey: Guid(5a6d521c64924db4ab7fcda7ecc0831a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/TettuccioMat.mat using Guid(5a6d521c64924db4ab7fcda7ecc0831a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c479c60d4d420b560a871204e5592dc3') in 0.011995 seconds
-  Import took 0.014026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Azerilo/HQ Racing Car Model No.1202/Mesh/Materials/Tex_0220_0_2.mat
-  artifactKey: Guid(29b2f9057f19d5f49b5edc3a50f260fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Azerilo/HQ Racing Car Model No.1202/Mesh/Materials/Tex_0220_0_2.mat using Guid(29b2f9057f19d5f49b5edc3a50f260fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab59d4ec6c235877b5ada65e2ffccd24') in 0.012591 seconds
-  Import took 0.014823 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Azerilo/HQ Racing Car Model No.1202/Mesh/Materials/Tex_0137_0_2.mat
-  artifactKey: Guid(1cb916a4806e43e49a14896b84a7d7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Azerilo/HQ Racing Car Model No.1202/Mesh/Materials/Tex_0137_0_2.mat using Guid(1cb916a4806e43e49a14896b84a7d7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23069a529274ba9598bd7acdc772c7a') in 0.011810 seconds
-  Import took 0.014073 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/real_car_models/lancer evo/Tire.mat
-  artifactKey: Guid(f4d8966f9dfe9f84c826990e1a106ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/lancer evo/Tire.mat using Guid(f4d8966f9dfe9f84c826990e1a106ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606dd5bfe95269f66c09827a0ae0643d') in 0.097188 seconds
-  Import took 0.099320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/real_car_models/corvette/tire.mat
-  artifactKey: Guid(198b0ea8c86b0e4469cf08e769aaea02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/corvette/tire.mat using Guid(198b0ea8c86b0e4469cf08e769aaea02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87c2dec6d736695eddd1e52c6e1112f') in 0.011765 seconds
-  Import took 0.013791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Azerilo/HQ Racing Car Model No.1202/Mesh/Materials/Tex_0224_0.mat
-  artifactKey: Guid(95611ca75bb8e16418d46a1deebbeabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Azerilo/HQ Racing Car Model No.1202/Mesh/Materials/Tex_0224_0.mat using Guid(95611ca75bb8e16418d46a1deebbeabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b261ab088ac3cc244e83faa67e8ba1e') in 0.013208 seconds
-  Import took 0.015416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/real_car_models/mercedes suv/tire.mat
-  artifactKey: Guid(9751f701c1d98c247814227fe0a25932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/tire.mat using Guid(9751f701c1d98c247814227fe0a25932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f990c3e4a4f35a5a0f4381be0a3a701c') in 0.011158 seconds
-  Import took 0.013604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.093090 seconds.
-  path: Assets/real_car_models/mustang/tire.mat
-  artifactKey: Guid(50d49e819058e294db66b29968cc62e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mustang/tire.mat using Guid(50d49e819058e294db66b29968cc62e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bfc21dc02f871509352b59a802de95b') in 0.011189 seconds
-  Import took 0.013441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Azerilo/HQ Racing Car Model No.1202/Material/Tire.mat
-  artifactKey: Guid(7a098b7ec3b94394d81f3896acb5cec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Azerilo/HQ Racing Car Model No.1202/Material/Tire.mat using Guid(7a098b7ec3b94394d81f3896acb5cec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b378c7c056a9a9d5867f76574a067e') in 0.022899 seconds
-  Import took 0.024955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016057 seconds.
-  path: Assets/real_car_models/range rover/Tire No Sidewall.mat
-  artifactKey: Guid(0b42a6d16bf551644b4657c18e7029d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/range rover/Tire No Sidewall.mat using Guid(0b42a6d16bf551644b4657c18e7029d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839b54176d443dac9f456b3bffd72cdb') in 0.012034 seconds
-  Import took 0.014261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/real_car_models/mustang/tomyz.001.mat
-  artifactKey: Guid(d443939794cd3814fbdbba41d35e47b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mustang/tomyz.001.mat using Guid(d443939794cd3814fbdbba41d35e47b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5516d10044c15ed5d0e55ae83a7af1b1') in 0.012792 seconds
-  Import took 0.015197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/real_car_models/russian car/fbx/Tire_black.mat
-  artifactKey: Guid(5b31afad01a32694abf41622a18af14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/russian car/fbx/Tire_black.mat using Guid(5b31afad01a32694abf41622a18af14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd4b84cf0becb3bd7e1b726f813dbc0') in 0.012883 seconds
-  Import took 0.014912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Streetview Scene/Unlit.mat
-  artifactKey: Guid(5d86364022a33aa41b179d10b3d9d1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Streetview Scene/Unlit.mat using Guid(5d86364022a33aa41b179d10b3d9d1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ed8663e6d923ad63e1508473315919') in 0.007993 seconds
-  Import took 0.010061 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.162726 seconds.
-  path: Assets/real_car_models/mercedes suv/Vetro1Mat.mat
-  artifactKey: Guid(607c8762bf3636d43a4be16b042bad03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/Vetro1Mat.mat using Guid(607c8762bf3636d43a4be16b042bad03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd33b13567cc9cf216160704751ddca7') in 0.012158 seconds
-  Import took 0.014487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/real_car_models/mercedes suv/Vetro2Mat.mat
-  artifactKey: Guid(550d8050003053142b2dbd224e6ee6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/Vetro2Mat.mat using Guid(550d8050003053142b2dbd224e6ee6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45d37a3a1b91b014c4ec1f0bbbe88ad') in 0.012405 seconds
-  Import took 0.014662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/real_car_models/mercedes suv/Vetro1Mat.mat
-  artifactKey: Guid(607c8762bf3636d43a4be16b042bad03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/Vetro1Mat.mat using Guid(607c8762bf3636d43a4be16b042bad03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd33b13567cc9cf216160704751ddca7') in 0.005658 seconds
-  Import took 0.007778 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/real_car_models/mercedes suv/Vetro3Mat.mat
-  artifactKey: Guid(1671c078a25ab3f479d635cbb3427829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/Vetro3Mat.mat using Guid(1671c078a25ab3f479d635cbb3427829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9a0703bf53cf69022db5cb1c7f857b') in 0.013496 seconds
-  Import took 0.015689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/real_car_models/mercedes suv/Vetro2Mat.mat
-  artifactKey: Guid(550d8050003053142b2dbd224e6ee6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/Vetro2Mat.mat using Guid(550d8050003053142b2dbd224e6ee6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45d37a3a1b91b014c4ec1f0bbbe88ad') in 0.009599 seconds
-  Import took 0.011754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/real_car_models/mercedes suv/VetroFanaleSXMat.mat
-  artifactKey: Guid(419b39ffd1ff20e48ac05eed447e7b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/VetroFanaleSXMat.mat using Guid(419b39ffd1ff20e48ac05eed447e7b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93280821c4722164f98e97aae09ebb36') in 0.012047 seconds
-  Import took 0.014101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/real_car_models/mercedes suv/VetroFanaleDXMat.mat
-  artifactKey: Guid(6de16813f364e1b4ba223be9e6f2eb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/VetroFanaleDXMat.mat using Guid(6de16813f364e1b4ba223be9e6f2eb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525463a9563336d06b457507af47ee48') in 0.011986 seconds
-  Import took 0.014116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/real_car_models/mercedes suv/Vetro3Mat.mat
-  artifactKey: Guid(1671c078a25ab3f479d635cbb3427829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/Vetro3Mat.mat using Guid(1671c078a25ab3f479d635cbb3427829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9a0703bf53cf69022db5cb1c7f857b') in 0.005718 seconds
-  Import took 0.007754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/real_car_models/mercedes suv/VetroFendi2Mat.mat
-  artifactKey: Guid(bc73377d4d92ed74eafc0eb3d514ee83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/VetroFendi2Mat.mat using Guid(bc73377d4d92ed74eafc0eb3d514ee83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadd1a40af2d16bbc598359ed55f594f') in 0.011838 seconds
-  Import took 0.013847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/real_car_models/mercedes suv/VetroFanaleDX2Mat.mat
-  artifactKey: Guid(ba5de71befc4fc140925f74f07e11170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/VetroFanaleDX2Mat.mat using Guid(ba5de71befc4fc140925f74f07e11170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce2cbc625d363c392065ea547e27fcb') in 0.012158 seconds
-  Import took 0.014259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/real_car_models/mercedes suv/VetroFrontaleMat.mat
-  artifactKey: Guid(75eae1822949b1f41ae2af5171e08a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/VetroFrontaleMat.mat using Guid(75eae1822949b1f41ae2af5171e08a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2cb91d3c25b116dba2bafa39e93e47') in 0.012335 seconds
-  Import took 0.014409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/real_car_models/mercedes suv/VetroFendi1Mat.mat
-  artifactKey: Guid(26ad129bcda47d047ab3c3bac96c6327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/VetroFendi1Mat.mat using Guid(26ad129bcda47d047ab3c3bac96c6327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e2262f324b4eec2e9cee9bfe821f8a') in 0.012409 seconds
-  Import took 0.014509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/real_car_models/mercedes suv/Vetro4Mat.mat
-  artifactKey: Guid(56ca15290e6933543b544757ad2ceb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/Vetro4Mat.mat using Guid(56ca15290e6933543b544757ad2ceb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb360ebca70f9433382fd2f5b0059ed') in 0.011926 seconds
-  Import took 0.013983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.855731 seconds.
-  path: Assets/Azerilo/HQ Racing Car Model No.1202/Material/Red.mat
-  artifactKey: Guid(1b2e1f310ca626a4c8b03248d8e09247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Azerilo/HQ Racing Car Model No.1202/Material/Red.mat using Guid(1b2e1f310ca626a4c8b03248d8e09247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95075825d733ddcc64477e5d4b14ccb2') in 0.012370 seconds
-  Import took 0.014805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeMobile.mat
-  artifactKey: Guid(473d6d3ec0d161b4a85e466c8c6da3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeMobile.mat using Guid(473d6d3ec0d161b4a85e466c8c6da3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df27ddfdb102a55a90f34fb0496ff901') in 0.038676 seconds
-  Import took 0.040902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/real_car_models/lancer evo/Interior.mat
-  artifactKey: Guid(af8fe3107bfbd1b48a571e3105d0d20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/lancer evo/Interior.mat using Guid(af8fe3107bfbd1b48a571e3105d0d20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c888010607b9edf0815c0c6fffdc04e2') in 0.017246 seconds
-  Import took 0.019303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/real_car_models/range rover/Glossy Black.mat
-  artifactKey: Guid(259c43b69054d9945ba137622877cdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/range rover/Glossy Black.mat using Guid(259c43b69054d9945ba137622877cdfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf07656223eb9724107d7fbb12175d7') in 0.011441 seconds
-  Import took 0.013537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/real_car_models/mercedes suv/metl.mat
-  artifactKey: Guid(b415df79c4a02c54b8b0426b08c8340c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/metl.mat using Guid(b415df79c4a02c54b8b0426b08c8340c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6b63aa1952ccf713e7472ca61e9086') in 0.011830 seconds
-  Import took 0.013969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/real_car_models/challenger/interior.mat
-  artifactKey: Guid(b179f6d3adf56714cb2b3bb5272fb677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/challenger/interior.mat using Guid(b179f6d3adf56714cb2b3bb5272fb677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5fb21d821cce6fb1036ede32d9b8a77') in 0.012858 seconds
-  Import took 0.014874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeBlack.mat
-  artifactKey: Guid(fc626cffedc907848a7b47b87aa5e34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeBlack.mat using Guid(fc626cffedc907848a7b47b87aa5e34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6eb3f2c4c71df702e0c44868efbef1') in 0.037685 seconds
-  Import took 0.039735 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/real_car_models/prius/dbl_chassis_hi_001.mat
-  artifactKey: Guid(de713b0201603a34ba5dafe2b5fb25c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/prius/dbl_chassis_hi_001.mat using Guid(de713b0201603a34ba5dafe2b5fb25c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915c979be0c30e181e618e17c6243db0') in 0.016215 seconds
-  Import took 0.018419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/real_car_models/mercedes suv/LuceFrecciaSXMat.mat
-  artifactKey: Guid(48bff4b15b27b704a95a1529fa1f62cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/LuceFrecciaSXMat.mat using Guid(48bff4b15b27b704a95a1529fa1f62cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efef33892652bbbd7480e0bcc2bce339') in 0.012885 seconds
-  Import took 0.014968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/real_car_models/mercedes suv/MinigonneMat.mat
-  artifactKey: Guid(bbe41ec22aa284a4c9febf7d8acd7079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/MinigonneMat.mat using Guid(bbe41ec22aa284a4c9febf7d8acd7079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92fb65f76f7ed3ee72d57aaaddf98199') in 0.011863 seconds
-  Import took 0.013958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/real_car_models/brz/dbl_interior#2_011.mat
-  artifactKey: Guid(c5e7ab5002b74ae4fbf92e5b283c85f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/brz/dbl_interior#2_011.mat using Guid(c5e7ab5002b74ae4fbf92e5b283c85f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f705abe4ce82c008d0a8ea8156610b90') in 0.012022 seconds
-  Import took 0.014163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/real_car_models/subaru suv/dbl_chassis_003.mat
-  artifactKey: Guid(b7b489c1a0f657e4cbc21417dc1308cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/subaru suv/dbl_chassis_003.mat using Guid(b7b489c1a0f657e4cbc21417dc1308cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601ca4793e810475b674e926c35387a7') in 0.011558 seconds
-  Import took 0.013669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/real_car_models/russian car/fbx/Chrome_2.mat
-  artifactKey: Guid(bd8cae44ce5ba2242babddba913a4bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/russian car/fbx/Chrome_2.mat using Guid(bd8cae44ce5ba2242babddba913a4bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26afbbf9040aae92dba57936524e091') in 0.011655 seconds
-  Import took 0.013669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/real_car_models/brz/dbl_wheel_shin#2_001.mat
-  artifactKey: Guid(1dcba4e4d3dc261448e1662c8ec582d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/brz/dbl_wheel_shin#2_001.mat using Guid(1dcba4e4d3dc261448e1662c8ec582d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24c00e9a764a625f361fbfdd350a222') in 0.013012 seconds
-  Import took 0.015085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/real_car_models/range rover/Brake Hub.mat
-  artifactKey: Guid(e012dce2298292f4c94c175ac16f8d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/range rover/Brake Hub.mat using Guid(e012dce2298292f4c94c175ac16f8d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73661939ccecf028bea684c48189a2d') in 0.011761 seconds
-  Import took 0.013833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/real_car_models/lancer evo/BrakeLights.mat
-  artifactKey: Guid(5cf7f591d28294a4d8e49c3ff319518b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/lancer evo/BrakeLights.mat using Guid(5cf7f591d28294a4d8e49c3ff319518b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f2473aa4d20e4aa95f50f96145020f') in 0.016821 seconds
-  Import took 0.019214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/real_car_models/mercedes suv/AllSXMat.mat
-  artifactKey: Guid(336ce491820b9b349b62010708d80d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/AllSXMat.mat using Guid(336ce491820b9b349b62010708d80d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12ae12a7eba118bfc95eb27d2d01304') in 0.011829 seconds
-  Import took 0.013827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/real_car_models/lancer evo/Brake Disc.mat
-  artifactKey: Guid(37a1ca1d6ff3b21409f5e78ccd4f8bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/lancer evo/Brake Disc.mat using Guid(37a1ca1d6ff3b21409f5e78ccd4f8bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0486a9086f70d8317487c0133be7a4b') in 0.017750 seconds
-  Import took 0.020022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/real_car_models/mercedes suv/AntSX1Mat.mat
-  artifactKey: Guid(c24daab3dbf2179469037bda69a5e10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/AntSX1Mat.mat using Guid(c24daab3dbf2179469037bda69a5e10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff001dac2ecc6e77108862fd307c99d') in 0.011780 seconds
-  Import took 0.013904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/real_car_models/subaru suv/dbl_chassis_033.mat
-  artifactKey: Guid(df0f47032bc188540a8a5ab6dfe67ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/subaru suv/dbl_chassis_033.mat using Guid(df0f47032bc188540a8a5ab6dfe67ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4187ef8f4181b2089c7609f428913291') in 0.011390 seconds
-  Import took 0.013454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/real_car_models/mercedes suv/RetroFanalMat.mat
-  artifactKey: Guid(3df9e61f4112cab4d9289123b1e1b25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/RetroFanalMat.mat using Guid(3df9e61f4112cab4d9289123b1e1b25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b6243e3d42490fd4042c2c38780828') in 0.011669 seconds
-  Import took 0.013740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/real_car_models/s65/dbl_bonnet_010.mat
-  artifactKey: Guid(d737798b7edad2e498695f29fae45e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/s65/dbl_bonnet_010.mat using Guid(d737798b7edad2e498695f29fae45e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329970c4e56eb314bb24477f7fe39dd4') in 0.011286 seconds
-  Import took 0.013386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/real_car_models/brz/dbl_interior#2_010.mat
-  artifactKey: Guid(34ce271015d143143b5e9d7870943af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/brz/dbl_interior#2_010.mat using Guid(34ce271015d143143b5e9d7870943af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30580fe5c2846d521d5912391b10d06') in 0.012363 seconds
-  Import took 0.014644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/real_car_models/subaru suv/dbl_chassis_031.mat
-  artifactKey: Guid(30335899b43331b42a0e0c65c283ef15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/subaru suv/dbl_chassis_031.mat using Guid(30335899b43331b42a0e0c65c283ef15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0eaa3325b08704776fc93513d90ab5') in 0.011753 seconds
-  Import took 0.013827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/real_car_models/range rover/Brake Disc.mat
-  artifactKey: Guid(30b95c6f38aad904a91ff88b4630c0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/range rover/Brake Disc.mat using Guid(30b95c6f38aad904a91ff88b4630c0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b113401b477a556eacb03100ad53e2') in 0.008946 seconds
-  Import took 0.011346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/real_car_models/s65/dbl_chassis_004.mat
-  artifactKey: Guid(4287ac4c389576541982620992bee251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/s65/dbl_chassis_004.mat using Guid(4287ac4c389576541982620992bee251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8374f4d5ea00a4108a0818c3fa99e071') in 0.011925 seconds
-  Import took 0.014015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/real_car_models/scion tc/dbl_body_005.mat
-  artifactKey: Guid(c2536cad679f6bf4cba13bc9b86d101d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/scion tc/dbl_body_005.mat using Guid(c2536cad679f6bf4cba13bc9b86d101d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d0924b66b4bee75607462dd216ade6') in 0.012163 seconds
-  Import took 0.014234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/real_car_models/camry/GlassRed.mat
-  artifactKey: Guid(75df2f898231e6c4383f056539bee7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/camry/GlassRed.mat using Guid(75df2f898231e6c4383f056539bee7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f4d361f22fe78b3b1466b88d0d55cf') in 0.012024 seconds
-  Import took 0.014129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/real_car_models/brz/dbl_interior#2_006.mat
-  artifactKey: Guid(ccccfcd76c5abc041b8c7adf4700c5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/brz/dbl_interior#2_006.mat using Guid(ccccfcd76c5abc041b8c7adf4700c5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6582e02135d13f3e6c1d597f87cb096e') in 0.012357 seconds
-  Import took 0.014399 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/real_car_models/subaru suv/dbl_wheel_001.mat
-  artifactKey: Guid(1fed9291f299ef649a5197d27ededa4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/subaru suv/dbl_wheel_001.mat using Guid(1fed9291f299ef649a5197d27ededa4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59125fff6f4f4a6c52105d777d557cf1') in 0.011818 seconds
-  Import took 0.013874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/real_car_models/subaru suv/dbl_chassis_001.mat
-  artifactKey: Guid(3245897baf65ba34681689896d785fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/subaru suv/dbl_chassis_001.mat using Guid(3245897baf65ba34681689896d785fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083322dfdcf03d6781a2909459f86e4b') in 0.011946 seconds
-  Import took 0.013951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/real_car_models/s65/dbl_wheel02_003.mat
-  artifactKey: Guid(e55f84c505d713344bb651bfc61612ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/s65/dbl_wheel02_003.mat using Guid(e55f84c505d713344bb651bfc61612ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54aeb27a537a4afef11b255ba8949a8e') in 0.012426 seconds
-  Import took 0.014594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/real_car_models/s65/dbl_windshield_001.mat
-  artifactKey: Guid(75f2ff1f20c92874a82b9dc438b7e92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/s65/dbl_windshield_001.mat using Guid(75f2ff1f20c92874a82b9dc438b7e92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1c8a28d0f5e669664a6747fafc9244') in 0.011672 seconds
-  Import took 0.013683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/real_car_models/range rover/Brake Light Cover.mat
-  artifactKey: Guid(d17cbe855de023345a2224c4b72e2fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/range rover/Brake Light Cover.mat using Guid(d17cbe855de023345a2224c4b72e2fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131a5b0f7a3170df25640d09e6a39489') in 0.011398 seconds
-  Import took 0.013620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/real_car_models/s65/dbl_chassis_010.mat
-  artifactKey: Guid(750260830d3a83847aa3b1c42808ce74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/s65/dbl_chassis_010.mat using Guid(750260830d3a83847aa3b1c42808ce74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a100b1276a62fd11a6bbeab4d3c20988') in 0.011990 seconds
-  Import took 0.014186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/real_car_models/camry/GlassOrange.mat
-  artifactKey: Guid(bc7b237f056b7f945ac7defb3756e1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/camry/GlassOrange.mat using Guid(bc7b237f056b7f945ac7defb3756e1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2886cee919f9bddca4fdd8c4e5f47342') in 0.012390 seconds
-  Import took 0.014663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/real_car_models/brz/dbl_boot_ok#2_002.mat
-  artifactKey: Guid(2596699a452cca449b939215b1fdbc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/brz/dbl_boot_ok#2_002.mat using Guid(2596699a452cca449b939215b1fdbc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04bf3e0e1bee1629db2850cd9ceeb18a') in 0.012479 seconds
-  Import took 0.014528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/real_car_models/mercedes suv/Logo6Mat.mat
-  artifactKey: Guid(1536611dfa15baa469d48565b84b3c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/Logo6Mat.mat using Guid(1536611dfa15baa469d48565b84b3c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b0894cbe20b44d7d5635c43ff94f87') in 0.012224 seconds
-  Import took 0.014311 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/real_car_models/subaru wrx sti/dbl_Component#1_001.mat
-  artifactKey: Guid(fa221bc20505254439f7f5b7771f1b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/subaru wrx sti/dbl_Component#1_001.mat using Guid(fa221bc20505254439f7f5b7771f1b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e2ad86265a097a09a577ea8a33a740') in 0.012873 seconds
-  Import took 0.014961 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/real_car_models/brz/dbl_boot_ok#2_001.mat
-  artifactKey: Guid(e443d50f5b3b18e4fa6b0af677a36869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/brz/dbl_boot_ok#2_001.mat using Guid(e443d50f5b3b18e4fa6b0af677a36869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2054c4772f645b8421a10589f0d18bbd') in 0.012676 seconds
-  Import took 0.014782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/real_car_models/mercedes suv/LuceFrecciaDXMat.mat
-  artifactKey: Guid(cef97f41eb6b30d4cac7e96fde70ca1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/LuceFrecciaDXMat.mat using Guid(cef97f41eb6b30d4cac7e96fde70ca1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0752261c0045c2d01bf5e9e19b80bc82') in 0.012390 seconds
-  Import took 0.014450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/real_car_models/subaru suv/dbl_chassis_030.mat
-  artifactKey: Guid(81a5935da84d4864ebbd9dabe8ca71e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/subaru suv/dbl_chassis_030.mat using Guid(81a5935da84d4864ebbd9dabe8ca71e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9b42dd994639b7a9aa08f7e49969cc') in 0.011472 seconds
-  Import took 0.013560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/real_car_models/lancer evo/Brake Pads Right.mat
-  artifactKey: Guid(abf518ca45edacd499c4207f81e3b2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/lancer evo/Brake Pads Right.mat using Guid(abf518ca45edacd499c4207f81e3b2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1baef8d629ba68269f3e6c4eee887f') in 0.016702 seconds
-  Import took 0.018921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/real_car_models/brz/dbl_bonnet_ok#2_001.mat
-  artifactKey: Guid(f40c9e1fd4948c1438b3eea5b20aac27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/brz/dbl_bonnet_ok#2_001.mat using Guid(f40c9e1fd4948c1438b3eea5b20aac27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f7da3efe3666ad2931eca5a1329eb20') in 0.012363 seconds
-  Import took 0.014482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/real_car_models/scion tc/dbl_body_013.mat
-  artifactKey: Guid(fbc128ce36867a14eb6db31a3b704986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/scion tc/dbl_body_013.mat using Guid(fbc128ce36867a14eb6db31a3b704986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4252a6e55e3fe70ed05c2589c0c1b9') in 0.011334 seconds
-  Import took 0.013496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/real_car_models/scion tc/dbl_body_009.mat
-  artifactKey: Guid(db8424ff0e05819499b45621c8a835c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/scion tc/dbl_body_009.mat using Guid(db8424ff0e05819499b45621c8a835c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5267ff3114dd9eb005a0c3e085200d98') in 0.013436 seconds
-  Import took 0.015999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/real_car_models/corvette/Interior - Black.mat
-  artifactKey: Guid(a0e8efb28b33d67478c95e5db9e72806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/corvette/Interior - Black.mat using Guid(a0e8efb28b33d67478c95e5db9e72806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b2d9bd2f15cef184a8fafc720207d4') in 0.012767 seconds
-  Import took 0.015200 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/real_car_models/lancer evo/chrom.mat
-  artifactKey: Guid(970e288ba74ed764b81c0cc29af80c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/lancer evo/chrom.mat using Guid(970e288ba74ed764b81c0cc29af80c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa9fb19372fb9b8830bc868d9fc9f6e') in 0.013579 seconds
-  Import took 0.016139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/real_car_models/subaru suv/dbl_chassis_010.mat
-  artifactKey: Guid(a3e4d04625694ad41bfb78aee35752d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/subaru suv/dbl_chassis_010.mat using Guid(a3e4d04625694ad41bfb78aee35752d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a0edf7b0853c946d86a25a0aa9d0a5') in 0.014088 seconds
-  Import took 0.016779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/real_car_models/scion tc/dbl_body_007.mat
-  artifactKey: Guid(3789763c5557e8345a8e0686cb687904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/scion tc/dbl_body_007.mat using Guid(3789763c5557e8345a8e0686cb687904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91974046af31aa8b31dfd0e6ca336b6c') in 0.014595 seconds
-  Import took 0.017357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Azerilo/HQ Racing Car Model No.1202/Material/Chrome.mat
-  artifactKey: Guid(4807a4ab82b2851418c7f29e47bc193d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Azerilo/HQ Racing Car Model No.1202/Material/Chrome.mat using Guid(4807a4ab82b2851418c7f29e47bc193d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a9ad07d3c595771eb3143d2420f0a7') in 0.014638 seconds
-  Import took 0.016940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/real_car_models/mercedes suv/RetroFanaleSX2Mat.mat
-  artifactKey: Guid(ad33f0fcf10d2b34faf16478b15097a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/RetroFanaleSX2Mat.mat using Guid(ad33f0fcf10d2b34faf16478b15097a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb0879ccd5db82a3f03a52e392e4057') in 0.016812 seconds
-  Import took 0.019531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/real_car_models/mercedes suv/LuceRetroMat.mat
-  artifactKey: Guid(286b9a193c554214d89e034822489b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/LuceRetroMat.mat using Guid(286b9a193c554214d89e034822489b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e4bc0ec8b13acb753095a3d4681cae') in 0.013784 seconds
-  Import took 0.016267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/real_car_models/brz/dbl_wheel_shin#2_002.mat
-  artifactKey: Guid(3dca1b298d49bae4d82b078e17b36d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/brz/dbl_wheel_shin#2_002.mat using Guid(3dca1b298d49bae4d82b078e17b36d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c045744022ee3ce75ea5cb9142b9b40a') in 0.012768 seconds
-  Import took 0.014942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/real_car_models/subaru suv/dbl_chassis_008.mat
-  artifactKey: Guid(2932c68d7fb262c4eba37bcba9be0e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/subaru suv/dbl_chassis_008.mat using Guid(2932c68d7fb262c4eba37bcba9be0e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca17ad4ba55ec9352dcac51fad6497ca') in 0.013300 seconds
-  Import took 0.016059 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/real_car_models/brz/dbl_interior#2_009.mat
-  artifactKey: Guid(eb71913dece01094280e6d3b89b70768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/brz/dbl_interior#2_009.mat using Guid(eb71913dece01094280e6d3b89b70768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299e3e772262b76242fd4b0323f7f735') in 0.012114 seconds
-  Import took 0.014387 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/real_car_models/corvette/metal-chrome.001.mat
-  artifactKey: Guid(81a67f41c6e5f6844a341fb73c7a5ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/corvette/metal-chrome.001.mat using Guid(81a67f41c6e5f6844a341fb73c7a5ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36424c74ac8569af6a8ce08ad7c43d4') in 0.012035 seconds
-  Import took 0.014345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Materials/ParticleFirework.mat
-  artifactKey: Guid(9f3080141f1f64197825663e067f94f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Materials/ParticleFirework.mat using Guid(9f3080141f1f64197825663e067f94f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c560f16144c405481accd8a4e599eda6') in 0.017381 seconds
-  Import took 0.019749 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/real_car_models/subaru suv/dbl_windscre02_001.mat
-  artifactKey: Guid(ad5a8c1330bd2404f975b1d6e3969e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/subaru suv/dbl_windscre02_001.mat using Guid(ad5a8c1330bd2404f975b1d6e3969e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af52bd31deba5633a2d09ceb6095ee67') in 0.011668 seconds
-  Import took 0.013884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/real_car_models/prius/dbl_wheel_001.mat
-  artifactKey: Guid(aea5bb627e556714285c23be3a0d2607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/prius/dbl_wheel_001.mat using Guid(aea5bb627e556714285c23be3a0d2607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6d981916e4fb501edf839a5de19092') in 0.009439 seconds
-  Import took 0.011792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/real_car_models/s65/dbl_chassis_001.mat
-  artifactKey: Guid(ccb0bf5b6aa60d240858d4628c24a28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/s65/dbl_chassis_001.mat using Guid(ccb0bf5b6aa60d240858d4628c24a28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc1d787131875a0c3b07674469b68f9') in 0.009004 seconds
-  Import took 0.011239 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Azerilo/HQ Racing Car Model No.1202/Material/Gray.mat
-  artifactKey: Guid(970eef632d6c84643bd8a130949ef8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Azerilo/HQ Racing Car Model No.1202/Material/Gray.mat using Guid(970eef632d6c84643bd8a130949ef8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05beb870e464821dbfd0c4411419f092') in 0.013146 seconds
-  Import took 0.015386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/real_car_models/corvette/metal-chrome-rough.2.mat
-  artifactKey: Guid(eb3a4282164565c45af73506e4616630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/corvette/metal-chrome-rough.2.mat using Guid(eb3a4282164565c45af73506e4616630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1acfd001371bc3722e21b385ed2adaf') in 0.013606 seconds
-  Import took 0.016234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/real_car_models/mercedes suv/CofanoMat.mat
-  artifactKey: Guid(7fb3af86e06eeb64891c55262327fbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/CofanoMat.mat using Guid(7fb3af86e06eeb64891c55262327fbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e691895cdea184f83644c33c8e5886a5') in 0.012110 seconds
-  Import took 0.014390 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/real_car_models/subaru suv/dbl_bump_rea01_001.mat
-  artifactKey: Guid(50db03740c295ed4a9b5bf24e5d1d658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/subaru suv/dbl_bump_rea01_001.mat using Guid(50db03740c295ed4a9b5bf24e5d1d658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3811539f48fa8ef6f230d88c6c3fb61f') in 0.011412 seconds
-  Import took 0.013740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/real_car_models/mercedes suv/AntSXMat.mat
-  artifactKey: Guid(f83711dbd1fc52e4d9ffee18ff0ac7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/AntSXMat.mat using Guid(f83711dbd1fc52e4d9ffee18ff0ac7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44e9eab1683f72b621765e604af9738') in 0.012003 seconds
-  Import took 0.014287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/real_car_models/russian car/fbx/19 - Default.mat
-  artifactKey: Guid(25388b239d94e5f4ca1c726d4b9b47b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/russian car/fbx/19 - Default.mat using Guid(25388b239d94e5f4ca1c726d4b9b47b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b43ee502b3b1341f94081e4ec52efd') in 0.011770 seconds
-  Import took 0.013856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/real_car_models/range rover/Chrome.mat
-  artifactKey: Guid(3981e9ee4089f2947baa62a128f6f024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/range rover/Chrome.mat using Guid(3981e9ee4089f2947baa62a128f6f024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443c1572db6863c3729cab6583ca4644') in 0.008835 seconds
-  Import took 0.011027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/real_car_models/challenger/brake disk dark.mat
-  artifactKey: Guid(4b033c37e15bf7940bd9e76a351316ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/challenger/brake disk dark.mat using Guid(4b033c37e15bf7940bd9e76a351316ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805ee07977a61644852bc500aad982c9') in 0.012545 seconds
-  Import took 0.014592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/real_car_models/mercedes suv/Logo1Mat.mat
-  artifactKey: Guid(b619a975d12bf434892180ea4ab39760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/Logo1Mat.mat using Guid(b619a975d12bf434892180ea4ab39760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061d362f29d1dd2d297ccb6593620151') in 0.013426 seconds
-  Import took 0.015550 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/real_car_models/s65/dbl_chassis_011.mat
-  artifactKey: Guid(3c5cbe90c72821d41baaccd8fdc9d86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/s65/dbl_chassis_011.mat using Guid(3c5cbe90c72821d41baaccd8fdc9d86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79dbf9445ccc83ec07fc201fa5ed0c30') in 0.011537 seconds
-  Import took 0.013733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/real_car_models/range rover/Red Taillights Bump Glass.mat
-  artifactKey: Guid(f3df4aaa2bae0c047a75f8e353421f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/range rover/Red Taillights Bump Glass.mat using Guid(f3df4aaa2bae0c047a75f8e353421f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f634034c0e0dd78bc0ccba6d12399014') in 0.011699 seconds
-  Import took 0.013910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/real_car_models/camry/intCarpet.mat
-  artifactKey: Guid(e6ae812a4f0a26847a0a1576e0f596b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/camry/intCarpet.mat using Guid(e6ae812a4f0a26847a0a1576e0f596b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1db65f0811fd277d4901ab2b83d4dc9') in 0.011959 seconds
-  Import took 0.014134 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/real_car_models/scion tc/dbl_body_010.mat
-  artifactKey: Guid(b3324e8e053afbd4db2501242d53fa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/scion tc/dbl_body_010.mat using Guid(b3324e8e053afbd4db2501242d53fa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a0030c5cbd76984e7dbd833033e575') in 0.012782 seconds
-  Import took 0.014877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/real_car_models/camry/GlassLights.mat
-  artifactKey: Guid(e4a3b58ce98cde349a1bd41ddfce6090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/camry/GlassLights.mat using Guid(e4a3b58ce98cde349a1bd41ddfce6090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9cdc9e7cfd55945a9224a2d5c8b395') in 0.012180 seconds
-  Import took 0.014330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/real_car_models/s65/dbl_chassis_009.mat
-  artifactKey: Guid(f699b377063814743bdb0e52f0369755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/s65/dbl_chassis_009.mat using Guid(f699b377063814743bdb0e52f0369755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16becb71af0f5984b37b3d1ee1f9d7b') in 0.013308 seconds
-  Import took 0.015396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/real_car_models/scion tc/dbl_body_006.mat
-  artifactKey: Guid(ca4d85e1985436c4eb3e6fe8c3355550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/scion tc/dbl_body_006.mat using Guid(ca4d85e1985436c4eb3e6fe8c3355550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49dbea4c685014530a1ac8a252810a9') in 0.012024 seconds
-  Import took 0.014124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/real_car_models/corvette/break disc.mat
-  artifactKey: Guid(1f72e9530f8dc6448950609c56b3e569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/corvette/break disc.mat using Guid(1f72e9530f8dc6448950609c56b3e569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfe2d888695342f26986784b59f48cd') in 0.012029 seconds
-  Import took 0.014115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/real_car_models/subaru suv/dbl_chassis_029.mat
-  artifactKey: Guid(4420b02f5d7b16b4ab4831150ec92760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/subaru suv/dbl_chassis_029.mat using Guid(4420b02f5d7b16b4ab4831150ec92760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934ffb3daea728f8b34dc3afed185566') in 0.012398 seconds
-  Import took 0.014792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/real_car_models/mercedes suv/AllDXMat.mat
-  artifactKey: Guid(deeb5b6ad8dc1cf458938648bf99e1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/AllDXMat.mat using Guid(deeb5b6ad8dc1cf458938648bf99e1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011b935ad4168097e83d7b6a2145abee') in 0.011903 seconds
-  Import took 0.014206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000430 seconds.
-  path: Assets/real_car_models/prius/dbl_chassis_hi_003.mat
-  artifactKey: Guid(37bfa0b0cf96224459c5f51122e4214e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/prius/dbl_chassis_hi_003.mat using Guid(37bfa0b0cf96224459c5f51122e4214e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977aae962b153e2bfc4db4967e5c864a') in 0.013562 seconds
-  Import took 0.015994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/real_car_models/mercedes suv/CofanoPostMat.mat
-  artifactKey: Guid(544f44b2075f1b247a261a466aac3fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/CofanoPostMat.mat using Guid(544f44b2075f1b247a261a466aac3fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5d4df82e672032353280c77d36d8ed') in 0.011955 seconds
-  Import took 0.014219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/real_car_models/scion tc/dbl_body_012.mat
-  artifactKey: Guid(9b53dcf8970c9ee42952dc9c9d63bee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/scion tc/dbl_body_012.mat using Guid(9b53dcf8970c9ee42952dc9c9d63bee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554a15c1c96de0eb3abe37a31547daa6') in 0.011781 seconds
-  Import took 0.014085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/real_car_models/subaru suv/dbl_chassis_002.mat
-  artifactKey: Guid(cfa5e0d444bc7414d8f5a7b0b86ba535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/subaru suv/dbl_chassis_002.mat using Guid(cfa5e0d444bc7414d8f5a7b0b86ba535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8a6f5e89b8045b7dac700a784fb0df') in 0.012583 seconds
-  Import took 0.014671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/real_car_models/brz/dbl_interior#2_008.mat
-  artifactKey: Guid(d2d5bfa5087bec74e9fc84329883d8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/brz/dbl_interior#2_008.mat using Guid(d2d5bfa5087bec74e9fc84329883d8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f8d2413f15282446b55d94cefc152e') in 0.012205 seconds
-  Import took 0.014673 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/real_car_models/corvette/metal-chrome.002.mat
-  artifactKey: Guid(14a605b1e9494b742a681818c2f67d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/corvette/metal-chrome.002.mat using Guid(14a605b1e9494b742a681818c2f67d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b82b9503be70290d3962d45a45461f') in 0.013795 seconds
-  Import took 0.015859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/real_car_models/subaru suv/dbl_chassis_032.mat
-  artifactKey: Guid(48efa0f105d5aac4b878752754df6fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/subaru suv/dbl_chassis_032.mat using Guid(48efa0f105d5aac4b878752754df6fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f17ac8dadc7b657a264d8c09c22c3f') in 0.012181 seconds
-  Import took 0.014233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Azerilo/HQ Racing Car Model No.1202/Mesh/Materials/RedMat.mat
-  artifactKey: Guid(daa70d9da157e184d833c5b75d610515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Azerilo/HQ Racing Car Model No.1202/Mesh/Materials/RedMat.mat using Guid(daa70d9da157e184d833c5b75d610515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e58fbf0b941c631b79eadf19a65df9e') in 0.013175 seconds
-  Import took 0.015294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/real_car_models/camry/GlassWinds.mat
-  artifactKey: Guid(530c99a65e6e6fa4da4b03f32566707e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/camry/GlassWinds.mat using Guid(530c99a65e6e6fa4da4b03f32566707e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b363191a7822363b9d2b8a7feb02ee') in 0.012416 seconds
-  Import took 0.014496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/real_car_models/mercedes suv/ContFanaleDXMat.mat
-  artifactKey: Guid(8eaecd261c2998141bf777579f3cecf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/ContFanaleDXMat.mat using Guid(8eaecd261c2998141bf777579f3cecf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc4354f87f9bddbbefea5a15f32be77') in 0.012942 seconds
-  Import took 0.015143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/real_car_models/russian car/fbx/Back_light.mat
-  artifactKey: Guid(7fd94c3ac6739ab4f9a77d086c1ff745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/russian car/fbx/Back_light.mat using Guid(7fd94c3ac6739ab4f9a77d086c1ff745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2142fcc131add8d305d763cb42d0e80') in 0.012896 seconds
-  Import took 0.015029 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Materials/ParticleFlameLicks.mat
-  artifactKey: Guid(30289309b0c21224ea5b6fcc73b07d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Materials/ParticleFlameLicks.mat using Guid(30289309b0c21224ea5b6fcc73b07d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f368c956b897c5c3304fa9fa692c68') in 0.037978 seconds
-  Import took 0.040097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/real_car_models/subaru suv/dbl_chassis_004.mat
-  artifactKey: Guid(139c08827dad7ef4a862e2dc6a741589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/subaru suv/dbl_chassis_004.mat using Guid(139c08827dad7ef4a862e2dc6a741589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f14ba01a8d28b9c0541eaf7ead2bcbe') in 0.010851 seconds
-  Import took 0.012863 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/real_car_models/mercedes suv/Logo2Mat.mat
-  artifactKey: Guid(1f0fd887847a3644294f272d8c1fe29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/Logo2Mat.mat using Guid(1f0fd887847a3644294f272d8c1fe29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66c174e8f350bad72a4f6dc9d8fe892') in 0.013844 seconds
-  Import took 0.015879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/real_car_models/russian car/fbx/Mirror.mat
-  artifactKey: Guid(329cf5d0c93a21946ae81632baa5d8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/russian car/fbx/Mirror.mat using Guid(329cf5d0c93a21946ae81632baa5d8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bcea894b49f4f3d492de5e2fed4de17') in 0.011239 seconds
-  Import took 0.013258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/real_car_models/s65/dbl_bonnet_009.mat
-  artifactKey: Guid(014abad232076864b89403e1fdd4d6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/s65/dbl_bonnet_009.mat using Guid(014abad232076864b89403e1fdd4d6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52ebe53d5c110af6669d56848cfbf20') in 0.011740 seconds
-  Import took 0.013759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/real_car_models/corvette/metal-chrome.mat
-  artifactKey: Guid(c5334ac8107e52c44877e33ae1f9dccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/corvette/metal-chrome.mat using Guid(c5334ac8107e52c44877e33ae1f9dccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2ec4a121f6cd1ac3dba3ab9eb8d901') in 0.011788 seconds
-  Import took 0.013934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Materials/ParticleGlow.mat
-  artifactKey: Guid(c10b1630d5621ec48a17223c3c102023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Materials/ParticleGlow.mat using Guid(c10b1630d5621ec48a17223c3c102023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab38d3d019b9e6d721555678c6a38ce') in 0.011888 seconds
-  Import took 0.013894 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/real_car_models/brz/dbl_boot_ok#2_003.mat
-  artifactKey: Guid(499ceefba895533488f278ca3e6ca27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/brz/dbl_boot_ok#2_003.mat using Guid(499ceefba895533488f278ca3e6ca27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60dd97864f3b00b02c0ed31b1ce3c7ed') in 0.012199 seconds
-  Import took 0.014267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/real_car_models/prius/dbl_wheel_002.mat
-  artifactKey: Guid(aa4bf3295e7d40944b34facf318d463a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/prius/dbl_wheel_002.mat using Guid(aa4bf3295e7d40944b34facf318d463a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cda46078e3dd0e3b078a932f94b5c48') in 0.011640 seconds
-  Import took 0.013715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/real_car_models/prius/dbl_chassis_hi_002.mat
-  artifactKey: Guid(d50d13f1ccec2c54bbb9f692844416d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/prius/dbl_chassis_hi_002.mat using Guid(d50d13f1ccec2c54bbb9f692844416d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad673b81ad0c4f0e597d72640beaba45') in 0.011762 seconds
-  Import took 0.013830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/real_car_models/telsa/M_black_plastic.mat
-  artifactKey: Guid(1db5782d13b82f0498557445443a0e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/telsa/M_black_plastic.mat using Guid(1db5782d13b82f0498557445443a0e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd78274002e16a535783ad268f27885') in 0.012954 seconds
-  Import took 0.015124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/real_car_models/camry/intFabricLt.mat
-  artifactKey: Guid(551c09d13737a3e49a6ab0b7e3ce085a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/camry/intFabricLt.mat using Guid(551c09d13737a3e49a6ab0b7e3ce085a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38b209cd61fbece377bbeedf56c87ba') in 0.012912 seconds
-  Import took 0.015001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/real_car_models/challenger/interior_dark.mat
-  artifactKey: Guid(032b4a33c3f030749802fdab950b274b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/challenger/interior_dark.mat using Guid(032b4a33c3f030749802fdab950b274b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91cf26c55cf98515746ec17607bdc3d') in 0.011733 seconds
-  Import took 0.013834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/real_car_models/s65/dbl_chassis_002.mat
-  artifactKey: Guid(c39675d830b7757469bc384d39dd878d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/s65/dbl_chassis_002.mat using Guid(c39675d830b7757469bc384d39dd878d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99889f0ee8d2cb6609ba80ba6834073') in 0.010883 seconds
-  Import took 0.013001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/real_car_models/s65/dbl_chassis_003.mat
-  artifactKey: Guid(4e924bab3f5509a45a0c9f5b69028f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/s65/dbl_chassis_003.mat using Guid(4e924bab3f5509a45a0c9f5b69028f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c821e597688c1b09eb976176a15ec9ac') in 0.011760 seconds
-  Import took 0.013767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/real_car_models/scion tc/dbl_body_011.mat
-  artifactKey: Guid(93f3f5a5922e59d47bdf1f702284a6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/scion tc/dbl_body_011.mat using Guid(93f3f5a5922e59d47bdf1f702284a6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2597480a5b0c45224eda8daae472b871') in 0.011442 seconds
-  Import took 0.013495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/real_car_models/lancer evo/Brake Pads Left.mat
-  artifactKey: Guid(1f07ba4ae5678774da3daf551a6a9f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/lancer evo/Brake Pads Left.mat using Guid(1f07ba4ae5678774da3daf551a6a9f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0727703d2237ee1719f2e2c7e2bc45f9') in 0.016508 seconds
-  Import took 0.018551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/real_car_models/russian car/fbx/Chrome.mat
-  artifactKey: Guid(6a54354415b3a8546abb867369ce4e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/russian car/fbx/Chrome.mat using Guid(6a54354415b3a8546abb867369ce4e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49681d6b63d684c23acfe1d890f1f93a') in 0.010662 seconds
-  Import took 0.012844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/real_car_models/mercedes suv/AntDX2Mat.mat
-  artifactKey: Guid(1315898b5102ac3468b696394486c131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/AntDX2Mat.mat using Guid(1315898b5102ac3468b696394486c131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da649fffd9c8a02d9704103f3be0386') in 0.013567 seconds
-  Import took 0.015889 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Standard Assets/Effects/Projectors/Materials/GridProjector.mat
-  artifactKey: Guid(c7d1a73cf0f423947bae4e238665d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/Projectors/Materials/GridProjector.mat using Guid(c7d1a73cf0f423947bae4e238665d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9d2e333eed4fd2bdfbf61a4600d26b') in 0.011922 seconds
-  Import took 0.013988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/real_car_models/s65/dbl_chassis_008.mat
-  artifactKey: Guid(35eff12fd33052c488d54740bf87708c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/s65/dbl_chassis_008.mat using Guid(35eff12fd33052c488d54740bf87708c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872d29f11a8c540a8f84f637dd16b690') in 0.012684 seconds
-  Import took 0.014731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/real_car_models/s65/dbl_chassis_007.mat
-  artifactKey: Guid(612b656407929c64aadf32d76f4f37c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/s65/dbl_chassis_007.mat using Guid(612b656407929c64aadf32d76f4f37c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a91ded991fd4a3305da8257785cbfc9') in 0.011534 seconds
-  Import took 0.013618 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/real_car_models/prius/dbl_bonnet_ok_003.mat
-  artifactKey: Guid(aa0ae4f735117e44a8673c4e343a6f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/prius/dbl_bonnet_ok_003.mat using Guid(aa0ae4f735117e44a8673c4e343a6f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70731083f259ad808ef1ac15b47ab1c') in 0.011825 seconds
-  Import took 0.013937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/real_car_models/brz/dbl_interior#2_007.mat
-  artifactKey: Guid(165a1da7eaaa5bf4288b1ba10688d288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/brz/dbl_interior#2_007.mat using Guid(165a1da7eaaa5bf4288b1ba10688d288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a8ba428906161b09a7af8e2f9b7ca4') in 0.013413 seconds
-  Import took 0.015530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/real_car_models/mercedes suv/InternoMat.mat
-  artifactKey: Guid(4de05f245aabb924da894626c3fac5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/InternoMat.mat using Guid(4de05f245aabb924da894626c3fac5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96221df26452983f623fdc28059e0ae6') in 0.011874 seconds
-  Import took 0.014099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/real_car_models/russian car/fbx/Red.mat
-  artifactKey: Guid(2048c53d9cd015c41abed238daa049e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/russian car/fbx/Red.mat using Guid(2048c53d9cd015c41abed238daa049e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12bb6d2816e2c721e1d3a3667e5b84bb') in 0.010834 seconds
-  Import took 0.012946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/real_car_models/s65/dbl_windshield_002.mat
-  artifactKey: Guid(f4c687434ce323744b8eaa5f32f28a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/s65/dbl_windshield_002.mat using Guid(f4c687434ce323744b8eaa5f32f28a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2d3c33632b5deea726e05966601650') in 0.011644 seconds
-  Import took 0.013657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/real_car_models/prius/dbl_bonnet_ok_001.mat
-  artifactKey: Guid(a94970480f5a64942b51498fd62efe2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/prius/dbl_bonnet_ok_001.mat using Guid(a94970480f5a64942b51498fd62efe2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64253a7845a1dbf884feb1078d60a202') in 0.012028 seconds
-  Import took 0.014109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Materials/ParticleFlames.mat
-  artifactKey: Guid(3bfa2f095c911d649bf4cb92a55ac974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Materials/ParticleFlames.mat using Guid(3bfa2f095c911d649bf4cb92a55ac974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4421e56e5c29f1c99ec5ab78e15f67c') in 0.017985 seconds
-  Import took 0.020013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/real_car_models/mercedes suv/AntDXMat.mat
-  artifactKey: Guid(b5fceb943fda7374f9ec45437a082ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/AntDXMat.mat using Guid(b5fceb943fda7374f9ec45437a082ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c383c882d111f9ca8ff85d0f86f4ba8') in 0.011844 seconds
-  Import took 0.013886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/real_car_models/lancer evo/Badging Chrome.mat
-  artifactKey: Guid(0df21020618b16f468a3ef72899263e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/lancer evo/Badging Chrome.mat using Guid(0df21020618b16f468a3ef72899263e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad8c5ae0ed204935aafe5be113351ef') in 0.016445 seconds
-  Import took 0.018563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/real_car_models/brz/dbl_interior#2_004.mat
-  artifactKey: Guid(c3e6b88a84f837141bf2b64ce31df25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/brz/dbl_interior#2_004.mat using Guid(c3e6b88a84f837141bf2b64ce31df25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1049412cf967c8a22412557397160ee') in 0.011695 seconds
-  Import took 0.013766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/real_car_models/corvette/interior - red.mat
-  artifactKey: Guid(af50498adc9dbb248908bf4e16e6b4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/corvette/interior - red.mat using Guid(af50498adc9dbb248908bf4e16e6b4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37a9022146b13b3abb51d461f6ea9c8') in 0.011764 seconds
-  Import took 0.013815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Materials/ParticleDuststorm.mat
-  artifactKey: Guid(7911795df27dd464190eed77dda90191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Materials/ParticleDuststorm.mat using Guid(7911795df27dd464190eed77dda90191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865e6c3f24a3896637c0d927df23c29a') in 0.031117 seconds
-  Import took 0.033206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/real_car_models/mitsubishi eclipse/20 - Default.mat
-  artifactKey: Guid(90ff770559cf9084990961209e9fd96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mitsubishi eclipse/20 - Default.mat using Guid(90ff770559cf9084990961209e9fd96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c2543bf9aed9c82f894db39fee4064') in 0.011481 seconds
-  Import took 0.013515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/real_car_models/scion tc/dbl_body_008.mat
-  artifactKey: Guid(7662dd0608ca8e043a01e8b0af7caf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/scion tc/dbl_body_008.mat using Guid(7662dd0608ca8e043a01e8b0af7caf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e449800537e959d46648dd9a4f2c26') in 0.011455 seconds
-  Import took 0.013523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/real_car_models/subaru suv/dbl_chassis_011.mat
-  artifactKey: Guid(4b62103315b3dcc498d120e870829c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/subaru suv/dbl_chassis_011.mat using Guid(4b62103315b3dcc498d120e870829c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a722e96acd0da0011e78a578b80d350') in 0.010577 seconds
-  Import took 0.012662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Materials/ParticleFirecloud.mat
-  artifactKey: Guid(77d08210df254d845885518314593544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Materials/ParticleFirecloud.mat using Guid(77d08210df254d845885518314593544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fad6377ca0f2a3abc3da83230e8601') in 0.016174 seconds
-  Import took 0.018215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/real_car_models/mercedes suv/LogoMat.mat
-  artifactKey: Guid(21a22a205007b3144bce4a688cbe5315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/LogoMat.mat using Guid(21a22a205007b3144bce4a688cbe5315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c2c5b1569e5c31cae8ca7957e4662d') in 0.012129 seconds
-  Import took 0.014157 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Generation_Platform_2/Materials/Red.mat
-  artifactKey: Guid(7d36b74dfc3a6c549a5cd9695af3fa36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Generation_Platform_2/Materials/Red.mat using Guid(7d36b74dfc3a6c549a5cd9695af3fa36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c82e83b891eef3ed1ef03ee55e279f') in 0.011939 seconds
-  Import took 0.014001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/real_car_models/mercedes suv/RetroFanaleSXMat.mat
-  artifactKey: Guid(5d343ad2d3d6c674585efa501eb9cc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/RetroFanaleSXMat.mat using Guid(5d343ad2d3d6c674585efa501eb9cc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ec30819bd541dbc4489f59a8bf5a56') in 0.011789 seconds
-  Import took 0.013794 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Materials/ParticleFireball.mat
-  artifactKey: Guid(26ea534dcd83fe14c9173a52e151cce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Materials/ParticleFireball.mat using Guid(26ea534dcd83fe14c9173a52e151cce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0508e6c92d172092fe45c020376a6f0') in 0.017461 seconds
-  Import took 0.019629 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Azerilo/HQ Racing Car Model No.1202/Material/Interior.mat
-  artifactKey: Guid(79cd815d76aa0e84fba3bd295e9bd10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Azerilo/HQ Racing Car Model No.1202/Material/Interior.mat using Guid(79cd815d76aa0e84fba3bd295e9bd10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e05520dedf04cbf32a9d01553ecbd9') in 0.017760 seconds
-  Import took 0.019905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/real_car_models/camry/GlassLightsLtBump.mat
-  artifactKey: Guid(0e23af3bc618d2e40aa1091f1620d0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/camry/GlassLightsLtBump.mat using Guid(0e23af3bc618d2e40aa1091f1620d0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3235ab1da46adf417c24c5e81d3ce42') in 0.012065 seconds
-  Import took 0.014204 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/real_car_models/brz/dbl_interior#2_005.mat
-  artifactKey: Guid(49a507e82bd2395498c5ff9480127a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/brz/dbl_interior#2_005.mat using Guid(49a507e82bd2395498c5ff9480127a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459b7f1c54e5c69494f3e9d95cbdfaae') in 0.011513 seconds
-  Import took 0.013587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/real_car_models/subaru suv/dbl_chassis_009.mat
-  artifactKey: Guid(e281abbcf4617224b8ab29721b0ceff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/subaru suv/dbl_chassis_009.mat using Guid(e281abbcf4617224b8ab29721b0ceff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aef8b12eb495663a8cca9c0353beae8') in 0.008436 seconds
-  Import took 0.010498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/real_car_models/corvette/metal-chrome-dark.mat
-  artifactKey: Guid(ce0b7aba9b5efea4aa8dae254f3939da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/corvette/metal-chrome-dark.mat using Guid(ce0b7aba9b5efea4aa8dae254f3939da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6f0409520e5c97b668643c2749da84') in 0.011685 seconds
-  Import took 0.013878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/real_car_models/mercedes suv/RetroFanaleDXMat.mat
-  artifactKey: Guid(5149848adaa61194fad674173b9e3dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/RetroFanaleDXMat.mat using Guid(5149848adaa61194fad674173b9e3dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc32c67033094662861296eeeb3b67ed') in 0.012217 seconds
-  Import took 0.014568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/real_car_models/brz/dbl_interior#2_003.mat
-  artifactKey: Guid(aeb717b7f027ded42aecbe9b56627bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/brz/dbl_interior#2_003.mat using Guid(aeb717b7f027ded42aecbe9b56627bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8b4d12529813c3228d1bb0592ca2b3') in 0.012178 seconds
-  Import took 0.014285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/real_car_models/mercedes suv/Cofano2Mat.mat
-  artifactKey: Guid(5e08be7f3c1b2fb4ab4debd1f432123b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/mercedes suv/Cofano2Mat.mat using Guid(5e08be7f3c1b2fb4ab4debd1f432123b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eee23170d3e32753c51877d2e0538ed') in 0.011982 seconds
-  Import took 0.014025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/real_car_models/prius/dbl_bonnet_ok_002.mat
-  artifactKey: Guid(f2f99455890a57441bf878a47c750a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/real_car_models/prius/dbl_bonnet_ok_002.mat using Guid(f2f99455890a57441bf878a47c750a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90df57d24c16d8338d99b4932bbfc06b') in 0.015765 seconds
-  Import took 0.017902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Generation_Platform_2/Materials/Grey.mat
-  artifactKey: Guid(1c1681fed7048044e90288501ed4ab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Generation_Platform_2/Materials/Grey.mat using Guid(1c1681fed7048044e90288501ed4ab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81707b5a8f0bdb6c2657eb599cebf36d') in 0.012275 seconds
-  Import took 0.014472 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001086 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.675 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.5 MB.
-System memory in use after: 87.6 MB.
+System memory in use before: 73.1 MB.
+System memory in use after: 73.3 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1948.
-Total: 1.539400 ms (FindLiveObjects: 0.157000 ms CreateObjectMapping: 0.049100 ms MarkObjects: 1.292100 ms  DeleteObjects: 0.040300 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1897.
+Total: 1.484600 ms (FindLiveObjects: 0.144500 ms CreateObjectMapping: 0.036100 ms MarkObjects: 1.289400 ms  DeleteObjects: 0.013600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001058 seconds.
+Registered in 0.001075 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.652 seconds
+- Completed reload, in  0.665 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.5 MB.
-System memory in use after: 87.6 MB.
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1951.
-Total: 1.596300 ms (FindLiveObjects: 0.144700 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.401800 ms  DeleteObjects: 0.013700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 693.123896 seconds.
-  path: Assets/Cubemap_test_imgs/skybox-test.mat
-  artifactKey: Guid(31089d64008111441aaac7e3b46d2023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/skybox-test.mat using Guid(31089d64008111441aaac7e3b46d2023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b43b383960ec32eea70e565282179bb') in 0.054680 seconds
-  Import took 0.056854 seconds .
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1900.
+Total: 1.650900 ms (FindLiveObjects: 0.142200 ms CreateObjectMapping: 0.035700 ms MarkObjects: 1.459200 ms  DeleteObjects: 0.012900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001107 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.680 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.5 MB.
-System memory in use after: 87.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1955.
-Total: 1.567700 ms (FindLiveObjects: 0.153100 ms CreateObjectMapping: 0.039300 ms MarkObjects: 1.360200 ms  DeleteObjects: 0.014100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001002 seconds.
+Registered in 0.001254 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.662 seconds
+- Completed reload, in  0.676 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.5 MB.
-System memory in use after: 87.6 MB.
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1958.
-Total: 1.597300 ms (FindLiveObjects: 0.144900 ms CreateObjectMapping: 0.034600 ms MarkObjects: 1.402600 ms  DeleteObjects: 0.014200 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1903.
+Total: 1.521600 ms (FindLiveObjects: 0.168700 ms CreateObjectMapping: 0.038700 ms MarkObjects: 1.300900 ms  DeleteObjects: 0.012600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001152 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.669 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1906.
+Total: 1.570000 ms (FindLiveObjects: 0.147900 ms CreateObjectMapping: 0.038300 ms MarkObjects: 1.370100 ms  DeleteObjects: 0.013000 ms)
 
 ========================================================================
 Received Prepare
@@ -2235,81 +171,21 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.682 seconds
+- Completed reload, in  0.691 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.5 MB.
-System memory in use after: 87.6 MB.
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1961.
-Total: 1.609900 ms (FindLiveObjects: 0.149200 ms CreateObjectMapping: 0.040300 ms MarkObjects: 1.406600 ms  DeleteObjects: 0.012900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001078 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.669 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.5 MB.
-System memory in use after: 87.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1964.
-Total: 1.812200 ms (FindLiveObjects: 0.163600 ms CreateObjectMapping: 0.044500 ms MarkObjects: 1.584200 ms  DeleteObjects: 0.018100 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1909.
+Total: 1.560400 ms (FindLiveObjects: 0.158200 ms CreateObjectMapping: 0.044700 ms MarkObjects: 1.340600 ms  DeleteObjects: 0.015900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001020 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.638 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.5 MB.
-System memory in use after: 87.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1967.
-Total: 1.383400 ms (FindLiveObjects: 0.121300 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.213500 ms  DeleteObjects: 0.012400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001007 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.644 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.6 MB.
-System memory in use after: 87.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1970.
-Total: 1.574200 ms (FindLiveObjects: 0.148300 ms CreateObjectMapping: 0.037000 ms MarkObjects: 1.374300 ms  DeleteObjects: 0.013600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001096 seconds.
+Registered in 0.001164 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
@@ -2317,136 +193,481 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.674 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.6 MB.
-System memory in use after: 87.7 MB.
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1973.
-Total: 1.635200 ms (FindLiveObjects: 0.144100 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.441800 ms  DeleteObjects: 0.012700 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1912.
+Total: 1.621800 ms (FindLiveObjects: 0.133400 ms CreateObjectMapping: 0.034000 ms MarkObjects: 1.441400 ms  DeleteObjects: 0.012300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001010 seconds.
+Registered in 0.001086 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.652 seconds
+- Completed reload, in  0.662 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.6 MB.
-System memory in use after: 87.7 MB.
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1976.
-Total: 1.673000 ms (FindLiveObjects: 0.142300 ms CreateObjectMapping: 0.035200 ms MarkObjects: 1.480800 ms  DeleteObjects: 0.013800 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1915.
+Total: 1.711700 ms (FindLiveObjects: 0.208100 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.447600 ms  DeleteObjects: 0.013100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001367 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.680 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1918.
+Total: 1.407500 ms (FindLiveObjects: 0.121700 ms CreateObjectMapping: 0.036500 ms MarkObjects: 1.235800 ms  DeleteObjects: 0.012800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001226 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.677 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1921.
+Total: 1.620600 ms (FindLiveObjects: 0.141700 ms CreateObjectMapping: 0.042500 ms MarkObjects: 1.421800 ms  DeleteObjects: 0.013700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001170 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.672 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1924.
+Total: 1.639700 ms (FindLiveObjects: 0.145700 ms CreateObjectMapping: 0.036300 ms MarkObjects: 1.444200 ms  DeleteObjects: 0.012800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001184 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.669 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.2 MB.
+System memory in use after: 73.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1927.
+Total: 1.487800 ms (FindLiveObjects: 0.143100 ms CreateObjectMapping: 0.043800 ms MarkObjects: 1.286100 ms  DeleteObjects: 0.014000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001223 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.662 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.3 MB.
+System memory in use after: 73.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1930.
+Total: 1.427800 ms (FindLiveObjects: 0.119300 ms CreateObjectMapping: 0.032900 ms MarkObjects: 1.262200 ms  DeleteObjects: 0.012400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001361 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.672 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.3 MB.
+System memory in use after: 73.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1933.
+Total: 1.463300 ms (FindLiveObjects: 0.144500 ms CreateObjectMapping: 0.043100 ms MarkObjects: 1.261400 ms  DeleteObjects: 0.013400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2074.798686 seconds.
-  path: Assets/Cubemap_test_imgs/Cubemap1.mat
-  artifactKey: Guid(a7e6a28197f30b343849520b60769b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/Cubemap1.mat using Guid(a7e6a28197f30b343849520b60769b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd366dba23a236ecdc784f86fd53c063b') in 0.077337 seconds
-  Import took 0.079705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 110.279419 seconds.
+  Time since last request: 3077.638421 seconds.
   path: Assets/Cubemap_test_imgs/New Cubemap.cubemap
   artifactKey: Guid(5352f11870f4644489100c225525c742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/New Cubemap.cubemap using Guid(5352f11870f4644489100c225525c742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3420e91813953606f519c35ecb23bea5') in 0.022659 seconds
-  Import took 0.024875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.884290 seconds.
-  path: Assets/Cubemap_test_imgs/Cubemap_test.unity
-  artifactKey: Guid(144cdcd7685700f478efb5a9ff12136f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cubemap_test_imgs/Cubemap_test.unity using Guid(144cdcd7685700f478efb5a9ff12136f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02969e9eedbf856b2be63206785fadc') in 0.002091 seconds
-  Import took 0.004470 seconds .
+Start importing Assets/Cubemap_test_imgs/New Cubemap.cubemap using Guid(5352f11870f4644489100c225525c742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3f1ce953d7fee7d4d1185d4f64b840') in 0.198830 seconds
+  Import took 0.201168 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001046 seconds.
+Registered in 0.001130 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.667 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.3 MB.
+System memory in use after: 73.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1939.
+Total: 1.634300 ms (FindLiveObjects: 0.151500 ms CreateObjectMapping: 0.045000 ms MarkObjects: 1.421500 ms  DeleteObjects: 0.015100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001578 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.670 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.3 MB.
+System memory in use after: 73.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1942.
+Total: 1.433700 ms (FindLiveObjects: 0.121100 ms CreateObjectMapping: 0.037000 ms MarkObjects: 1.262300 ms  DeleteObjects: 0.012400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001106 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.666 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.3 MB.
+System memory in use after: 73.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1945.
+Total: 1.697900 ms (FindLiveObjects: 0.147000 ms CreateObjectMapping: 0.037000 ms MarkObjects: 1.499900 ms  DeleteObjects: 0.013100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001165 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.678 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.3 MB.
+System memory in use after: 73.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1948.
+Total: 1.665200 ms (FindLiveObjects: 0.146800 ms CreateObjectMapping: 0.037000 ms MarkObjects: 1.466000 ms  DeleteObjects: 0.014600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001172 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.677 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.3 MB.
+System memory in use after: 73.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1951.
+Total: 1.485300 ms (FindLiveObjects: 0.139000 ms CreateObjectMapping: 0.039600 ms MarkObjects: 1.292600 ms  DeleteObjects: 0.013200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001126 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.693 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.3 MB.
+System memory in use after: 73.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1954.
+Total: 1.681800 ms (FindLiveObjects: 0.152900 ms CreateObjectMapping: 0.034100 ms MarkObjects: 1.480100 ms  DeleteObjects: 0.014000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001144 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.657 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.3 MB.
+System memory in use after: 73.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1957.
+Total: 1.380100 ms (FindLiveObjects: 0.124900 ms CreateObjectMapping: 0.037900 ms MarkObjects: 1.203500 ms  DeleteObjects: 0.013100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001230 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.666 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.3 MB.
+System memory in use after: 73.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1960.
+Total: 1.428300 ms (FindLiveObjects: 0.118100 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.261900 ms  DeleteObjects: 0.012400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001181 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.645 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.6 MB.
-System memory in use after: 87.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1982.
-Total: 1.488500 ms (FindLiveObjects: 0.125000 ms CreateObjectMapping: 0.035300 ms MarkObjects: 1.313900 ms  DeleteObjects: 0.013100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001102 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.663 seconds
+- Completed reload, in  0.689 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.6 MB.
-System memory in use after: 87.7 MB.
+System memory in use before: 73.4 MB.
+System memory in use after: 73.5 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1985.
-Total: 1.454400 ms (FindLiveObjects: 0.123100 ms CreateObjectMapping: 0.033600 ms MarkObjects: 1.283600 ms  DeleteObjects: 0.013300 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1963.
+Total: 1.661500 ms (FindLiveObjects: 0.171400 ms CreateObjectMapping: 0.040400 ms MarkObjects: 1.435700 ms  DeleteObjects: 0.013400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001012 seconds.
+Registered in 0.001187 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.659 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.4 MB.
+System memory in use after: 73.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1966.
+Total: 1.430800 ms (FindLiveObjects: 0.132500 ms CreateObjectMapping: 0.039900 ms MarkObjects: 1.243300 ms  DeleteObjects: 0.014200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001318 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.668 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.4 MB.
+System memory in use after: 73.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1969.
+Total: 1.463200 ms (FindLiveObjects: 0.124200 ms CreateObjectMapping: 0.034700 ms MarkObjects: 1.291100 ms  DeleteObjects: 0.012400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001216 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.689 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.4 MB.
+System memory in use after: 73.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1972.
+Total: 1.442200 ms (FindLiveObjects: 0.132800 ms CreateObjectMapping: 0.037500 ms MarkObjects: 1.255100 ms  DeleteObjects: 0.016000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001215 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.709 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.4 MB.
+System memory in use after: 73.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1975.
+Total: 1.438800 ms (FindLiveObjects: 0.128200 ms CreateObjectMapping: 0.034600 ms MarkObjects: 1.260700 ms  DeleteObjects: 0.014100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001166 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.670 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.4 MB.
+System memory in use after: 73.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1978.
+Total: 1.608300 ms (FindLiveObjects: 0.143300 ms CreateObjectMapping: 0.035700 ms MarkObjects: 1.415700 ms  DeleteObjects: 0.012900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001272 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.655 seconds
+- Completed reload, in  0.686 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.6 MB.
-System memory in use after: 87.7 MB.
+System memory in use before: 73.4 MB.
+System memory in use after: 73.5 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1988.
-Total: 1.679700 ms (FindLiveObjects: 0.143300 ms CreateObjectMapping: 0.035600 ms MarkObjects: 1.486800 ms  DeleteObjects: 0.013200 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1981.
+Total: 1.467700 ms (FindLiveObjects: 0.129300 ms CreateObjectMapping: 0.037400 ms MarkObjects: 1.285600 ms  DeleteObjects: 0.014100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000994 seconds.
+Registered in 0.001204 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.673 seconds
+- Completed reload, in  0.659 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.6 MB.
-System memory in use after: 87.7 MB.
+System memory in use before: 73.4 MB.
+System memory in use after: 73.5 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1991.
-Total: 1.672800 ms (FindLiveObjects: 0.148700 ms CreateObjectMapping: 0.038000 ms MarkObjects: 1.470400 ms  DeleteObjects: 0.014900 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1984.
+Total: 1.386700 ms (FindLiveObjects: 0.133200 ms CreateObjectMapping: 0.037100 ms MarkObjects: 1.199400 ms  DeleteObjects: 0.015700 ms)
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
