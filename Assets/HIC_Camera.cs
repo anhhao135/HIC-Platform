@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEngine;
-using System.Drawing;
-
 
 public class HIC_Camera : MonoBehaviour
 {
+
+
+    //rgb 140 140 140 is road for homography seg
 
     public IDictionary<string, int> classes = new Dictionary<string, int>()
                                             {
                                                 {"Car", 0}
                                             }; //custom for BDD
-
 
     public float focalLength = 1.93f;
     public float baseline = 55; //in millimeters
@@ -26,7 +26,8 @@ public class HIC_Camera : MonoBehaviour
     //vFoV = 65.5
     //ov9282 sensor is 3.896mm x 2.453mm
 
-    public enum motions {Static, Linear, Oscillate};
+    public enum motions { Static, Linear, Oscillate };
+
     public motions movementMode;
 
     public Transform cameraChassis;
@@ -54,8 +55,8 @@ public class HIC_Camera : MonoBehaviour
 
     private int cameraCaptureCount = 0;
 
-    Camera leftCamera;
-    Camera rightCamera;
+    private Camera leftCamera;
+    private Camera rightCamera;
 
     public int captureFrames = 100;
 
@@ -71,40 +72,42 @@ public class HIC_Camera : MonoBehaviour
 
     public Projector mainProjector;
 
-    int viewCount = 0;
+    private int viewCount = 0;
 
-    int viewIndex = 0;
+    private int viewIndex = 0;
 
     public List<List<Texture2D>> directionTexLists = new List<List<Texture2D>>();
 
-    string streetviewImagesRootDir = @"C:\Repos\Streetview-Synthetic-Data-Generation\directory";
+    private string streetviewImagesRootDir = @"C:\Repos\integrated-synthetic-pipeline\directory";
 
     public ReflectionProbe sceneReflectionProbe;
 
-    int renderID;
+    private int renderID;
 
     public float carSpawnYOffset;
 
-    Dictionary<int, string> facingDirections = new Dictionary<int, string>()
+    public bool toggleStereoCameraBaseline = false;
+
+    private Dictionary<int, string> facingDirections = new Dictionary<int, string>()
     {
-        { 0, "front"},
+        { 0, "front_valid"},
         { 1, "right"},
         { 2, "back"},
         { 3, "left"},
         { 4, "up"},
         { 5, "down"},
+        { 6, "homography"}
     };
 
-    int delayAmount = 20;
+    private int delayAmount = 20;
 
-    int frameDelay = 0;
+    private int frameDelay = 0;
 
-    void Start()
+    public Transform homographyPlane;
+
+    private void Start()
     {
-
-
         previousSpawnedCars = new List<GameObject>();
-
 
         fixedUpdateIterations = 0;
 
@@ -128,7 +131,6 @@ public class HIC_Camera : MonoBehaviour
 
         baseline = baseline / 1000f; //convert mm to meters - unity world units
 
-
         cameraChassis = transform.GetChild(0);
 
         List<Camera> cameras = GetComponentsInChildren<Camera>().ToList();
@@ -142,7 +144,10 @@ public class HIC_Camera : MonoBehaviour
 
             if (mono_cam.name == "Right Cam")
             {
-                mono_cam.transform.localPosition = new Vector3(baseline / 2f, 0f, 0f);
+                if (toggleStereoCameraBaseline == true)
+                {
+                    mono_cam.transform.localPosition = new Vector3(baseline / 2f, 0f, 0f);
+                }
 
                 rightCamera = mono_cam;
 
@@ -158,7 +163,10 @@ public class HIC_Camera : MonoBehaviour
 
             if (mono_cam.name == "Left Cam")
             {
-                mono_cam.transform.localPosition = new Vector3(-baseline / 2f, 0f, 0f);
+                if (toggleStereoCameraBaseline == true)
+                {
+                    mono_cam.transform.localPosition = new Vector3(-baseline / 2f, 0f, 0f);
+                }
 
                 leftCamera = mono_cam;
 
@@ -173,47 +181,65 @@ public class HIC_Camera : MonoBehaviour
             }
         }
 
-        for (int i = 0; i < 6; i++)
-        {
+        DirectoryInfo frontValidDir = new DirectoryInfo(Path.Combine(streetviewImagesRootDir, facingDirections[0]));
+        FileInfo[] frontValidImages = frontValidDir.GetFiles("*.jpg");
 
+        List<string> frontValidNames = new List<string>();
+
+        List<Texture2D> frontValidTexList = new List<Texture2D>();
+
+        foreach (FileInfo file in frontValidImages)
+        {
+            string validName = Path.GetFileName(file.FullName);
+            frontValidNames.Add(validName);
+            Texture2D tex2D = LoadPNG(file.FullName);
+            tex2D.name = file.FullName;
+            frontValidTexList.Add(tex2D);
+        }
+
+        directionTexLists.Add(frontValidTexList);
+
+        for (int i = 1; i < 7; i++)
+        {
             List<Texture2D> texList = new List<Texture2D>();
             DirectoryInfo tempDir = new DirectoryInfo(Path.Combine(streetviewImagesRootDir, facingDirections[i]));
-            FileInfo[] ImageFiles = tempDir.GetFiles("*.jpg"); //Getting Text files
 
-            foreach (FileInfo file in ImageFiles)
+            foreach (string validFileName in frontValidNames)
             {
+                string validImagePath;
 
-                Texture2D tex2D = LoadPNG(file.FullName);
-                //tex2D.wrapMode = TextureWrapMode.Clamp;
-                tex2D.name = file.FullName;
+                if (i == 6)
+                {
+                    validImagePath = Path.Combine(tempDir.FullName, Path.GetFileNameWithoutExtension(validFileName) + ".png");
+                }
+                else
+                {
+                    validImagePath = Path.Combine(tempDir.FullName, validFileName);
+                }
+
+                Texture2D tex2D = LoadPNG(validImagePath);
+                tex2D.name = validImagePath;
                 texList.Add(tex2D);
-
             }
 
             directionTexLists.Add(texList);
-
         }
-
 
         viewCount = directionTexLists[0].Count; //6 images in one view
 
         renderID = sceneReflectionProbe.RenderProbe();
-
-
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    private void FixedUpdate()
     {
-
         if (sceneReflectionProbe.IsFinishedRendering(renderID) && frameDelay == delayAmount)
         {
-
             frameDelay = 0;
 
             viewIndex = UnityEngine.Random.Range(0, viewCount);
 
-            mainProjector.material.SetTexture("_ShadowTex", directionTexLists[0][viewIndex]);
+            //mainProjector.material.SetTexture("_ShadowTex", directionTexLists[0][viewIndex]);
 
             switch (movementMode)
             {
@@ -241,15 +267,60 @@ public class HIC_Camera : MonoBehaviour
             }
 
 
+
+            //spawn cars
+
             previousSpawnedCars.Clear();
+
+
+            Color[] homographyPixels = directionTexLists[6][viewIndex].GetPixels();
+            Debug.Log(directionTexLists[6][viewIndex].name);
+
+            Debug.Log(homographyPixels.Length);
+            //homography image is 1000 x 1000
 
             for (int i = 0; i < UnityEngine.Random.Range(1, maxNumberOfCars); i++)
             {
+
+                Color32 sampledSegColor = new Color32();
+
+                int x = 0;
+                int y = 0;
+
+                while (sampledSegColor.r != 140 || sampledSegColor.g != 140 || sampledSegColor.b != 140)
+                {
+
+                    x = UnityEngine.Random.Range(0, 999);
+                    y = UnityEngine.Random.Range(0, 599);
+
+                    int flatIndex = y * 1000 + x;
+
+                    sampledSegColor = homographyPixels[flatIndex];
+
+                    Debug.Log(sampledSegColor);
+                }
+
+                Debug.Log(x);
+                Debug.Log(y);
+
+                Vector3 spawnPosition = homographyPlane.transform.position + new Vector3(-50f, 0f, -50f) + new Vector3(x / 10f, 0f, y / 10f);
+                
                 GameObject spawnedCar = Instantiate(spawnCarPrefabs[UnityEngine.Random.Range(0, spawnCarPrefabs.Count)]);
-                spawnedCar.transform.position = transform.position + UnityEngine.Random.Range(1f, 40f) * transform.forward + UnityEngine.Random.Range(-7f, 7f) * transform.right + -carSpawnYOffset * transform.up;
-                spawnedCar.transform.Rotate(0f, UnityEngine.Random.Range(-20f, 20f), 0f);
+
+                spawnedCar.transform.position = spawnPosition;
+
+                //Vector3 localSpawnPosition = UnityEngine.Random.Range(-50f, 50f) * transform.forward + UnityEngine.Random.Range(-50f, 50f) * transform.right; //scaled down by 10 because plane is e
+
+                
+
+
+                //spawnedCar.transform.position = transform.position + 
+                spawnedCar.transform.Rotate(0f, UnityEngine.Random.Range(-60f, 60f), 0f);
                 previousSpawnedCars.Add(spawnedCar);
             }
+
+
+            //end spawn cars
 
             Shader skyboxMatShader = Shader.Find("Skybox/6 Sided");
             Material skyboxMatTemp = new Material(skyboxMatShader);
@@ -262,8 +333,11 @@ public class HIC_Camera : MonoBehaviour
 
             RenderSettings.skybox = skyboxMatTemp;
 
-            renderID = sceneReflectionProbe.RenderProbe();
 
+            homographyPlane.GetComponent<Renderer>().material.SetTexture("_MainTex", directionTexLists[6][viewIndex]);
+
+
+            renderID = sceneReflectionProbe.RenderProbe();
 
             /*
 
@@ -279,8 +353,6 @@ public class HIC_Camera : MonoBehaviour
 
             */
 
-
-
             /*
             { 0, "front"},
             { 1, "right"},
@@ -292,28 +364,17 @@ public class HIC_Camera : MonoBehaviour
 
             viewIndex++;
 
-
-
-
             //BoundingBoxUtils.SaveImageAndBoundingBoxes(cameraChassis, leftCamera, cameraBoundingBoxDistance, leftCamDir, fixedUpdateIterations, captureWidth, captureHeight, classes, toggleYOLOFormatRight, 0);
-
-
-
 
             timeSinceStart = timeSinceStart + framePeriod;
 
             fixedUpdateIterations++;
-
-
-
 
             if (toggleCameraCapture == true && cameraCaptureCount == captureFrames)
             {
                 UnityEditor.EditorApplication.isPlaying = false;
             }
         }
-
-
         else
         {
             if (frameDelay == delayAmount - 10)
@@ -324,6 +385,7 @@ public class HIC_Camera : MonoBehaviour
             frameDelay++;
         }
     }
+
     public float TriangleWave(float x, float a, float p)
     {
         return ((4f * a) / p) * UnityEngine.Mathf.Abs(((x - p / 4f) % p) - p / 2f) - a;
@@ -351,7 +413,6 @@ public class HIC_Camera : MonoBehaviour
 
     public static Texture2D LoadPNG(string filePath)
     {
-
         Texture2D tex = null;
         byte[] fileData;
 
