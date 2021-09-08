@@ -33,15 +33,11 @@ public class BoundingBoxUtils : MonoBehaviour
             if (rootObject != null)
             {
                 Vector3 screenPoint = targetCamera.WorldToViewportPoint(hitCollider.transform.position);
-                bool onScreen = screenPoint.z >= 0f && screenPoint.x > 0f && screenPoint.x < 1f && screenPoint.y > 0f && screenPoint.y < 1f;
+                bool onScreen = screenPoint.z >= -0.5f && screenPoint.x > 0f && screenPoint.x < 1f && screenPoint.y > 0f && screenPoint.y < 1f;
+                onScreen = true;
 
                 if (onScreen)
                 {
-
-                    Debug.Log("cam bbox dis" + cameraBoundingBoxDistance);
-                    Debug.Log("bbox center" + rootObject.transform.position);
-                    Debug.Log("chassis center" + cameraChassis.position);
-                    Debug.Log("mag" + Vector3.Magnitude(rootObject.transform.position - cameraChassis.position));
 
                     if (Vector3.Magnitude(rootObject.transform.position - cameraChassis.position) < cameraBoundingBoxDistance)
                     {
@@ -75,7 +71,7 @@ public class BoundingBoxUtils : MonoBehaviour
 
 
 
-        using (StreamWriter streamWriter = File.CreateText(cameraDirectory.FullName + "/" + frameNumber.ToString().PadLeft(10, '0') + ".txt"))
+        using (StreamWriter streamWriter = File.CreateText(cameraDirectory.FullName + "/Annotations/" + frameNumber.ToString().PadLeft(10, '0') + ".txt"))
         {
             foreach (RootObject rootObject in rootObjects)
             {
@@ -218,10 +214,10 @@ public class BoundingBoxUtils : MonoBehaviour
 
                 if (toggleYOLOFormatRight == true)
                 {
-                    XCoord = XCoord / captureWidth;
-                    YCoord = YCoord / captureHeight;
-                    height = height / captureHeight;
-                    width = width / captureWidth; //normalize ground truth to screen dimensions for YOLOv3 labelling format
+                    XCoord = (int)XCoord;// / captureWidth;
+                    YCoord = (int)YCoord;// / captureHeight;
+                    height = (int)height;// / captureHeight;
+                    width = (int)width;// / captureWidth; //normalize ground truth to screen dimensions for YOLOv3 labelling format
                 }
 
                 else
@@ -237,7 +233,7 @@ public class BoundingBoxUtils : MonoBehaviour
             }
         }
 
-        targetCamera.GetComponent<ImageSynthesis>().Save((frameNumber + frameNumberOffset).ToString().PadLeft(10, '0'), captureWidth, captureHeight, cameraDirectory.ToString());
+        targetCamera.GetComponent<ImageSynthesis>().Save((frameNumber + frameNumberOffset).ToString().PadLeft(10, '0'), captureWidth, captureHeight, Path.Combine(cameraDirectory.ToString(), "Img"));
 
     }
 
@@ -299,10 +295,8 @@ public class BoundingBoxUtils : MonoBehaviour
     static public Vector3[] CalculateBoundingBox(GameObject aObj, Camera cam)
     {
         Transform parent = aObj.transform.root;
-        Debug.Log("Parent name is: " + parent.name);
         List<Vector3> worldMesh = new List<Vector3>();
         getWorldMesh(parent, worldMesh, cam);
-        Debug.Log("world mesh count is " + worldMesh.Count);
 
         Vector3 min, max;
         min = max = cam.WorldToScreenPoint(worldMesh[0]);

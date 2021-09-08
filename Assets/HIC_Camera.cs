@@ -6,8 +6,6 @@ using UnityEngine;
 
 public class HIC_Camera : MonoBehaviour
 {
-
-
     //rgb 140 140 140 is road for homography seg
 
     public IDictionary<string, int> classes = new Dictionary<string, int>()
@@ -99,11 +97,18 @@ public class HIC_Camera : MonoBehaviour
         { 6, "homography"}
     };
 
-    private int delayAmount = 20;
+    private int delayAmount = 5;
 
     private int frameDelay = 0;
 
     public Transform homographyPlane;
+
+    private DirectoryInfo ImgDir;
+    private DirectoryInfo AnnotationsDir;
+
+    public float carCollisionRadius = 2.5f;
+
+    private System.Random RNG = new System.Random();
 
     private void Start()
     {
@@ -115,6 +120,8 @@ public class HIC_Camera : MonoBehaviour
         {
             leftCamDir = Directory.CreateDirectory(string.Format("Session_{0:yyyy-MM-dd}", DateTime.Now) + "_" + "left" + "_" + gameObject.name);
             rightCamDir = Directory.CreateDirectory(string.Format("Session_{0:yyyy-MM-dd}", DateTime.Now) + "_" + "right" + "_" + gameObject.name);
+            ImgDir = Directory.CreateDirectory(Path.Combine(rightCamDir.ToString(), "Img"));
+            AnnotationsDir = Directory.CreateDirectory(Path.Combine(rightCamDir.ToString(), "Annotations"));
         }
 
         if (toggleCameraCapture == true)
@@ -266,59 +273,62 @@ public class HIC_Camera : MonoBehaviour
                 }
             }
 
-
-
             //spawn cars
 
             previousSpawnedCars.Clear();
 
-
             Color[] homographyPixels = directionTexLists[6][viewIndex].GetPixels();
-            Debug.Log(directionTexLists[6][viewIndex].name);
 
-            Debug.Log(homographyPixels.Length);
             //homography image is 1000 x 1000
 
-            for (int i = 0; i < UnityEngine.Random.Range(1, maxNumberOfCars); i++)
-            {
+            int randomNum = RNG.Next(1, maxNumberOfCars);
 
+            for (int i = 0; i < randomNum; ++i)
+            {
                 Color32 sampledSegColor = new Color32();
+
+                bool collision = true;
 
                 int x = 0;
                 int y = 0;
 
-                while (sampledSegColor.r != 140 || sampledSegColor.g != 140 || sampledSegColor.b != 140)
-                {
+                Vector3 spawnPosition = Vector3.zero;
 
+                while (sampledSegColor.r != 140 || sampledSegColor.g != 140 || sampledSegColor.b != 140 || collision)
+                {
                     x = UnityEngine.Random.Range(0, 999);
-                    y = UnityEngine.Random.Range(0, 599);
+                    y = UnityEngine.Random.Range(0, 399);
 
                     int flatIndex = y * 1000 + x;
 
                     sampledSegColor = homographyPixels[flatIndex];
 
-                    Debug.Log(sampledSegColor);
+                    spawnPosition = homographyPlane.transform.position + new Vector3(-50f, 0f, -50f) + new Vector3(x / 10f, 0f, y / 10f);
+
+                    collision = false;
+
+                    if (previousSpawnedCars.Count > 0)
+                    {
+                        foreach (GameObject previousSpawnedCar in previousSpawnedCars)
+                        {
+                            if (Vector3.Magnitude(previousSpawnedCar.transform.position - spawnPosition) < 2 * carCollisionRadius)
+                            {
+                                collision = true;
+                            }
+                        }
+                    }
                 }
 
-                Debug.Log(x);
-                Debug.Log(y);
-
-                Vector3 spawnPosition = homographyPlane.transform.position + new Vector3(-50f, 0f, -50f) + new Vector3(x / 10f, 0f, y / 10f);
-                
                 GameObject spawnedCar = Instantiate(spawnCarPrefabs[UnityEngine.Random.Range(0, spawnCarPrefabs.Count)]);
 
                 spawnedCar.transform.position = spawnPosition;
 
                 //Vector3 localSpawnPosition = UnityEngine.Random.Range(-50f, 50f) * transform.forward + UnityEngine.Random.Range(-50f, 50f) * transform.right; //scaled down by 10 because plane is e
 
-                
-
-
-                //spawnedCar.transform.position = transform.position + 
-                spawnedCar.transform.Rotate(0f, UnityEngine.Random.Range(-60f, 60f), 0f);
+                //spawnedCar.transform.position = transform.position +
+                spawnedCar.transform.Rotate(0f, UnityEngine.Random.Range(0f, 360f), 0f);
                 previousSpawnedCars.Add(spawnedCar);
             }
-
 
             //end spawn cars
 
@@ -333,9 +343,7 @@ public class HIC_Camera : MonoBehaviour
 
             RenderSettings.skybox = skyboxMatTemp;
 
-
             homographyPlane.GetComponent<Renderer>().material.SetTexture("_MainTex", directionTexLists[6][viewIndex]);
-
 
             renderID = sceneReflectionProbe.RenderProbe();
 
@@ -372,14 +380,43 @@ public class HIC_Camera : MonoBehaviour
 
             if (toggleCameraCapture == true && cameraCaptureCount == captureFrames)
             {
+                string[] ImgFileNames = Directory.GetFiles(ImgDir.FullName);
+
+                System.Random random = new System.Random();
+                ImgFileNames = ImgFileNames.OrderBy(x => random.Next()).ToArray();
+                int fileCount = ImgFileNames.Length;
+                int splitIndex = (int)(0.9f * fileCount);
+
+                String[] TrainValNames = SubArray(ImgFileNames, 0, splitIndex - 1);
+                String[] TestNames = SubArray(ImgFileNames, splitIndex, fileCount - splitIndex);
+
+                using (StreamWriter writer = new StreamWriter(Path.Combine(rightCamDir.FullName, "trainval.txt")))
+                {
+                    foreach (string fullPath in TrainValNames)
+                    {
+                        writer.WriteLine(Path.GetFileNameWithoutExtension(fullPath));
+                    }
+                }
+
+                using (StreamWriter writer = new StreamWriter(Path.Combine(rightCamDir.FullName, "test.txt")))
+                {
+                    foreach (string fullPath in TestNames)
+                    {
+                        writer.WriteLine(Path.GetFileNameWithoutExtension(fullPath));
+                    }
+                }
+
                 UnityEditor.EditorApplication.isPlaying = false;
             }
         }
         else
         {
-            if (frameDelay == delayAmount - 10)
+            if (frameDelay == (int)(0.5f * delayAmount) && fixedUpdateIterations != 0)
             {
                 BoundingBoxUtils.SaveImageAndBoundingBoxes(cameraChassis, rightCamera, cameraBoundingBoxDistance, rightCamDir, fixedUpdateIterations, captureWidth, captureHeight, classes, toggleYOLOFormatRight, 0);
+
+                Debug.Log("photo taken");
+
                 cameraCaptureCount++;
             }
             frameDelay++;
@@ -423,5 +460,12 @@ public class HIC_Camera : MonoBehaviour
             tex.LoadImage(fileData); //..this will auto-resize the texture dimensions.
         }
         return tex;
+    }
+
+    private T[] SubArray<T>(T[] data, int index, int length)
+    {
+        T[] result = new T[length];
+        Array.Copy(data, index, result, 0, length);
+        return result;
     }
 }
