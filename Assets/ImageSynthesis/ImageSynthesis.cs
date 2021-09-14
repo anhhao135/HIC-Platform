@@ -495,8 +495,12 @@ public class ImageSynthesis : MonoBehaviour
         cam.targetTexture = prevCameraRT;
         RenderTexture.active = prevActiveRT;
 
-        UnityEngine.Object.Destroy(tex);
+        DestroyImmediate(tex);
         RenderTexture.ReleaseTemporary(finalRT);
+        //DestroyImmediate(finalRT);
+        //DestroyImmediate(prevActiveRT);
+        //DestroyImmediate(prevCameraRT);
+        //DestroyImmediate(renderRT);
     }
 
 #if UNITY_EDITOR

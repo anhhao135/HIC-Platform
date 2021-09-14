@@ -110,6 +110,8 @@ public class HIC_Camera : MonoBehaviour
 
     private System.Random RNG = new System.Random();
 
+    private Material previousSkybox;
+
     private void Start()
     {
         previousSpawnedCars = new List<GameObject>();
@@ -294,10 +296,14 @@ public class HIC_Camera : MonoBehaviour
 
                 Vector3 spawnPosition = Vector3.zero;
 
+                int placementTries = 0;
+
+                bool validPosition = true;
+
                 while (sampledSegColor.r != 140 || sampledSegColor.g != 140 || sampledSegColor.b != 140 || collision)
                 {
                     x = UnityEngine.Random.Range(0, 999);
-                    y = UnityEngine.Random.Range(0, 399);
+                    y = UnityEngine.Random.Range(0, 450);
 
                     int flatIndex = y * 1000 + x;
 
@@ -317,20 +323,65 @@ public class HIC_Camera : MonoBehaviour
                             }
                         }
                     }
+
+                    placementTries++;
+
+                    if (placementTries > 500) //max number of possible positions
+                    {
+                        validPosition = false;
+                        Debug.Log("impossible");
+                        break;
+                    }
                 }
 
-                GameObject spawnedCar = Instantiate(spawnCarPrefabs[UnityEngine.Random.Range(0, spawnCarPrefabs.Count)]);
+                if (validPosition == true)
+                {
+                    GameObject spawnedCar = Instantiate(spawnCarPrefabs[UnityEngine.Random.Range(0, spawnCarPrefabs.Count)]);
 
-                spawnedCar.transform.position = spawnPosition;
+                    spawnedCar.transform.position = spawnPosition;
 
-                //Vector3 localSpawnPosition = UnityEngine.Random.Range(-50f, 50f) * transform.forward + UnityEngine.Random.Range(-50f, 50f) * transform.right; //scaled down by 10 because plane is e
+                    //Vector3 localSpawnPosition = UnityEngine.Random.Range(-50f, 50f) * transform.forward + UnityEngine.Random.Range(-50f, 50f) * transform.right; //scaled down by 10 because plane is e
 
-                //spawnedCar.transform.position = transform.position +
-                spawnedCar.transform.Rotate(0f, UnityEngine.Random.Range(0f, 360f), 0f);
-                previousSpawnedCars.Add(spawnedCar);
+                    //spawnedCar.transform.position = transform.position +
+                    spawnedCar.transform.Rotate(0f, UnityEngine.Random.Range(0f, 360f), 0f);
+
+                    CarMaterialChange spawnedCarChanger = spawnedCar.transform.GetComponent<CarMaterialChange>();
+
+                    Renderer[] renderers = spawnedCar.GetComponentsInChildren<Renderer>();
+
+
+                    float randomGreyfloat = UnityEngine.Random.Range(0.05f, 0.95f);
+
+                    Color randomGreyscale = new Color(randomGreyfloat, randomGreyfloat, randomGreyfloat);
+
+                    Color randomColor = UnityEngine.Random.ColorHSV();
+                    float randomGloss = UnityEngine.Random.Range(0.75f, 0.99f);
+
+                    foreach (Renderer renderer in renderers)
+                    {
+                        foreach (Material carMaterial in renderer.materials)
+                        {
+                            if ((carMaterial.name == spawnedCarChanger.materialName) || (carMaterial.name == spawnedCarChanger.materialName + " (Instance)"))
+                            {
+
+                                carMaterial.SetColor("_Color", randomGreyscale);
+                                carMaterial.SetFloat("_Glossiness", randomGloss);
+                            }
+                        }
+                    }
+
+                    previousSpawnedCars.Add(spawnedCar);
+
+                    
+                }
             }
 
             //end spawn cars
+
+            if (previousSkybox != null)
+            {
+                DestroyImmediate(previousSkybox);
+            }
 
             Shader skyboxMatShader = Shader.Find("Skybox/6 Sided");
             Material skyboxMatTemp = new Material(skyboxMatShader);
@@ -341,9 +392,11 @@ public class HIC_Camera : MonoBehaviour
             skyboxMatTemp.SetTexture("_UpTex", directionTexLists[4][viewIndex]);
             skyboxMatTemp.SetTexture("_DownTex", directionTexLists[5][viewIndex]);
 
+            previousSkybox = skyboxMatTemp;
+
             RenderSettings.skybox = skyboxMatTemp;
 
-            homographyPlane.GetComponent<Renderer>().material.SetTexture("_MainTex", directionTexLists[6][viewIndex]);
+            //homographyPlane.GetComponent<Renderer>().material.SetTexture("_MainTex", directionTexLists[6][viewIndex]);
 
             renderID = sceneReflectionProbe.RenderProbe();
 
@@ -413,7 +466,12 @@ public class HIC_Camera : MonoBehaviour
         {
             if (frameDelay == (int)(0.5f * delayAmount) && fixedUpdateIterations != 0)
             {
-                BoundingBoxUtils.SaveImageAndBoundingBoxes(cameraChassis, rightCamera, cameraBoundingBoxDistance, rightCamDir, fixedUpdateIterations, captureWidth, captureHeight, classes, toggleYOLOFormatRight, 0);
+
+                if (previousSpawnedCars.Count > 0)
+                {
+                    BoundingBoxUtils.SaveImageAndBoundingBoxes(cameraChassis, rightCamera, cameraBoundingBoxDistance, rightCamDir, fixedUpdateIterations, captureWidth, captureHeight, classes, toggleYOLOFormatRight, 0);
+                }
+                
 
                 Debug.Log("photo taken");
 
@@ -421,6 +479,8 @@ public class HIC_Camera : MonoBehaviour
             }
             frameDelay++;
         }
+
+        Resources.UnloadUnusedAssets();
     }
 
     public float TriangleWave(float x, float a, float p)
