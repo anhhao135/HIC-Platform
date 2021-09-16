@@ -41,6 +41,7 @@ public class BoundingBoxUtils : MonoBehaviour
             }
         }
 
+
         using (StreamWriter streamWriter = File.CreateText(cameraDirectory.FullName + "/Annotations/" + frameNumber.ToString().PadLeft(10, '0') + ".txt"))
         {
             foreach (RootObject rootObject in rootObjects)
@@ -200,7 +201,7 @@ public class BoundingBoxUtils : MonoBehaviour
                 }
                 catch
                 {
-                    break;
+                    continue;
                 }
             }
         }

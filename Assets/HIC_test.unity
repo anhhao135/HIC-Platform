@@ -1149,7 +1149,7 @@ MonoBehaviour:
   fixedFPS: 60
   captureWidth: 1280
   captureHeight: 720
-  captureFrames: 80
+  captureFrames: 1000
   cameraBoundingBoxDistance: 90
   toggleYOLOFormatRight: 1
   spawnCarPrefabs:
@@ -1169,12 +1169,12 @@ MonoBehaviour:
   - {fileID: 2958752666430046682, guid: 44b9a40b0a5cad74e8ca39108e9707cc, type: 3}
   - {fileID: 3043032295253790716, guid: 9f2a45ac7db62364888850899f6f34d2, type: 3}
   - {fileID: 5431551439026376055, guid: 6b9103bdcd3be24478b78dd7c39aa843, type: 3}
-  maxNumberOfCars: 15
+  maxNumberOfCars: 10
   mainProjector: {fileID: 630627986}
   sceneReflectionProbe: {fileID: 875170418}
   carSpawnYOffset: 2.2
   toggleStereoCameraBaseline: 0
-  bboxOcclusionRatio: 0.6
+  bboxOcclusionRatio: 0.2
   sun: {fileID: 21368813}
   homographyPlane: {fileID: 1031900441}
   carCollisionRadius: 2.5

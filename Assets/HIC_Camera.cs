@@ -74,9 +74,9 @@ public class HIC_Camera : MonoBehaviour
 
     private int viewIndex = 0;
 
-    public List<List<Texture2D>> directionTexLists = new List<List<Texture2D>>();
+    public List<List<FileInfo>> directionFileInfoLists = new List<List<FileInfo>>();
 
-    private string streetviewImagesRootDir = @"C:\Repos\integrated-synthetic-pipeline\directory";
+    private string streetviewImagesRootDir = @"C:\Repos\Streetview sets\directory_japan";
 
     public ReflectionProbe sceneReflectionProbe;
 
@@ -205,22 +205,30 @@ public class HIC_Camera : MonoBehaviour
 
         List<string> frontValidNames = new List<string>();
 
-        List<Texture2D> frontValidTexList = new List<Texture2D>();
+        List<FileInfo> frontValidFileInfoList = new List<FileInfo>();
 
         foreach (FileInfo file in frontValidImages)
         {
+            /*
             string validName = Path.GetFileName(file.FullName);
             frontValidNames.Add(validName);
             Texture2D tex2D = LoadPNG(file.FullName);
             tex2D.name = file.FullName;
             frontValidTexList.Add(tex2D);
+
+            */
+            string validName = Path.GetFileName(file.FullName);
+            frontValidNames.Add(validName);
+            frontValidFileInfoList.Add(file);
+
+            
         }
 
-        directionTexLists.Add(frontValidTexList);
+        directionFileInfoLists.Add(frontValidFileInfoList);
 
         for (int i = 1; i < 7; i++)
         {
-            List<Texture2D> texList = new List<Texture2D>();
+            List<FileInfo> fileInfoList = new List<FileInfo>();
             DirectoryInfo tempDir = new DirectoryInfo(Path.Combine(streetviewImagesRootDir, facingDirections[i]));
 
             foreach (string validFileName in frontValidNames)
@@ -236,15 +244,13 @@ public class HIC_Camera : MonoBehaviour
                     validImagePath = Path.Combine(tempDir.FullName, validFileName);
                 }
 
-                Texture2D tex2D = LoadPNG(validImagePath);
-                tex2D.name = validImagePath;
-                texList.Add(tex2D);
+                fileInfoList.Add(new FileInfo(validImagePath));
             }
 
-            directionTexLists.Add(texList);
+            directionFileInfoLists.Add(fileInfoList);
         }
 
-        viewCount = directionTexLists[0].Count; //6 images in one view
+        viewCount = directionFileInfoLists[0].Count; //6 images in one view
 
         renderID = sceneReflectionProbe.RenderProbe();
     }
@@ -291,7 +297,7 @@ public class HIC_Camera : MonoBehaviour
 
             previousSpawnedCars.Clear();
 
-            Color[] homographyPixels = directionTexLists[6][viewIndex].GetPixels();
+            Color[] homographyPixels = LoadPNG(directionFileInfoLists[6][viewIndex].FullName).GetPixels();
 
             //homography image is 1000 x 1000
 
@@ -413,12 +419,12 @@ public class HIC_Camera : MonoBehaviour
 
             Shader skyboxMatShader = Shader.Find("Skybox/6 Sided");
             Material skyboxMatTemp = new Material(skyboxMatShader);
-            skyboxMatTemp.SetTexture("_FrontTex", directionTexLists[0][viewIndex]); //get first tex list which is for the fronts, then get the index image
-            skyboxMatTemp.SetTexture("_RightTex", directionTexLists[3][viewIndex]); //left and right texs need to be switched
-            skyboxMatTemp.SetTexture("_BackTex", directionTexLists[2][viewIndex]);
-            skyboxMatTemp.SetTexture("_LeftTex", directionTexLists[1][viewIndex]);
-            skyboxMatTemp.SetTexture("_UpTex", directionTexLists[4][viewIndex]);
-            skyboxMatTemp.SetTexture("_DownTex", directionTexLists[5][viewIndex]);
+            skyboxMatTemp.SetTexture("_FrontTex", LoadPNG(directionFileInfoLists[0][viewIndex].FullName)); //get first tex list which is for the fronts, then get the index image
+            skyboxMatTemp.SetTexture("_RightTex", LoadPNG(directionFileInfoLists[3][viewIndex].FullName)); //left and right texs need to be switched
+            skyboxMatTemp.SetTexture("_BackTex", LoadPNG(directionFileInfoLists[2][viewIndex].FullName));
+            skyboxMatTemp.SetTexture("_LeftTex", LoadPNG(directionFileInfoLists[1][viewIndex].FullName));
+            skyboxMatTemp.SetTexture("_UpTex", LoadPNG(directionFileInfoLists[4][viewIndex].FullName));
+            skyboxMatTemp.SetTexture("_DownTex", LoadPNG(directionFileInfoLists[5][viewIndex].FullName));
 
             previousSkybox = skyboxMatTemp;
 
