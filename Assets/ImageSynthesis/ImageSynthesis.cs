@@ -22,10 +22,13 @@ public class ImageSynthesis : MonoBehaviour
 {
     public bool multichannelDepth = false;
     public Dictionary<string, string> instanceSegDict = new Dictionary<string, string>();
+    public Dictionary<int, Color> instanceSegDictColor = new Dictionary<int, Color>();
 
     public float depthFarClipPlane = 20f;
 
-    public bool toggleDepth = true;
+    public bool toggleDepth = false;
+
+    public bool toggleSeg = false;
 
     // pass configuration
 
@@ -197,6 +200,7 @@ public class ImageSynthesis : MonoBehaviour
     public void OnSceneChange()
     {
         var renderers = UnityEngine.Object.FindObjectsOfType<Renderer>();
+
         var mpb = new MaterialPropertyBlock();
 
         foreach (var r in renderers)
@@ -216,19 +220,7 @@ public class ImageSynthesis : MonoBehaviour
 
             //id = r.gameObject.GetInstanceID();
 
-            GameObject rootObject = null;
-
-            try
-            {
-                rootObject = r.transform.GetComponentInParent<RootObject>().gameObject;
-            }
-            catch
-            {
-                if (r.transform.gameObject.GetComponent<RootObject>() != null)
-                {
-                    rootObject = r.transform.gameObject;
-                }
-            }
+            GameObject rootObject = r.gameObject.transform.root.gameObject;
 
             if (rootObject != null)
             {
@@ -242,6 +234,11 @@ public class ImageSynthesis : MonoBehaviour
                     parentObjectTag = rootObject.tag;
                 }
                 catch
+                {
+                    continue;
+                }
+
+                if (parentObjectTag != "car")
                 {
                     continue;
                 }
@@ -273,7 +270,8 @@ public class ImageSynthesis : MonoBehaviour
 
                 try
                 {
-                    instanceSegDict.Add(((Color32)encodedIDColor).ToString(), parentObjectTag);
+                    instanceSegDict.Add(((Color32)encodedIDColor).ToString(), id.ToString());
+                    instanceSegDictColor.Add(id, encodedIDColor);
                 }
                 catch
                 {
@@ -326,7 +324,10 @@ public class ImageSynthesis : MonoBehaviour
             Save(capturePasses[3].camera, filenameWithoutExtension + capturePasses[3].name + filenameExtension, width, height, capturePasses[3].supportsAntialiasing, capturePasses[3].needsRescale); //save depth
         }
 
-
+        if (toggleSeg == true)
+        {
+            Save(capturePasses[1].camera, filenameWithoutExtension + "_seg" + filenameExtension, width, height, capturePasses[1].supportsAntialiasing, capturePasses[1].needsRescale);
+        }
 
         /*
         SavePointCloud(capturePasses[3].camera, filenameWithoutExtension + capturePasses[3].name + filenameExtension, width, height, capturePasses[3].supportsAntialiasing, capturePasses[3].needsRescale, path);
@@ -497,6 +498,60 @@ public class ImageSynthesis : MonoBehaviour
 
         DestroyImmediate(tex);
         RenderTexture.ReleaseTemporary(finalRT);
+        //DestroyImmediate(finalRT);
+        //DestroyImmediate(prevActiveRT);
+        //DestroyImmediate(prevCameraRT);
+        //DestroyImmediate(renderRT);
+    }
+
+    public Color[] GetSegmentationPixels()
+    {
+        Camera cam = capturePasses[1].camera;
+
+        int width = Screen.width;
+        int height = Screen.height;
+        bool supportsAntialiasing = false;
+        bool needsRescale = false;
+
+        var mainCamera = GetComponent<Camera>();
+        var depth = 24;
+        var format = RenderTextureFormat.Default;
+        var readWrite = RenderTextureReadWrite.Default;
+        var antiAliasing = (supportsAntialiasing) ? Mathf.Max(1, QualitySettings.antiAliasing) : 1;
+
+        var finalRT =
+            RenderTexture.GetTemporary(width, height, depth, format, readWrite, antiAliasing);
+        var renderRT = (!needsRescale) ? finalRT :
+            RenderTexture.GetTemporary(mainCamera.pixelWidth, mainCamera.pixelHeight, depth, format, readWrite, antiAliasing);
+        var tex = new Texture2D(width, height, TextureFormat.RGB24, false);
+
+        var prevActiveRT = RenderTexture.active;
+        var prevCameraRT = cam.targetTexture;
+
+        // render to offscreen texture (readonly from CPU side)
+        RenderTexture.active = renderRT;
+        cam.targetTexture = renderRT;
+
+        cam.Render();
+
+        if (needsRescale)
+        {
+            // blit to rescale (see issue with Motion Vectors in @KNOWN ISSUES)
+            RenderTexture.active = finalRT;
+            Graphics.Blit(renderRT, finalRT);
+            RenderTexture.ReleaseTemporary(renderRT);
+        }
+
+        // read offsreen texture contents into the CPU readable texture
+        tex.ReadPixels(new Rect(0, 0, tex.width, tex.height), 0, 0);
+        tex.Apply();
+
+        // restore state and cleanup
+        cam.targetTexture = prevCameraRT;
+        RenderTexture.active = prevActiveRT;
+        RenderTexture.ReleaseTemporary(finalRT);
+
+        return tex.GetPixels();
         //DestroyImmediate(finalRT);
         //DestroyImmediate(prevActiveRT);
         //DestroyImmediate(prevCameraRT);

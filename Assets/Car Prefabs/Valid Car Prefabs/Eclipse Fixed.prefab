@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1812244931645971905}
   - component: {fileID: 3697615772851026252}
   - component: {fileID: 5156644902856656856}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: 2003eclipse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,9 +91,9 @@ GameObject:
   m_Component:
   - component: {fileID: 418972127868108255}
   - component: {fileID: 2519884311928537402}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Eclipse Fixed
-  m_TagString: Untagged
+  m_TagString: car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -142,7 +142,7 @@ GameObject:
   - component: {fileID: 8476138512015598454}
   - component: {fileID: 6839481592341334715}
   - component: {fileID: 1752529740454794732}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Root Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -216,7 +216,7 @@ GameObject:
   - component: {fileID: 7010108722920777767}
   - component: {fileID: 6144199581737566138}
   - component: {fileID: 758799995778261220}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: wheels-n-acc
   m_TagString: Untagged
   m_Icon: {fileID: 0}

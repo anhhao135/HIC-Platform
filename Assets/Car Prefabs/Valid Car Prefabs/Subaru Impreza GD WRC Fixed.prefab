@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5600958798081245003}
   - component: {fileID: 4578408374423898228}
   - component: {fileID: 1918794951896879105}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_lightgla#3_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 5416966135156983121}
   - component: {fileID: 2986051441093843193}
   - component: {fileID: 1962080643650370971}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_window_r_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 1156256156412603513}
   - component: {fileID: 1814394414875421355}
   - component: {fileID: 2002127923552274217}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_doorlogo#2_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -254,7 +254,7 @@ GameObject:
   - component: {fileID: 2988774193981537705}
   - component: {fileID: 5451891110227034029}
   - component: {fileID: 6949542527357221826}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bucket Seat_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -341,7 +341,7 @@ GameObject:
   - component: {fileID: 449925329739491911}
   - component: {fileID: 4575148148141539509}
   - component: {fileID: 3630019449562099299}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_light_rb#1_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -422,7 +422,7 @@ GameObject:
   - component: {fileID: 3550510708256469119}
   - component: {fileID: 3782031200322328080}
   - component: {fileID: 5011409382706347487}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_wiper_l_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -503,7 +503,7 @@ GameObject:
   - component: {fileID: 7302030090751166219}
   - component: {fileID: 7154848976318586823}
   - component: {fileID: 2326466801237738537}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_bumper_b_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -585,7 +585,7 @@ GameObject:
   - component: {fileID: 4616355216500521367}
   - component: {fileID: 6072053256693391512}
   - component: {fileID: 3995440419403135468}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_doorlogo_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -666,7 +666,7 @@ GameObject:
   - component: {fileID: 3513206450439884099}
   - component: {fileID: 1842409895723839420}
   - component: {fileID: 2230756601940400139}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_lightgla#1_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -747,7 +747,7 @@ GameObject:
   - component: {fileID: 9097845068501420655}
   - component: {fileID: 2994905426225450046}
   - component: {fileID: 8499430824045601628}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_wheel_ta_003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -831,7 +831,7 @@ GameObject:
   - component: {fileID: 2358133148134938855}
   - component: {fileID: 1452425468064362945}
   - component: {fileID: 8446590598656135779}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Component#1_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -914,7 +914,7 @@ GameObject:
   - component: {fileID: 1244115338101335718}
   - component: {fileID: 3050563757721974221}
   - component: {fileID: 5088875560772598307}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_wheelsus#1_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -996,7 +996,7 @@ GameObject:
   - component: {fileID: 793386610637369554}
   - component: {fileID: 8602146086989576640}
   - component: {fileID: 8148600619510411288}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_wheelsus#3_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1078,7 +1078,7 @@ GameObject:
   - component: {fileID: 663955045231651184}
   - component: {fileID: 1593982718799454603}
   - component: {fileID: 866224992291347661}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_light_so#1_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1161,7 +1161,7 @@ GameObject:
   - component: {fileID: 1950660380410531211}
   - component: {fileID: 1212477288662594228}
   - component: {fileID: 744312236887769278}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_wing2_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1243,7 +1243,7 @@ GameObject:
   - component: {fileID: 4650729485182829248}
   - component: {fileID: 6483829032107996808}
   - component: {fileID: 8644551879704346460}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bucket Seat_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1330,7 +1330,7 @@ GameObject:
   - component: {fileID: 2032921426953939922}
   - component: {fileID: 6264305839668031195}
   - component: {fileID: 8243611692041630103}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_light_re#3_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1411,7 +1411,7 @@ GameObject:
   - component: {fileID: 3556657620537345867}
   - component: {fileID: 9192464413772850321}
   - component: {fileID: 5201657423859447960}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Zacisk11_005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1493,7 +1493,7 @@ GameObject:
   - component: {fileID: 2677002981019100836}
   - component: {fileID: 290912994244988232}
   - component: {fileID: 2159887308722175176}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_window_b_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1575,7 +1575,7 @@ GameObject:
   - component: {fileID: 5434399250493355701}
   - component: {fileID: 2662801961346349659}
   - component: {fileID: 4825444532887195646}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_steering_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1660,7 +1660,7 @@ GameObject:
   - component: {fileID: 8089031374985489593}
   - component: {fileID: 3111924197695497809}
   - component: {fileID: 1382051367662236829}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Root Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1734,7 +1734,7 @@ GameObject:
   - component: {fileID: 6125475154743580696}
   - component: {fileID: 4301840015354410134}
   - component: {fileID: 8779748890053749653}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Zacisk11_003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1814,7 +1814,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8024909708782634481}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Axis Fix
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1913,7 +1913,7 @@ GameObject:
   - component: {fileID: 1718592163470787992}
   - component: {fileID: 747879077445710004}
   - component: {fileID: 3734462737103926268}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_bumperve_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1994,7 +1994,7 @@ GameObject:
   - component: {fileID: 6399629828498636752}
   - component: {fileID: 7222855247798237304}
   - component: {fileID: 2877114638113614648}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_light_re#2_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2075,7 +2075,7 @@ GameObject:
   - component: {fileID: 8451244882972596013}
   - component: {fileID: 7148785104848795306}
   - component: {fileID: 6294707290215472618}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_lightgla_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2156,7 +2156,7 @@ GameObject:
   - component: {fileID: 6497991358872176452}
   - component: {fileID: 8282543463224265624}
   - component: {fileID: 2328583251429383153}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_sparewhe#1_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2237,7 +2237,7 @@ GameObject:
   - component: {fileID: 2979301198385154662}
   - component: {fileID: 8093134084487450206}
   - component: {fileID: 8122544211055122070}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_mirror_r_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2319,7 +2319,7 @@ GameObject:
   - component: {fileID: 1618924077815070534}
   - component: {fileID: 5471092726937193103}
   - component: {fileID: 7856801572059140717}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Tarcza i 1_003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2401,7 +2401,7 @@ GameObject:
   - component: {fileID: 7544123150058361232}
   - component: {fileID: 7097989904349131593}
   - component: {fileID: 7899465656205657685}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_door_b_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2485,7 +2485,7 @@ GameObject:
   - component: {fileID: 6621210260705401456}
   - component: {fileID: 3425866831627604649}
   - component: {fileID: 6410509112318698746}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_mirror_l_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2567,7 +2567,7 @@ GameObject:
   - component: {fileID: 8623517547291046410}
   - component: {fileID: 4655810827878439139}
   - component: {fileID: 1769598455706944014}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_exhaust_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2651,7 +2651,7 @@ GameObject:
   - component: {fileID: 3157910618331344316}
   - component: {fileID: 7558886217777386896}
   - component: {fileID: 9105974606553727548}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_light_so_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2734,7 +2734,7 @@ GameObject:
   - component: {fileID: 3109384632455630752}
   - component: {fileID: 945359985690381564}
   - component: {fileID: 5118183763695314638}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_wheel_ta#2_003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2818,7 +2818,7 @@ GameObject:
   - component: {fileID: 8128754126753181957}
   - component: {fileID: 7140221293858872553}
   - component: {fileID: 6202393301954580451}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_wheelsus_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2900,7 +2900,7 @@ GameObject:
   - component: {fileID: 7444940710063087808}
   - component: {fileID: 5656755933627456013}
   - component: {fileID: 7870518487054611076}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_lightgla#2_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2981,7 +2981,7 @@ GameObject:
   - component: {fileID: 1871862985306254571}
   - component: {fileID: 6727827696757229575}
   - component: {fileID: 6494785511910969124}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_intakero_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3063,7 +3063,7 @@ GameObject:
   - component: {fileID: 7150552932077418566}
   - component: {fileID: 6292661714946275995}
   - component: {fileID: 4423283157748638996}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_window_r#1_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3144,7 +3144,7 @@ GameObject:
   - component: {fileID: 6290037969702339834}
   - component: {fileID: 8089306624190422818}
   - component: {fileID: 2642551964994084403}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_wing_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3227,7 +3227,7 @@ GameObject:
   - component: {fileID: 285084213128967182}
   - component: {fileID: 9019096179859166391}
   - component: {fileID: 4420951381449370695}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Zacisk11_007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3309,7 +3309,7 @@ GameObject:
   - component: {fileID: 8052168914156539664}
   - component: {fileID: 1207026886925593153}
   - component: {fileID: 5325089030439001078}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_wheelsus#2_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3391,7 +3391,7 @@ GameObject:
   - component: {fileID: 7944596385235643625}
   - component: {fileID: 6283522465822785347}
   - component: {fileID: 7862249795162472540}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_window_l#1_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3472,7 +3472,7 @@ GameObject:
   - component: {fileID: 4039628326725232628}
   - component: {fileID: 285019108105829295}
   - component: {fileID: 4597642131236760892}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Component#3_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3553,7 +3553,7 @@ GameObject:
   - component: {fileID: 6137611505891028165}
   - component: {fileID: 410923490919393079}
   - component: {fileID: 4094247540380413980}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Tarcza i 1_004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3635,7 +3635,7 @@ GameObject:
   - component: {fileID: 886867598402801756}
   - component: {fileID: 2421722213069864795}
   - component: {fileID: 2018370126994625026}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Component#4_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3720,7 +3720,7 @@ GameObject:
   - component: {fileID: 7019335135382486007}
   - component: {fileID: 8345507914372446855}
   - component: {fileID: 1649955989579278979}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Tarcza i 1_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3802,7 +3802,7 @@ GameObject:
   - component: {fileID: 6919962164006050386}
   - component: {fileID: 2048212934803353800}
   - component: {fileID: 5500285324974072662}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_wrccamer_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3885,7 +3885,7 @@ GameObject:
   - component: {fileID: 5595373136462734856}
   - component: {fileID: 7054003637550860972}
   - component: {fileID: 6328875403194038211}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_door_l_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3969,7 +3969,7 @@ GameObject:
   - component: {fileID: 7314155999611050808}
   - component: {fileID: 4805054798370755065}
   - component: {fileID: 5270735678054035590}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_wheel_ta_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4053,7 +4053,7 @@ GameObject:
   - component: {fileID: 5849070301930032939}
   - component: {fileID: 6908229718573680309}
   - component: {fileID: 1691731124706628668}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_sparewhe#3_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4137,7 +4137,7 @@ GameObject:
   - component: {fileID: 5965172975861039564}
   - component: {fileID: 2815812899798320974}
   - component: {fileID: 7802913463602799548}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_light_lb#1_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4218,7 +4218,7 @@ GameObject:
   - component: {fileID: 7364058371120160672}
   - component: {fileID: 3858704416471072826}
   - component: {fileID: 7028221860951366225}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Tarcza i 1_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4300,7 +4300,7 @@ GameObject:
   - component: {fileID: 3523612665598032258}
   - component: {fileID: 460014336134571313}
   - component: {fileID: 6750156751271077508}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Component#5_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4382,7 +4382,7 @@ GameObject:
   - component: {fileID: 3576152876273760510}
   - component: {fileID: 7745785471806393176}
   - component: {fileID: 4240731065015969509}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Component#1_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4465,7 +4465,7 @@ GameObject:
   - component: {fileID: 9133328277208380657}
   - component: {fileID: 7682165072561887655}
   - component: {fileID: 337456474924741633}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_light_lf_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4549,7 +4549,7 @@ GameObject:
   - component: {fileID: 1580217307447271909}
   - component: {fileID: 8191842069306949875}
   - component: {fileID: 8257422235175305555}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_wheel_ta#2_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4632,9 +4632,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7379282095079859273}
   - component: {fileID: -2263186652498341599}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Subaru Impreza GD WRC Fixed
-  m_TagString: Untagged
+  m_TagString: car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4682,7 +4682,7 @@ GameObject:
   - component: {fileID: 8958377852615449515}
   - component: {fileID: 1889935390507498959}
   - component: {fileID: 1150519355450578648}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_window_f_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4764,7 +4764,7 @@ GameObject:
   - component: {fileID: 2507732995041496229}
   - component: {fileID: 4124662823194038608}
   - component: {fileID: 6110732606887447001}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_door_r_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4848,7 +4848,7 @@ GameObject:
   - component: {fileID: 3065440725257664524}
   - component: {fileID: 8446745034562611953}
   - component: {fileID: 6338399766647058244}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_doorlogo#1_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4929,7 +4929,7 @@ GameObject:
   - component: {fileID: 1066600614570437316}
   - component: {fileID: 1845369760620648108}
   - component: {fileID: 2083464895302324251}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_light_lf_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5013,7 +5013,7 @@ GameObject:
   - component: {fileID: 482006640538263984}
   - component: {fileID: 2038493654188348337}
   - component: {fileID: 5897391138143786422}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_sparewhe_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5094,7 +5094,7 @@ GameObject:
   - component: {fileID: 2263455526835204074}
   - component: {fileID: 3292012857972946611}
   - component: {fileID: 7283439810326707588}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Fuel Cell_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5178,7 +5178,7 @@ GameObject:
   - component: {fileID: 6713483649815580238}
   - component: {fileID: 2138554425373030244}
   - component: {fileID: 1952568483635765578}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: 3D_Object9_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5263,7 +5263,7 @@ GameObject:
   - component: {fileID: 718934192789774892}
   - component: {fileID: 5227535857039286029}
   - component: {fileID: 8334017420598772198}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_window_l_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5344,7 +5344,7 @@ GameObject:
   - component: {fileID: 604360956476729270}
   - component: {fileID: 5231248264464590209}
   - component: {fileID: 7727361071102181131}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Zacisk11_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5426,7 +5426,7 @@ GameObject:
   - component: {fileID: 580062234686555635}
   - component: {fileID: 3426331721100926210}
   - component: {fileID: 7903775948649588405}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_wiper_r_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5507,7 +5507,7 @@ GameObject:
   - component: {fileID: 7640898954465018219}
   - component: {fileID: 1752323602958105444}
   - component: {fileID: 3025519959948308837}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_bumper_f_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5595,7 +5595,7 @@ GameObject:
   - component: {fileID: 8541092709442315362}
   - component: {fileID: 3784049278387098570}
   - component: {fileID: 1620161887757145543}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_bonnet_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5678,7 +5678,7 @@ GameObject:
   - component: {fileID: 8962026655401385129}
   - component: {fileID: 5396513267253688834}
   - component: {fileID: 6602853087978243779}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: e_body_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}

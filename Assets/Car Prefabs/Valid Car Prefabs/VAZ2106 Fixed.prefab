@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8814943547497988689}
   - component: {fileID: 622852726116175967}
   - component: {fileID: 6076238760741640560}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Back_plate_edge_black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 515188000371539746}
   - component: {fileID: 5854909364414486189}
   - component: {fileID: 6891705538057254549}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Back_license_plate2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1699501675809087653}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: front_right_rim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -203,7 +203,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2682814155212843883}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: windshield_wiper_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 8896365391722943415}
   - component: {fileID: 8510546353055408271}
   - component: {fileID: 2597519347827420430}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cylinder008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -323,7 +323,7 @@ GameObject:
   - component: {fileID: 8533865163324714695}
   - component: {fileID: 1901070699092587882}
   - component: {fileID: 4281342217827215624}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front_up_light_glass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -404,7 +404,7 @@ GameObject:
   - component: {fileID: 5045770853034302568}
   - component: {fileID: 4579957352311783007}
   - component: {fileID: 6716789551945253324}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Line012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -485,7 +485,7 @@ GameObject:
   - component: {fileID: 7794210103251662982}
   - component: {fileID: 2060604303881446779}
   - component: {fileID: 6525052538411126577}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: rub_tire2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -566,7 +566,7 @@ GameObject:
   - component: {fileID: 1427232825808283826}
   - component: {fileID: 2891608310789992064}
   - component: {fileID: 8573399407753487188}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cylinder004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -645,7 +645,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8418711373946255891}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: windshield_wiper_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -684,7 +684,7 @@ GameObject:
   - component: {fileID: 3768992376557728095}
   - component: {fileID: 8522260597435612048}
   - component: {fileID: 1735746649004331811}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Back_fender
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -766,7 +766,7 @@ GameObject:
   - component: {fileID: 1821765035775193483}
   - component: {fileID: 2508508472496320735}
   - component: {fileID: 8218831702017832662}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: rub_tire3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -847,7 +847,7 @@ GameObject:
   - component: {fileID: 3702193748768310326}
   - component: {fileID: 2809115794945204025}
   - component: {fileID: 120256680740390217}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Carbody_edge_line
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -926,7 +926,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3073083075706885483}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: wheel_front_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -958,7 +958,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1347233467962609031}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: 111111
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -990,7 +990,7 @@ GameObject:
   - component: {fileID: 4353208558946715039}
   - component: {fileID: 1110373839480864999}
   - component: {fileID: 724729596414138298}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: frontwindow_edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1072,7 +1072,7 @@ GameObject:
   - component: {fileID: 6837816346782847384}
   - component: {fileID: 812671730505249528}
   - component: {fileID: 4332341778040872079}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Line020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1153,7 +1153,7 @@ GameObject:
   - component: {fileID: 962396010156502026}
   - component: {fileID: 8113904474178793195}
   - component: {fileID: 1925252897731465501}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Line009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1234,7 +1234,7 @@ GameObject:
   - component: {fileID: 5077225009858504908}
   - component: {fileID: 5126898537756414545}
   - component: {fileID: 5051816257258339826}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Backwindow_edge_black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1315,7 +1315,7 @@ GameObject:
   - component: {fileID: 6598897244153393432}
   - component: {fileID: 1230260981996054615}
   - component: {fileID: 4517289528320751842}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front_fender
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1397,7 +1397,7 @@ GameObject:
   - component: {fileID: 3385577438985268391}
   - component: {fileID: 1200002541735674985}
   - component: {fileID: 6624086699311910874}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: rub_tire1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1478,7 +1478,7 @@ GameObject:
   - component: {fileID: 4040192454808527060}
   - component: {fileID: 9108926978912709371}
   - component: {fileID: 136554271183806082}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Object049
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1559,7 +1559,7 @@ GameObject:
   - component: {fileID: 6980698067989647552}
   - component: {fileID: 4989361894499614641}
   - component: {fileID: 8525455350940696027}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Side_light_edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1640,7 +1640,7 @@ GameObject:
   - component: {fileID: 3074087207653649136}
   - component: {fileID: 6060225839594084204}
   - component: {fileID: 4801167280848814769}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Back_light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1721,7 +1721,7 @@ GameObject:
   - component: {fileID: 1540899642124898838}
   - component: {fileID: 3405379578706164792}
   - component: {fileID: 6712989773995225924}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front_down_light_edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1802,7 +1802,7 @@ GameObject:
   - component: {fileID: 5549797832637311383}
   - component: {fileID: 419455865686185606}
   - component: {fileID: 2889465844757566053}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Line014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1883,7 +1883,7 @@ GameObject:
   - component: {fileID: 8906231914688441781}
   - component: {fileID: 9151872819822108544}
   - component: {fileID: 691678009156126679}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Car_body_ Side_little_piece
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1964,7 +1964,7 @@ GameObject:
   - component: {fileID: 7196293623702203647}
   - component: {fileID: 4334930922375357822}
   - component: {fileID: 1301422701991304954}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Back_light_edge_chrome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2045,7 +2045,7 @@ GameObject:
   - component: {fileID: 8961666022637388518}
   - component: {fileID: 2516442269516321600}
   - component: {fileID: 6303920804161160781}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front_glass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2124,7 +2124,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3704226888916501252}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Full_car
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2159,7 +2159,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7078235482002414795}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: wheel_front_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2193,7 +2193,7 @@ GameObject:
   - component: {fileID: 5361181528210882143}
   - component: {fileID: 2450100501629901012}
   - component: {fileID: 4623850719712653160}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: plate_black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2274,7 +2274,7 @@ GameObject:
   - component: {fileID: 6380258035474068387}
   - component: {fileID: 2234072545423404538}
   - component: {fileID: 3456406985971134713}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Line019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2355,7 +2355,7 @@ GameObject:
   - component: {fileID: 6679137126039210635}
   - component: {fileID: 5038033119739458262}
   - component: {fileID: 4733158357529593278}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Back_license_plate_black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2436,7 +2436,7 @@ GameObject:
   - component: {fileID: 5620449153343558134}
   - component: {fileID: 7613026294649914111}
   - component: {fileID: 4313891249813682814}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Back_logo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2518,7 +2518,7 @@ GameObject:
   - component: {fileID: 5765602677345668200}
   - component: {fileID: 7957818284431281639}
   - component: {fileID: 3579723614958302253}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cylinder006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2599,7 +2599,7 @@ GameObject:
   - component: {fileID: 2172134327742532805}
   - component: {fileID: 300211186432846895}
   - component: {fileID: 2290709306094131386}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Back_glass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2678,7 +2678,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9075152726275475573}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: wheel_back_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2712,7 +2712,7 @@ GameObject:
   - component: {fileID: 133861665925091988}
   - component: {fileID: 4290284929547367588}
   - component: {fileID: 6440781060588591440}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Side_light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2793,7 +2793,7 @@ GameObject:
   - component: {fileID: 6787720483910894663}
   - component: {fileID: 6058646861983596237}
   - component: {fileID: 914454281752290328}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Object052
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2874,7 +2874,7 @@ GameObject:
   - component: {fileID: 2123500806771638499}
   - component: {fileID: 6774050279269569732}
   - component: {fileID: 1034615826930479776}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: rub_tire4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2954,9 +2954,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4623912506339727309}
   - component: {fileID: -8621915921573754578}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: VAZ2106 Fixed
-  m_TagString: Untagged
+  m_TagString: car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3002,7 +3002,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4025558293457393720}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Back_license_plate2_group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3037,7 +3037,7 @@ GameObject:
   - component: {fileID: 2867099728692292195}
   - component: {fileID: 6198488823758461020}
   - component: {fileID: 1880586703974394081}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Exhaust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3119,7 +3119,7 @@ GameObject:
   - component: {fileID: 2940062315160207879}
   - component: {fileID: 1758335781024554678}
   - component: {fileID: 229330869079359352}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Car_body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3200,7 +3200,7 @@ GameObject:
   - component: {fileID: 4266238097637154169}
   - component: {fileID: 5558572439915015547}
   - component: {fileID: 5489368519313759198}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front_edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3281,7 +3281,7 @@ GameObject:
   - component: {fileID: 6796219617530117259}
   - component: {fileID: 7183229831376612320}
   - component: {fileID: 8000370188075534848}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: mirror
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3363,7 +3363,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8390380617441124995}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: wheel_back_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3397,7 +3397,7 @@ GameObject:
   - component: {fileID: 6483225217820841223}
   - component: {fileID: 4188697492821913729}
   - component: {fileID: 9157519467827030156}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Object054
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3476,7 +3476,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1574139315443829120}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: front_left_rim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3510,7 +3510,7 @@ GameObject:
   - component: {fileID: 2506719907897072440}
   - component: {fileID: 4900588796773322790}
   - component: {fileID: 4268651246473965189}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cylinder005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3591,7 +3591,7 @@ GameObject:
   - component: {fileID: 7422041837101205236}
   - component: {fileID: 899338954697034574}
   - component: {fileID: 5061436821045334064}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: front_up_light_edge_black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3672,7 +3672,7 @@ GameObject:
   - component: {fileID: 8311436801000684918}
   - component: {fileID: 8223451093837446983}
   - component: {fileID: 977761464963499721}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front_midle_black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3753,7 +3753,7 @@ GameObject:
   - component: {fileID: 4902529988915130239}
   - component: {fileID: 4057776401765928217}
   - component: {fileID: 2056425319220707342}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: sidewindow_edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3834,7 +3834,7 @@ GameObject:
   - component: {fileID: 7568846999513442790}
   - component: {fileID: 4652338487616608157}
   - component: {fileID: 4005463612562097946}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Car_under_black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3915,7 +3915,7 @@ GameObject:
   - component: {fileID: 8221396153158771655}
   - component: {fileID: 2061938882606536082}
   - component: {fileID: 458697362946052421}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Root Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3989,7 +3989,7 @@ GameObject:
   - component: {fileID: 3689089606111456284}
   - component: {fileID: 2421046774458673205}
   - component: {fileID: 6106042804081897947}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Line011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4070,7 +4070,7 @@ GameObject:
   - component: {fileID: 5099761074920105262}
   - component: {fileID: 4575140373109015250}
   - component: {fileID: 9153931449010126366}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: front_plate_white
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4151,7 +4151,7 @@ GameObject:
   - component: {fileID: 7797218630138520826}
   - component: {fileID: 8492120491179126106}
   - component: {fileID: 7263066815149334669}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Back_edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4232,7 +4232,7 @@ GameObject:
   - component: {fileID: 1919667607357068009}
   - component: {fileID: 5670727032546344824}
   - component: {fileID: 5924472692870242565}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cylinder007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4313,7 +4313,7 @@ GameObject:
   - component: {fileID: 3876776185734529794}
   - component: {fileID: 2001364170210480455}
   - component: {fileID: 2584999444358002658}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Back_light_edge_black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4394,7 +4394,7 @@ GameObject:
   - component: {fileID: 5268201476860056125}
   - component: {fileID: 3676177329345527433}
   - component: {fileID: 78627572062118317}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: ilkin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4475,7 +4475,7 @@ GameObject:
   - component: {fileID: 3097579700042686734}
   - component: {fileID: 2275945779937840991}
   - component: {fileID: 7498307383774247206}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front_logo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4557,7 +4557,7 @@ GameObject:
   - component: {fileID: 2173621701552386384}
   - component: {fileID: 6178380920351652711}
   - component: {fileID: 2015272380149711421}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Line017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4638,7 +4638,7 @@ GameObject:
   - component: {fileID: 8666627908132630733}
   - component: {fileID: 7024914815664768374}
   - component: {fileID: 3172414747822718865}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Line013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4719,7 +4719,7 @@ GameObject:
   - component: {fileID: 1082311394969821194}
   - component: {fileID: 4138265858456532375}
   - component: {fileID: 6063275347352331539}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Back_license_plate_white
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4800,7 +4800,7 @@ GameObject:
   - component: {fileID: 6301380539369003047}
   - component: {fileID: 7088539782960578924}
   - component: {fileID: 2639693162237513557}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front_up_light_lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4879,7 +4879,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4281888832792557055}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: back_right_rim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4913,7 +4913,7 @@ GameObject:
   - component: {fileID: 6534855551279801784}
   - component: {fileID: 5477289879984196947}
   - component: {fileID: 1519300369854190871}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cylinder003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4992,7 +4992,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5691014997935553237}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Back_left_rim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5026,7 +5026,7 @@ GameObject:
   - component: {fileID: 9132308050746955110}
   - component: {fileID: 3844871914464991292}
   - component: {fileID: 1919654479088934986}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Backwindow_edge_chrome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5105,7 +5105,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1249140616509833879}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front_uplight_group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5138,7 +5138,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4360741666403879525}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: front_license_plate_group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5173,7 +5173,7 @@ GameObject:
   - component: {fileID: 1886104429997595574}
   - component: {fileID: 5837370289942788501}
   - component: {fileID: 2107576084178248628}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Line016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5254,7 +5254,7 @@ GameObject:
   - component: {fileID: 294597395363873039}
   - component: {fileID: 1626821663324959478}
   - component: {fileID: 3974915546042292066}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Hood_up_black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5335,7 +5335,7 @@ GameObject:
   - component: {fileID: 6733280517680394971}
   - component: {fileID: 8238936946922110575}
   - component: {fileID: 410730666904760769}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Line018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5416,7 +5416,7 @@ GameObject:
   - component: {fileID: 5144948456212515985}
   - component: {fileID: 5010608479656866496}
   - component: {fileID: 1887024845766135191}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: doorhandle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5497,7 +5497,7 @@ GameObject:
   - component: {fileID: 1734807568357684653}
   - component: {fileID: 3419156109156454732}
   - component: {fileID: 957938704887121140}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: front_Car_license_plate1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5576,7 +5576,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 501353632887436609}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5646,7 +5646,7 @@ GameObject:
   - component: {fileID: 5999623515138891243}
   - component: {fileID: 1169981916829894316}
   - component: {fileID: 4031088241091088583}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Sideglass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5727,7 +5727,7 @@ GameObject:
   - component: {fileID: 498349329272076655}
   - component: {fileID: 1940525682164197564}
   - component: {fileID: 8403519764306132824}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Object053
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5808,7 +5808,7 @@ GameObject:
   - component: {fileID: 2853622780328254924}
   - component: {fileID: 2253188641948776266}
   - component: {fileID: 181896590800663539}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front_down_light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5889,7 +5889,7 @@ GameObject:
   - component: {fileID: 885563215485735000}
   - component: {fileID: 1116466449977828581}
   - component: {fileID: 8301965073307807911}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Line010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5970,7 +5970,7 @@ GameObject:
   - component: {fileID: 8406568753712530398}
   - component: {fileID: 6878298572124555331}
   - component: {fileID: 6233363325374047052}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Line015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6051,7 +6051,7 @@ GameObject:
   - component: {fileID: 3398829963078691312}
   - component: {fileID: 247315724181220260}
   - component: {fileID: 2333004319274509572}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Sidewindow_edge_black
   m_TagString: Untagged
   m_Icon: {fileID: 0}

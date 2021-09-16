@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3350106454826593689}
   - component: {fileID: 5701690581094570276}
   - component: {fileID: 3295938320091522148}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Logo - Corvette
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 3440439352701948605}
   - component: {fileID: 4648424882983010950}
   - component: {fileID: 2481786922290136873}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 2307297591523841004}
   - component: {fileID: 2027715883839673345}
   - component: {fileID: 6177467113667873614}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -254,7 +254,7 @@ GameObject:
   - component: {fileID: 3032626512933602088}
   - component: {fileID: 2748151715094162620}
   - component: {fileID: 6924627920461678664}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.028
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 7335558096409388325}
   - component: {fileID: 2441763312651998895}
   - component: {fileID: 8555113560960271432}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished bumper.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -417,7 +417,7 @@ GameObject:
   - component: {fileID: 7855317392965014014}
   - component: {fileID: 2984382958993697031}
   - component: {fileID: 8227629824222083906}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Sphere.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -498,7 +498,7 @@ GameObject:
   - component: {fileID: 2330392921817516100}
   - component: {fileID: 3933422790556326622}
   - component: {fileID: 6264658440099741580}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.046
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -579,7 +579,7 @@ GameObject:
   - component: {fileID: 1931370826182919303}
   - component: {fileID: 2868680854145098019}
   - component: {fileID: 7799341305706521511}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished tail.022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -660,7 +660,7 @@ GameObject:
   - component: {fileID: 6230726657805978553}
   - component: {fileID: 5254594987444257207}
   - component: {fileID: 5627026585524379331}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished tail.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -741,7 +741,7 @@ GameObject:
   - component: {fileID: 4732875728985440736}
   - component: {fileID: 6955962220111036374}
   - component: {fileID: 6005770861782139745}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut.022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -822,7 +822,7 @@ GameObject:
   - component: {fileID: 2216163698845755305}
   - component: {fileID: 91777323693758446}
   - component: {fileID: 2766602334730919991}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bolt.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -903,7 +903,7 @@ GameObject:
   - component: {fileID: 4241252501761910742}
   - component: {fileID: 2409329047714007682}
   - component: {fileID: 5386527272654282569}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished tail.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -986,7 +986,7 @@ GameObject:
   - component: {fileID: 2380461614734302964}
   - component: {fileID: 964216868608376826}
   - component: {fileID: 8618199712054807596}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bolt.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1067,7 +1067,7 @@ GameObject:
   - component: {fileID: 7403509712778430770}
   - component: {fileID: 8137370856608391551}
   - component: {fileID: 6300656585805193102}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished bumper.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1148,7 +1148,7 @@ GameObject:
   - component: {fileID: 7250726995081773742}
   - component: {fileID: 8867871782205332172}
   - component: {fileID: 7032488313353527453}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished tail.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1229,7 +1229,7 @@ GameObject:
   - component: {fileID: 4969151405487338173}
   - component: {fileID: 458470891634426118}
   - component: {fileID: 5608239474236122665}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Shadow Planes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1310,7 +1310,7 @@ GameObject:
   - component: {fileID: 4344787529692162784}
   - component: {fileID: 7833140026526431524}
   - component: {fileID: 8468059332267864023}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1391,7 +1391,7 @@ GameObject:
   - component: {fileID: 3235637685136788014}
   - component: {fileID: 6360504774464571118}
   - component: {fileID: 8573269725625426628}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished back fender left.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1472,7 +1472,7 @@ GameObject:
   - component: {fileID: 2820091141803111856}
   - component: {fileID: 8917965014755033546}
   - component: {fileID: 211799521356847804}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished tail.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1553,7 +1553,7 @@ GameObject:
   - component: {fileID: 4819873819244452694}
   - component: {fileID: 2056859612315261663}
   - component: {fileID: 2956440105295517880}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished back fender left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1634,7 +1634,7 @@ GameObject:
   - component: {fileID: 802288514665368392}
   - component: {fileID: 1431988123676865845}
   - component: {fileID: 7959085743033521479}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1715,7 +1715,7 @@ GameObject:
   - component: {fileID: 7302161901950974921}
   - component: {fileID: 787876205321444544}
   - component: {fileID: 612545800801457500}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1796,7 +1796,7 @@ GameObject:
   - component: {fileID: 5191648393320143354}
   - component: {fileID: 5489578055160297301}
   - component: {fileID: 1924406587951671183}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.044
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1878,7 +1878,7 @@ GameObject:
   - component: {fileID: 6221266951712789090}
   - component: {fileID: 1358608661406650815}
   - component: {fileID: 7766568726840191242}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished bumper.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1959,7 +1959,7 @@ GameObject:
   - component: {fileID: 4846391939258558623}
   - component: {fileID: 4428868991261318615}
   - component: {fileID: 5101935425087489912}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut.023
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2040,7 +2040,7 @@ GameObject:
   - component: {fileID: 410724972359826098}
   - component: {fileID: 439838641943362395}
   - component: {fileID: 4451127021083987646}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2121,7 +2121,7 @@ GameObject:
   - component: {fileID: 1829298828825899096}
   - component: {fileID: 1964620539857648696}
   - component: {fileID: 442397049054812995}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2202,7 +2202,7 @@ GameObject:
   - component: {fileID: 2801589364463407546}
   - component: {fileID: 157750072297683060}
   - component: {fileID: 6370808668412570187}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2283,7 +2283,7 @@ GameObject:
   - component: {fileID: 823969038460565785}
   - component: {fileID: 488870321199159079}
   - component: {fileID: 2675433498059917899}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished front fender.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2364,7 +2364,7 @@ GameObject:
   - component: {fileID: 1740177751720582133}
   - component: {fileID: 7105580092479510328}
   - component: {fileID: 8399687322622511738}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2445,7 +2445,7 @@ GameObject:
   - component: {fileID: 4430213788857671430}
   - component: {fileID: 6158643083240892739}
   - component: {fileID: 3529128218850172848}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.040
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2526,7 +2526,7 @@ GameObject:
   - component: {fileID: 5395726341343449235}
   - component: {fileID: 2037511411794672368}
   - component: {fileID: 1529974312768574307}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2607,7 +2607,7 @@ GameObject:
   - component: {fileID: 142720805211873677}
   - component: {fileID: 9068165791167363436}
   - component: {fileID: 2616854707276373927}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished tail.021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2688,7 +2688,7 @@ GameObject:
   - component: {fileID: 1329622612853351777}
   - component: {fileID: 3390367892891838457}
   - component: {fileID: 2600146086614992021}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2769,7 +2769,7 @@ GameObject:
   - component: {fileID: 6039463773955831303}
   - component: {fileID: 4867099553847017921}
   - component: {fileID: 8113426085271748081}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.042
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2851,7 +2851,7 @@ GameObject:
   - component: {fileID: 1207526303976603871}
   - component: {fileID: 7648029133453032686}
   - component: {fileID: 2889390105668080262}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.029
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2932,7 +2932,7 @@ GameObject:
   - component: {fileID: 1631551849816477770}
   - component: {fileID: 600074031329127586}
   - component: {fileID: 673938185445659551}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3013,7 +3013,7 @@ GameObject:
   - component: {fileID: 235579489447094489}
   - component: {fileID: 389240293709850886}
   - component: {fileID: 2341828394932081171}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Side View Mirror Shell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3094,7 +3094,7 @@ GameObject:
   - component: {fileID: 6636438289536273688}
   - component: {fileID: 1443624438596067817}
   - component: {fileID: 8293141655210613948}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished back windsheild frame.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3175,7 +3175,7 @@ GameObject:
   - component: {fileID: 9069859054171950343}
   - component: {fileID: 7845359727420247139}
   - component: {fileID: 2494333791006136819}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished back windsheild frame.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3256,7 +3256,7 @@ GameObject:
   - component: {fileID: 2732911378952152824}
   - component: {fileID: 3495947167353946751}
   - component: {fileID: 7807056347273151810}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished top big piece.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3337,7 +3337,7 @@ GameObject:
   - component: {fileID: 2760503408887248114}
   - component: {fileID: 3825007234696957627}
   - component: {fileID: 5329523937461060544}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished bumper.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3419,7 +3419,7 @@ GameObject:
   - component: {fileID: 7423747789108455582}
   - component: {fileID: 4268953028356200364}
   - component: {fileID: 5356321291203194167}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3500,7 +3500,7 @@ GameObject:
   - component: {fileID: 3259313242226989047}
   - component: {fileID: 4929287827167904427}
   - component: {fileID: 2742738168251920633}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3582,7 +3582,7 @@ GameObject:
   - component: {fileID: 1911764771234720268}
   - component: {fileID: 3751614025797489162}
   - component: {fileID: 6157159988113722819}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3663,7 +3663,7 @@ GameObject:
   - component: {fileID: 8366715803870921279}
   - component: {fileID: 8970674528936846453}
   - component: {fileID: 5938798499675546491}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished bumper.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3745,7 +3745,7 @@ GameObject:
   - component: {fileID: 221208549081418867}
   - component: {fileID: 5233130139267868722}
   - component: {fileID: 6686911926534441760}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bolt.016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3826,7 +3826,7 @@ GameObject:
   - component: {fileID: 724700518701516974}
   - component: {fileID: 4899904789021717977}
   - component: {fileID: 5097606223126824684}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished bumper.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3907,7 +3907,7 @@ GameObject:
   - component: {fileID: 2088451012504994007}
   - component: {fileID: 2884930229513050839}
   - component: {fileID: 9152526959393112443}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.029
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3988,7 +3988,7 @@ GameObject:
   - component: {fileID: 1537041629748774725}
   - component: {fileID: 5441502973183742426}
   - component: {fileID: 2204713370320440795}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished tail.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4067,7 +4067,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8819877942079231806}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Empty.000
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4100,7 +4100,7 @@ GameObject:
   - component: {fileID: 7630924605792066346}
   - component: {fileID: 5996521190089837991}
   - component: {fileID: 8332879931420330570}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bolt.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4181,7 +4181,7 @@ GameObject:
   - component: {fileID: 2687047451436435969}
   - component: {fileID: 1512678554184257034}
   - component: {fileID: 7180302168329792886}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bolt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4262,7 +4262,7 @@ GameObject:
   - component: {fileID: 959073685931910655}
   - component: {fileID: 1965634269166577336}
   - component: {fileID: 7278520236405490884}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4343,7 +4343,7 @@ GameObject:
   - component: {fileID: 5461818100818241754}
   - component: {fileID: 7151335690817725901}
   - component: {fileID: 3454712974560477987}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4424,7 +4424,7 @@ GameObject:
   - component: {fileID: 2110522466878607381}
   - component: {fileID: 5214041432389740879}
   - component: {fileID: 6432140650759642516}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4505,7 +4505,7 @@ GameObject:
   - component: {fileID: 7086776919569776533}
   - component: {fileID: 7075436927441511839}
   - component: {fileID: 3500190909379755088}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4586,7 +4586,7 @@ GameObject:
   - component: {fileID: 5307138382452031989}
   - component: {fileID: 8818554058203314670}
   - component: {fileID: 8902355294433421360}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4667,7 +4667,7 @@ GameObject:
   - component: {fileID: 7457787429933227959}
   - component: {fileID: 4959464193936175708}
   - component: {fileID: 5489169824610095554}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bolt.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4748,7 +4748,7 @@ GameObject:
   - component: {fileID: 330157549301568433}
   - component: {fileID: 7567797030917492209}
   - component: {fileID: 2034130550308963518}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4829,7 +4829,7 @@ GameObject:
   - component: {fileID: 6757134944206047312}
   - component: {fileID: 9159240146882938094}
   - component: {fileID: 2249360432706940861}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut.016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4910,7 +4910,7 @@ GameObject:
   - component: {fileID: 1188977244347664860}
   - component: {fileID: 929643474938558842}
   - component: {fileID: 6836877661321575855}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut.020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4989,7 +4989,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2522435277054413494}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Empty.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5039,7 +5039,7 @@ GameObject:
   - component: {fileID: 4347971491843531584}
   - component: {fileID: 3127022782931762415}
   - component: {fileID: 6207917082739196280}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.023
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5120,7 +5120,7 @@ GameObject:
   - component: {fileID: 2840370429884930825}
   - component: {fileID: 7107346995694217846}
   - component: {fileID: 5103112885155518696}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished Pannnel under door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5201,7 +5201,7 @@ GameObject:
   - component: {fileID: 4378911971098052739}
   - component: {fileID: 4697902097748770933}
   - component: {fileID: 8905335201489005917}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5280,7 +5280,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1934653822818744557}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Empty.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5313,7 +5313,7 @@ GameObject:
   - component: {fileID: 501073115001184517}
   - component: {fileID: 1120951641640278616}
   - component: {fileID: 8090991943349090359}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.045
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5394,7 +5394,7 @@ GameObject:
   - component: {fileID: 6462735381953022930}
   - component: {fileID: 8374910417403867656}
   - component: {fileID: 3641156041735735130}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5475,7 +5475,7 @@ GameObject:
   - component: {fileID: 3565461972938529151}
   - component: {fileID: 8353620661252175939}
   - component: {fileID: 8305828990542586161}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5556,7 +5556,7 @@ GameObject:
   - component: {fileID: 1835074494307033242}
   - component: {fileID: 7219400963721273220}
   - component: {fileID: 6767007186202939535}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Windows - Side - Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5637,7 +5637,7 @@ GameObject:
   - component: {fileID: 4004521834334238218}
   - component: {fileID: 2129262199785580684}
   - component: {fileID: 3016395894790802839}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.030
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5718,7 +5718,7 @@ GameObject:
   - component: {fileID: 1644522154397749807}
   - component: {fileID: 3698973822195733186}
   - component: {fileID: 4219106927417506939}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5799,7 +5799,7 @@ GameObject:
   - component: {fileID: 8739806401228429950}
   - component: {fileID: 6290894125904114742}
   - component: {fileID: 4783611726968063333}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bolt.018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5880,7 +5880,7 @@ GameObject:
   - component: {fileID: 7670814217633967606}
   - component: {fileID: 4516077926531999105}
   - component: {fileID: 7549398690349852488}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.039
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5961,7 +5961,7 @@ GameObject:
   - component: {fileID: 418119462267222388}
   - component: {fileID: 4760247824018947065}
   - component: {fileID: 2495799311761659896}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished door.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6042,7 +6042,7 @@ GameObject:
   - component: {fileID: 1664487788474831927}
   - component: {fileID: 3228261210867456671}
   - component: {fileID: 5553677131478427271}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.031
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6123,7 +6123,7 @@ GameObject:
   - component: {fileID: 1526446058072593272}
   - component: {fileID: 8885355645866606455}
   - component: {fileID: 5872957129951708617}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.038
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6204,7 +6204,7 @@ GameObject:
   - component: {fileID: 553720500659379572}
   - component: {fileID: 2115193697891862416}
   - component: {fileID: 4549432308815087857}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished tail.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6285,7 +6285,7 @@ GameObject:
   - component: {fileID: 7516325921729055726}
   - component: {fileID: 3212883327256385562}
   - component: {fileID: 3152741153252220901}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.043
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6366,7 +6366,7 @@ GameObject:
   - component: {fileID: 7583761198850211973}
   - component: {fileID: 874734363440392033}
   - component: {fileID: 7890593779473778830}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6447,7 +6447,7 @@ GameObject:
   - component: {fileID: 4207827984484418795}
   - component: {fileID: 6114165042339934930}
   - component: {fileID: 879897071961940850}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished tail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6528,7 +6528,7 @@ GameObject:
   - component: {fileID: 3012577376814210799}
   - component: {fileID: 3899707216829230749}
   - component: {fileID: 4072210758248116827}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.032
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6609,7 +6609,7 @@ GameObject:
   - component: {fileID: 1305789662562125918}
   - component: {fileID: 7071780455955789926}
   - component: {fileID: 6593104734960057218}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished top big piece.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6690,7 +6690,7 @@ GameObject:
   - component: {fileID: 2109668717394241774}
   - component: {fileID: 4973596510561072831}
   - component: {fileID: 7881539043298962789}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6771,7 +6771,7 @@ GameObject:
   - component: {fileID: 3754325816758238646}
   - component: {fileID: 4997966480608752888}
   - component: {fileID: 7617713258190659272}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.034
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6852,7 +6852,7 @@ GameObject:
   - component: {fileID: 8963673473826865978}
   - component: {fileID: 918572141192304151}
   - component: {fileID: 1694561140497982504}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6933,7 +6933,7 @@ GameObject:
   - component: {fileID: 6787958660350733744}
   - component: {fileID: 8736395678279861208}
   - component: {fileID: 5440680534060557006}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7014,7 +7014,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5411320955322747825}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Empty.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7064,7 +7064,7 @@ GameObject:
   - component: {fileID: 2387753729451937285}
   - component: {fileID: 5424120609000731204}
   - component: {fileID: 2516697709700073260}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.035
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7146,7 +7146,7 @@ GameObject:
   - component: {fileID: 4333160312526992337}
   - component: {fileID: 5085247537714381703}
   - component: {fileID: 1378739616299079662}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7227,7 +7227,7 @@ GameObject:
   - component: {fileID: 2386137759836646536}
   - component: {fileID: 5100860029562020737}
   - component: {fileID: 3993804402229602766}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished top big piece.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7308,7 +7308,7 @@ GameObject:
   - component: {fileID: 7050351851639441767}
   - component: {fileID: 2103629804817413807}
   - component: {fileID: 5281898025062619581}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.039
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7389,7 +7389,7 @@ GameObject:
   - component: {fileID: 1313212930165223185}
   - component: {fileID: 4987818136498377862}
   - component: {fileID: 4184741024099965236}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished grillborder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7470,7 +7470,7 @@ GameObject:
   - component: {fileID: 675295059148898326}
   - component: {fileID: 885183040850968584}
   - component: {fileID: 9036932825549548045}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bolt.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7551,7 +7551,7 @@ GameObject:
   - component: {fileID: 8680017875923428443}
   - component: {fileID: 1830799975930625908}
   - component: {fileID: 5173441453024888352}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7632,7 +7632,7 @@ GameObject:
   - component: {fileID: 8603209830111659857}
   - component: {fileID: 2854082040597222393}
   - component: {fileID: 1096275474220998767}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7713,7 +7713,7 @@ GameObject:
   - component: {fileID: 6590517898390051363}
   - component: {fileID: 3026385274830605884}
   - component: {fileID: 1597180867721512673}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished tail.020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7795,7 +7795,7 @@ GameObject:
   - component: {fileID: 4843896926069977290}
   - component: {fileID: 7218050903758439906}
   - component: {fileID: 5393165682853952962}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished tail.019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7876,7 +7876,7 @@ GameObject:
   - component: {fileID: 7706262211619790661}
   - component: {fileID: 4438272344279529428}
   - component: {fileID: 6600032851943677785}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.027
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7957,7 +7957,7 @@ GameObject:
   - component: {fileID: 1958036654907810101}
   - component: {fileID: 3281511814146285190}
   - component: {fileID: 924361488049127924}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8038,7 +8038,7 @@ GameObject:
   - component: {fileID: 3420903097961984024}
   - component: {fileID: 152213104808783925}
   - component: {fileID: 62639173387776605}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Windows - Side - Back - Tinted Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8119,7 +8119,7 @@ GameObject:
   - component: {fileID: 5249961251983818168}
   - component: {fileID: 5458077265082505156}
   - component: {fileID: 575166226423391405}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8200,7 +8200,7 @@ GameObject:
   - component: {fileID: 4115085911112228408}
   - component: {fileID: 3368842984959119819}
   - component: {fileID: 961893378957920494}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bolt.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8281,7 +8281,7 @@ GameObject:
   - component: {fileID: 3473318840653901462}
   - component: {fileID: 2289620576077468541}
   - component: {fileID: 7464097730071249086}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished back windsheild frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8362,7 +8362,7 @@ GameObject:
   - component: {fileID: 9212641422019153631}
   - component: {fileID: 13767230782262181}
   - component: {fileID: 2309633580701617901}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished hood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8443,7 +8443,7 @@ GameObject:
   - component: {fileID: 5891101263660377983}
   - component: {fileID: 6415410817011042904}
   - component: {fileID: 9199127989364786618}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bolt.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8524,7 +8524,7 @@ GameObject:
   - component: {fileID: 6793374820860821257}
   - component: {fileID: 3238683512803615744}
   - component: {fileID: 6731479529409395133}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8605,7 +8605,7 @@ GameObject:
   - component: {fileID: 4511681452187002680}
   - component: {fileID: 4827693329440987587}
   - component: {fileID: 1336662929027481981}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.028
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8687,7 +8687,7 @@ GameObject:
   - component: {fileID: 8342120463165977000}
   - component: {fileID: 5544964180309539744}
   - component: {fileID: 1126404437421317802}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bolt.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8768,7 +8768,7 @@ GameObject:
   - component: {fileID: 3674127043955048879}
   - component: {fileID: 7783387500462003422}
   - component: {fileID: 1604069786524713640}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished tail.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8847,7 +8847,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7237730604702469439}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Empty.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8995,7 +8995,7 @@ GameObject:
   - component: {fileID: 8645729512785921229}
   - component: {fileID: 3118112130971476898}
   - component: {fileID: 5602284725356839093}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished tail.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9076,7 +9076,7 @@ GameObject:
   - component: {fileID: 8793481056104707088}
   - component: {fileID: 8659416968326444515}
   - component: {fileID: 2571368814165121655}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.037
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9158,7 +9158,7 @@ GameObject:
   - component: {fileID: 4674787037276636064}
   - component: {fileID: 9166966273798504328}
   - component: {fileID: 519635860336645075}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished tail.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9241,7 +9241,7 @@ GameObject:
   - component: {fileID: 8665500757981954022}
   - component: {fileID: 8315835936669720692}
   - component: {fileID: 4369734469608388577}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.040
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9322,7 +9322,7 @@ GameObject:
   - component: {fileID: 122820822418314441}
   - component: {fileID: 8814526746764444398}
   - component: {fileID: 3323258445993131815}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished bumper.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9403,7 +9403,7 @@ GameObject:
   - component: {fileID: 9039061990457778404}
   - component: {fileID: 4502564808851502224}
   - component: {fileID: 9119705997214477401}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished top slim piece.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9484,7 +9484,7 @@ GameObject:
   - component: {fileID: 5667996353334237683}
   - component: {fileID: 395367635831836580}
   - component: {fileID: 8022035235478894738}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished hood.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9565,7 +9565,7 @@ GameObject:
   - component: {fileID: 716708353132176010}
   - component: {fileID: 942086492621523728}
   - component: {fileID: 8677175065274857357}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Interior - Seats
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9647,7 +9647,7 @@ GameObject:
   - component: {fileID: 357667653598334578}
   - component: {fileID: 2497896454756829996}
   - component: {fileID: 4624856116086360847}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished tail.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9729,7 +9729,7 @@ GameObject:
   - component: {fileID: 7116189690429080803}
   - component: {fileID: 7967597992665265329}
   - component: {fileID: 8049719017450232952}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bolt.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9810,7 +9810,7 @@ GameObject:
   - component: {fileID: 1802636783125294611}
   - component: {fileID: 5204872938676358466}
   - component: {fileID: 7700460091395872406}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished front fender
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9891,7 +9891,7 @@ GameObject:
   - component: {fileID: 3316058697084622519}
   - component: {fileID: 3439425146399401468}
   - component: {fileID: 8810820695803772133}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.035
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9972,7 +9972,7 @@ GameObject:
   - component: {fileID: 7600103347176066535}
   - component: {fileID: 5555992107732234956}
   - component: {fileID: 94402733441665739}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut.019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10053,7 +10053,7 @@ GameObject:
   - component: {fileID: 2028558160491901309}
   - component: {fileID: 8964584236146714547}
   - component: {fileID: 6100807239735136857}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10134,7 +10134,7 @@ GameObject:
   - component: {fileID: 2391203331374309512}
   - component: {fileID: 5330110159673173882}
   - component: {fileID: 2663342296170898760}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10215,7 +10215,7 @@ GameObject:
   - component: {fileID: 4221627394872275407}
   - component: {fileID: 2570288877285936951}
   - component: {fileID: 675016573310339700}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bolt.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10296,7 +10296,7 @@ GameObject:
   - component: {fileID: 3763945577966189639}
   - component: {fileID: 805144612963425741}
   - component: {fileID: 2334645589839416587}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.036
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10377,7 +10377,7 @@ GameObject:
   - component: {fileID: 2103050284090030416}
   - component: {fileID: 2266199980129185796}
   - component: {fileID: 8505046686375772747}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front Windshield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10458,7 +10458,7 @@ GameObject:
   - component: {fileID: 2601560087849293559}
   - component: {fileID: 1973201994234379940}
   - component: {fileID: 4494039699038426422}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Side Windows Rubber Divider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10539,7 +10539,7 @@ GameObject:
   - component: {fileID: 2414049049690385966}
   - component: {fileID: 7239042729522840917}
   - component: {fileID: 166494941578369377}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.024
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10620,7 +10620,7 @@ GameObject:
   - component: {fileID: 8776134958299975041}
   - component: {fileID: 3668457739083152268}
   - component: {fileID: 6726109523553588639}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10701,7 +10701,7 @@ GameObject:
   - component: {fileID: 6301141636434898259}
   - component: {fileID: 6788565069891730703}
   - component: {fileID: 4931989866903236254}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished front fender.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10780,7 +10780,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3013636132868070560}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10830,7 +10830,7 @@ GameObject:
   - component: {fileID: 1328043598548800993}
   - component: {fileID: 303081542361533801}
   - component: {fileID: 5216090042900627109}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10911,7 +10911,7 @@ GameObject:
   - component: {fileID: 1074384904857224436}
   - component: {fileID: 1840522004842280331}
   - component: {fileID: 6307444626263341816}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.033
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10992,7 +10992,7 @@ GameObject:
   - component: {fileID: 6284344735563053098}
   - component: {fileID: 7474492882513442146}
   - component: {fileID: 5542091784976003461}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11073,7 +11073,7 @@ GameObject:
   - component: {fileID: 2773851894567732411}
   - component: {fileID: 1439892054525086723}
   - component: {fileID: 372800443806095716}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: guide-grill.000
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11154,7 +11154,7 @@ GameObject:
   - component: {fileID: 8301479123021002474}
   - component: {fileID: 110058593761204741}
   - component: {fileID: 6822798475732806925}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11235,7 +11235,7 @@ GameObject:
   - component: {fileID: 1171348083352081595}
   - component: {fileID: 245852639718470585}
   - component: {fileID: 5316446281323505399}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.034
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11314,7 +11314,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3149855798746128170}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Empty.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11367,7 +11367,7 @@ GameObject:
   - component: {fileID: 4298731037919282211}
   - component: {fileID: 5017739200079322822}
   - component: {fileID: 874734625811813448}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11448,7 +11448,7 @@ GameObject:
   - component: {fileID: 8587845438228187384}
   - component: {fileID: 4750784928525727027}
   - component: {fileID: 1558028528079498697}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11531,7 +11531,7 @@ GameObject:
   - component: {fileID: 3249244519943041510}
   - component: {fileID: 1499558158225532115}
   - component: {fileID: 294782563258862620}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11612,7 +11612,7 @@ GameObject:
   - component: {fileID: 6733813160991637616}
   - component: {fileID: 7363375149771412723}
   - component: {fileID: 5590861734684140132}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11693,7 +11693,7 @@ GameObject:
   - component: {fileID: 2161617544052519819}
   - component: {fileID: 8997243846714116846}
   - component: {fileID: 4804142650598610837}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut.018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11774,7 +11774,7 @@ GameObject:
   - component: {fileID: 7051400878900448842}
   - component: {fileID: 8811313514647093103}
   - component: {fileID: 2463393724150359650}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11855,7 +11855,7 @@ GameObject:
   - component: {fileID: 6841790818602421055}
   - component: {fileID: 5696152617176298804}
   - component: {fileID: 882308791161652931}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished tail.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11936,7 +11936,7 @@ GameObject:
   - component: {fileID: 7907787292492051428}
   - component: {fileID: 1005206903101035165}
   - component: {fileID: 1179445604948991227}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.041
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12017,7 +12017,7 @@ GameObject:
   - component: {fileID: 2972744899212471400}
   - component: {fileID: 5679586604977355942}
   - component: {fileID: 635500711751620717}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished tail.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12098,7 +12098,7 @@ GameObject:
   - component: {fileID: 5351834060386949470}
   - component: {fileID: 6613914768681973734}
   - component: {fileID: 7614051295243219422}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.037
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12179,7 +12179,7 @@ GameObject:
   - component: {fileID: 4706656198979860977}
   - component: {fileID: 58493164155343661}
   - component: {fileID: 4936080149162275580}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12260,7 +12260,7 @@ GameObject:
   - component: {fileID: 6474369140384614410}
   - component: {fileID: 7035896598059704569}
   - component: {fileID: 7361074579034459792}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Sphere.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12341,7 +12341,7 @@ GameObject:
   - component: {fileID: 4183954103889799262}
   - component: {fileID: 1618843781934460188}
   - component: {fileID: 255977212242905863}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12422,7 +12422,7 @@ GameObject:
   - component: {fileID: 1573396964662145269}
   - component: {fileID: 4543076746377470266}
   - component: {fileID: 6432113270697021836}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished front fender.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12503,7 +12503,7 @@ GameObject:
   - component: {fileID: 4348443115876528190}
   - component: {fileID: 772077833430427972}
   - component: {fileID: 8998418041558115}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12585,7 +12585,7 @@ GameObject:
   - component: {fileID: 7024954589832502957}
   - component: {fileID: 1137937096315279244}
   - component: {fileID: 4274636846704344872}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished tail.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12667,7 +12667,7 @@ GameObject:
   - component: {fileID: 7556237809192203235}
   - component: {fileID: 129631230735459311}
   - component: {fileID: 5939787925038980277}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished top big piece.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12748,7 +12748,7 @@ GameObject:
   - component: {fileID: 1345614892063730408}
   - component: {fileID: 3849025798031855797}
   - component: {fileID: 8582524131668789301}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bolt.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12829,7 +12829,7 @@ GameObject:
   - component: {fileID: 5693112061881667713}
   - component: {fileID: 9016132809809957479}
   - component: {fileID: 767780596274167265}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.031
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12910,7 +12910,7 @@ GameObject:
   - component: {fileID: 3873982799970321635}
   - component: {fileID: 5127582032592658390}
   - component: {fileID: 4118026842824613995}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: guide-grill.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12991,7 +12991,7 @@ GameObject:
   - component: {fileID: 2198024950874770063}
   - component: {fileID: 8917242392813935649}
   - component: {fileID: 6391176106583972046}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13072,7 +13072,7 @@ GameObject:
   - component: {fileID: 6191687375409844390}
   - component: {fileID: 93746961441481625}
   - component: {fileID: 578668828466416981}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13153,9 +13153,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7551715276533978376}
   - component: {fileID: -4165893487441032616}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: uploads_files_2184547_corvetteStudioRender Variant
-  m_TagString: Untagged
+  m_TagString: car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13213,7 +13213,7 @@ GameObject:
   - component: {fileID: 7080983739773571404}
   - component: {fileID: 6904052506043331437}
   - component: {fileID: 4268285094490639304}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished back fender left.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13294,7 +13294,7 @@ GameObject:
   - component: {fileID: 4712134147028714184}
   - component: {fileID: 851773786438144019}
   - component: {fileID: 4067057318725343962}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished top big piece
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13376,7 +13376,7 @@ GameObject:
   - component: {fileID: 8582872887171875647}
   - component: {fileID: 6585820263857611445}
   - component: {fileID: 479960869457396717}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13457,7 +13457,7 @@ GameObject:
   - component: {fileID: 1119491692988107572}
   - component: {fileID: 2570739500876309274}
   - component: {fileID: 1683444248888416543}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut.021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13538,7 +13538,7 @@ GameObject:
   - component: {fileID: 8135344493920050884}
   - component: {fileID: 6099469290419359882}
   - component: {fileID: 8405500863953766821}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished back fender left.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13619,7 +13619,7 @@ GameObject:
   - component: {fileID: 757816170315011700}
   - component: {fileID: 6734636166906483266}
   - component: {fileID: 4155152958937677059}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished bumper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13700,7 +13700,7 @@ GameObject:
   - component: {fileID: 6695254074472145580}
   - component: {fileID: 5243377207517831744}
   - component: {fileID: 6052170583171112677}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished tail.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13782,7 +13782,7 @@ GameObject:
   - component: {fileID: 4617204332382687284}
   - component: {fileID: 5430015485857371949}
   - component: {fileID: 8364477312538200924}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.032
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13863,7 +13863,7 @@ GameObject:
   - component: {fileID: 5214519124795453490}
   - component: {fileID: 645038079157369352}
   - component: {fileID: 8924094782274451748}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Windows - Side - Front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13944,7 +13944,7 @@ GameObject:
   - component: {fileID: 2694443555496313333}
   - component: {fileID: 4774765158685087490}
   - component: {fileID: 7427149708274848402}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14025,7 +14025,7 @@ GameObject:
   - component: {fileID: 5585826710900140768}
   - component: {fileID: 955377773684322781}
   - component: {fileID: 7899381073187711281}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished tail.018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14106,7 +14106,7 @@ GameObject:
   - component: {fileID: 3532926933085532240}
   - component: {fileID: 7384635420212685394}
   - component: {fileID: 4882383901767276667}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14187,7 +14187,7 @@ GameObject:
   - component: {fileID: 454712461777498329}
   - component: {fileID: 3031934033364325989}
   - component: {fileID: 3969779325217517957}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bolt.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14268,7 +14268,7 @@ GameObject:
   - component: {fileID: 5132916779766910323}
   - component: {fileID: 2486273047173784622}
   - component: {fileID: 5037421397411636165}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14350,7 +14350,7 @@ GameObject:
   - component: {fileID: 4985550595893847369}
   - component: {fileID: 3768194376855419065}
   - component: {fileID: 9070111643373375978}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Sphere.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14431,7 +14431,7 @@ GameObject:
   - component: {fileID: 662054552905473710}
   - component: {fileID: 7425778403656748825}
   - component: {fileID: 1945381886083002902}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished front fender.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14512,7 +14512,7 @@ GameObject:
   - component: {fileID: 662032727967046275}
   - component: {fileID: 5496984428496640232}
   - component: {fileID: 1646818989613545817}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished top slim piece
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14594,7 +14594,7 @@ GameObject:
   - component: {fileID: 8472666944621290165}
   - component: {fileID: 3955583799259131308}
   - component: {fileID: 8030727238776587427}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.027
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14675,7 +14675,7 @@ GameObject:
   - component: {fileID: 6480287421160529096}
   - component: {fileID: 5786195924606724390}
   - component: {fileID: 2955225451299844433}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished hood.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14756,7 +14756,7 @@ GameObject:
   - component: {fileID: 7989572506238385713}
   - component: {fileID: 5799641038309259468}
   - component: {fileID: 5441186545185843040}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Logo - Corvette.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14837,7 +14837,7 @@ GameObject:
   - component: {fileID: 1173818328270004242}
   - component: {fileID: 360936703062180684}
   - component: {fileID: 845875987386034682}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14918,7 +14918,7 @@ GameObject:
   - component: {fileID: 6607409699161375697}
   - component: {fileID: 1612100481730421490}
   - component: {fileID: 99005815548990514}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Root Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14992,7 +14992,7 @@ GameObject:
   - component: {fileID: 5379034195000271778}
   - component: {fileID: 2109124914428856587}
   - component: {fileID: 2475790134833243021}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.023
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15074,7 +15074,7 @@ GameObject:
   - component: {fileID: 3806066926785739081}
   - component: {fileID: 8517929454411773100}
   - component: {fileID: 2412535292748481618}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.033
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15155,7 +15155,7 @@ GameObject:
   - component: {fileID: 4847914555192867371}
   - component: {fileID: 3256581794424768401}
   - component: {fileID: 6922345335654275603}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15236,7 +15236,7 @@ GameObject:
   - component: {fileID: 7131695245656020788}
   - component: {fileID: 957953492956815349}
   - component: {fileID: 9024656495099619169}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bolt.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15317,7 +15317,7 @@ GameObject:
   - component: {fileID: 783121164121217793}
   - component: {fileID: 123765694790274466}
   - component: {fileID: 2237214741961502433}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15398,7 +15398,7 @@ GameObject:
   - component: {fileID: 6540419377950801742}
   - component: {fileID: 3628071072505223979}
   - component: {fileID: 4698496898259236795}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished bumper.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15479,7 +15479,7 @@ GameObject:
   - component: {fileID: 8907379284921278389}
   - component: {fileID: 8761416161234471477}
   - component: {fileID: 4031695917813317268}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15560,7 +15560,7 @@ GameObject:
   - component: {fileID: 2628574186249604209}
   - component: {fileID: 4927917647790108219}
   - component: {fileID: 5627863833973790272}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.030
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15642,7 +15642,7 @@ GameObject:
   - component: {fileID: 7067987049690711569}
   - component: {fileID: 5829872975052350342}
   - component: {fileID: 5339568976874342482}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished gas cap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15723,7 +15723,7 @@ GameObject:
   - component: {fileID: 8167116774136708550}
   - component: {fileID: 877673805347317358}
   - component: {fileID: 8379880667213792123}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bolt.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15804,7 +15804,7 @@ GameObject:
   - component: {fileID: 3369791411112911506}
   - component: {fileID: 4978553615599658570}
   - component: {fileID: 6163753965702437563}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bolt.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15885,7 +15885,7 @@ GameObject:
   - component: {fileID: 7046917703731742409}
   - component: {fileID: 7399872056623675386}
   - component: {fileID: 755783236734929363}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15966,7 +15966,7 @@ GameObject:
   - component: {fileID: 4470439330415924808}
   - component: {fileID: 9163856137899193300}
   - component: {fileID: 7904636300553079869}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bolt.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16047,7 +16047,7 @@ GameObject:
   - component: {fileID: 5673264225330852901}
   - component: {fileID: 2307340906858533009}
   - component: {fileID: 7653430014188125622}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16128,7 +16128,7 @@ GameObject:
   - component: {fileID: 8944122163478817722}
   - component: {fileID: 7463529312790340129}
   - component: {fileID: 6897507480738745350}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.025
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16209,7 +16209,7 @@ GameObject:
   - component: {fileID: 8107367115303267690}
   - component: {fileID: 8189083075327151989}
   - component: {fileID: 4282576101927307036}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bolt.019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16290,7 +16290,7 @@ GameObject:
   - component: {fileID: 5279825511401181048}
   - component: {fileID: 5988707985522606127}
   - component: {fileID: 1943850316788250637}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished bumper.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16371,7 +16371,7 @@ GameObject:
   - component: {fileID: 5181786161816186353}
   - component: {fileID: 8374451016167489767}
   - component: {fileID: 2757577490092402569}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Nut.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16452,7 +16452,7 @@ GameObject:
   - component: {fileID: 2299812176014861052}
   - component: {fileID: 6738244782326808801}
   - component: {fileID: 1410055119434171434}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16533,7 +16533,7 @@ GameObject:
   - component: {fileID: 4299709761760406058}
   - component: {fileID: 6223679214417571901}
   - component: {fileID: 6270963750599177352}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished hood.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16614,7 +16614,7 @@ GameObject:
   - component: {fileID: 5900789388732127607}
   - component: {fileID: 8335885531808149122}
   - component: {fileID: 7489367384753348783}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.038
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16695,7 +16695,7 @@ GameObject:
   - component: {fileID: 6551166450990922192}
   - component: {fileID: 8525876573761099955}
   - component: {fileID: 3253013202403809638}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished tail.016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16776,7 +16776,7 @@ GameObject:
   - component: {fileID: 5504680327076817502}
   - component: {fileID: 4030199474602737368}
   - component: {fileID: 1678625585671364029}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.036
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16857,7 +16857,7 @@ GameObject:
   - component: {fileID: 963581598055438864}
   - component: {fileID: 6972195335707831730}
   - component: {fileID: 7449545353302385353}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.024
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16938,7 +16938,7 @@ GameObject:
   - component: {fileID: 1268989057253794554}
   - component: {fileID: 3791077437779007713}
   - component: {fileID: 8709342930823434022}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plane.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17019,7 +17019,7 @@ GameObject:
   - component: {fileID: 8168288441420769972}
   - component: {fileID: 4119683839702071496}
   - component: {fileID: 4109400103734039120}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Circle.020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17101,7 +17101,7 @@ GameObject:
   - component: {fileID: 8831550712380185825}
   - component: {fileID: 5310610792309608194}
   - component: {fileID: 7503883338670175013}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: finished tail.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}

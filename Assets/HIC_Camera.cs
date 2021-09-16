@@ -86,6 +86,10 @@ public class HIC_Camera : MonoBehaviour
 
     public bool toggleStereoCameraBaseline = false;
 
+    public float bboxOcclusionRatio = 0.5f;
+
+    public Light sun;
+
     private Dictionary<int, string> facingDirections = new Dictionary<int, string>()
     {
         { 0, "front_valid"},
@@ -111,6 +115,10 @@ public class HIC_Camera : MonoBehaviour
     private System.Random RNG = new System.Random();
 
     private Material previousSkybox;
+
+    Vector3 cameraStartPosition;
+
+    public bool toggleRandomCameraPlacement = false;
 
     private void Start()
     {
@@ -190,6 +198,8 @@ public class HIC_Camera : MonoBehaviour
             }
         }
 
+        cameraStartPosition = rightCamera.transform.position;
+
         DirectoryInfo frontValidDir = new DirectoryInfo(Path.Combine(streetviewImagesRootDir, facingDirections[0]));
         FileInfo[] frontValidImages = frontValidDir.GetFiles("*.jpg");
 
@@ -242,6 +252,8 @@ public class HIC_Camera : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()
     {
+        rightCamera.GetComponent<ImageSynthesis>().OnSceneChange();
+
         if (sceneReflectionProbe.IsFinishedRendering(renderID) && frameDelay == delayAmount)
         {
             frameDelay = 0;
@@ -303,7 +315,7 @@ public class HIC_Camera : MonoBehaviour
                 while (sampledSegColor.r != 140 || sampledSegColor.g != 140 || sampledSegColor.b != 140 || collision)
                 {
                     x = UnityEngine.Random.Range(0, 999);
-                    y = UnityEngine.Random.Range(0, 450);
+                    y = UnityEngine.Random.Range(0, 350);
 
                     int flatIndex = y * 1000 + x;
 
@@ -326,10 +338,9 @@ public class HIC_Camera : MonoBehaviour
 
                     placementTries++;
 
-                    if (placementTries > 500) //max number of possible positions
+                    if (placementTries > 100) //max number of possible positions
                     {
                         validPosition = false;
-                        Debug.Log("impossible");
                         break;
                     }
                 }
@@ -343,18 +354,33 @@ public class HIC_Camera : MonoBehaviour
                     //Vector3 localSpawnPosition = UnityEngine.Random.Range(-50f, 50f) * transform.forward + UnityEngine.Random.Range(-50f, 50f) * transform.right; //scaled down by 10 because plane is e
 
                     //spawnedCar.transform.position = transform.position +
-                    spawnedCar.transform.Rotate(0f, UnityEngine.Random.Range(0f, 360f), 0f);
+
+                    if (UnityEngine.Random.Range(0f, 1f) < 0.5f)
+                    {
+                        spawnedCar.transform.Rotate(0f, UnityEngine.Random.Range(-5f, 5f), 0f);
+                    }
+
+                    else
+                    {
+                        spawnedCar.transform.Rotate(0f, 180f + UnityEngine.Random.Range(-5f, 5f), 0f);
+                    }
+
+                    
 
                     CarMaterialChange spawnedCarChanger = spawnedCar.transform.GetComponent<CarMaterialChange>();
 
                     Renderer[] renderers = spawnedCar.GetComponentsInChildren<Renderer>();
 
 
+                    
+
+                    
+
+
                     float randomGreyfloat = UnityEngine.Random.Range(0.05f, 0.95f);
 
                     Color randomGreyscale = new Color(randomGreyfloat, randomGreyfloat, randomGreyfloat);
 
-                    Color randomColor = UnityEngine.Random.ColorHSV();
                     float randomGloss = UnityEngine.Random.Range(0.75f, 0.99f);
 
                     foreach (Renderer renderer in renderers)
@@ -369,6 +395,8 @@ public class HIC_Camera : MonoBehaviour
                             }
                         }
                     }
+
+                    
 
                     previousSpawnedCars.Add(spawnedCar);
 
@@ -433,12 +461,12 @@ public class HIC_Camera : MonoBehaviour
 
             if (toggleCameraCapture == true && cameraCaptureCount == captureFrames)
             {
-                string[] ImgFileNames = Directory.GetFiles(ImgDir.FullName);
+                string[] ImgFileNames = Directory.GetFiles(AnnotationsDir.FullName);
 
                 System.Random random = new System.Random();
                 ImgFileNames = ImgFileNames.OrderBy(x => random.Next()).ToArray();
                 int fileCount = ImgFileNames.Length;
-                int splitIndex = (int)(0.9f * fileCount);
+                int splitIndex = (int)(0.95f * fileCount);
 
                 String[] TrainValNames = SubArray(ImgFileNames, 0, splitIndex - 1);
                 String[] TestNames = SubArray(ImgFileNames, splitIndex, fileCount - splitIndex);
@@ -447,7 +475,11 @@ public class HIC_Camera : MonoBehaviour
                 {
                     foreach (string fullPath in TrainValNames)
                     {
-                        writer.WriteLine(Path.GetFileNameWithoutExtension(fullPath));
+                        if (new FileInfo(fullPath).Length > 0)
+                        {
+                            writer.WriteLine(Path.GetFileNameWithoutExtension(fullPath));
+                        }
+                            
                     }
                 }
 
@@ -455,7 +487,11 @@ public class HIC_Camera : MonoBehaviour
                 {
                     foreach (string fullPath in TestNames)
                     {
-                        writer.WriteLine(Path.GetFileNameWithoutExtension(fullPath));
+                        if (new FileInfo(fullPath).Length > 0)
+                        {
+                            writer.WriteLine(Path.GetFileNameWithoutExtension(fullPath));
+                        }
+
                     }
                 }
 
@@ -469,11 +505,17 @@ public class HIC_Camera : MonoBehaviour
 
                 if (previousSpawnedCars.Count > 0)
                 {
-                    BoundingBoxUtils.SaveImageAndBoundingBoxes(cameraChassis, rightCamera, cameraBoundingBoxDistance, rightCamDir, fixedUpdateIterations, captureWidth, captureHeight, classes, toggleYOLOFormatRight, 0);
+
+                    
+
+                    RandomizeCameraPlacement(rightCamera, 15f, 1f, 0.3f);
+
+                    sun.transform.localRotation = Quaternion.Euler(UnityEngine.Random.Range(0f, 360f), UnityEngine.Random.Range(0f, 360f), UnityEngine.Random.Range(0f, 360f));
+
+                    BoundingBoxUtils.SaveImageAndBoundingBoxes(cameraChassis, rightCamera, cameraBoundingBoxDistance, rightCamDir, fixedUpdateIterations, captureWidth, captureHeight, classes, toggleYOLOFormatRight, bboxOcclusionRatio, 0);
                 }
                 
 
-                Debug.Log("photo taken");
 
                 cameraCaptureCount++;
             }
@@ -481,6 +523,13 @@ public class HIC_Camera : MonoBehaviour
         }
 
         Resources.UnloadUnusedAssets();
+    }
+
+    public void RandomizeCameraPlacement(Camera camera, float range, float rangeY, float rangeZ)
+    {
+        camera.transform.localRotation = Quaternion.Euler(UnityEngine.Random.Range(-range/4f, range/4f), UnityEngine.Random.Range(-range, range), UnityEngine.Random.Range(-range/4f, range/4f));
+
+        camera.transform.position = cameraStartPosition + new Vector3(0, UnityEngine.Random.Range(-rangeY, 0), UnityEngine.Random.Range(-rangeZ, rangeZ));
     }
 
     public float TriangleWave(float x, float a, float p)

@@ -587,7 +587,7 @@ GameObject:
   - component: {fileID: 7941741308825106473}
   - component: {fileID: 8002101716086572821}
   - component: {fileID: 8706077477705797077}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Root Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -905,7 +905,7 @@ GameObject:
   - component: {fileID: 5325227442469567612}
   m_Layer: 0
   m_Name: Toyota Hiace
-  m_TagString: Untagged
+  m_TagString: car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3820402686220007314}
   - component: {fileID: 298865310403929562}
   - component: {fileID: 3276897740166078811}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Rear Headrest_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 5550243184901531112}
   - component: {fileID: 8896656564349520370}
   - component: {fileID: 4191975601316787191}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Speaker_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 2377145729785595533}
   - component: {fileID: 4078050123442480544}
   - component: {fileID: 5014924687908392169}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: backglass_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -258,7 +258,7 @@ GameObject:
   - component: {fileID: 7197287060979985185}
   - component: {fileID: 2368327333995630150}
   - component: {fileID: 8940709121371478676}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: windscre01_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -339,7 +339,7 @@ GameObject:
   - component: {fileID: 6904970971563303648}
   - component: {fileID: 51995776607655901}
   - component: {fileID: 2600993715037037388}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Taillights_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -431,7 +431,7 @@ GameObject:
   - component: {fileID: 274520314156673135}
   - component: {fileID: 1225400488679169062}
   - component: {fileID: 1652859591940091155}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Rear Headrest_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -515,7 +515,7 @@ GameObject:
   - component: {fileID: 1418749460521570412}
   - component: {fileID: 5176494801332643381}
   - component: {fileID: 4926193770878025505}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: brake_005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -600,7 +600,7 @@ GameObject:
   - component: {fileID: 6047145513240255211}
   - component: {fileID: 3593830808846103097}
   - component: {fileID: 3015638994667640219}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: TC_WHEEL_004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -684,7 +684,7 @@ GameObject:
   - component: {fileID: 2372077702916664456}
   - component: {fileID: 1467983263866770451}
   - component: {fileID: 6563310883952534451}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Taillights_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -776,7 +776,7 @@ GameObject:
   - component: {fileID: 4969913693471635731}
   - component: {fileID: 2018378118374602426}
   - component: {fileID: 4529735948070555157}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: brake_003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -861,7 +861,7 @@ GameObject:
   - component: {fileID: 7187525745864217076}
   - component: {fileID: 8729714498311747127}
   - component: {fileID: 2860354643720695781}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Speaker_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -943,7 +943,7 @@ GameObject:
   - component: {fileID: 7066670397867128575}
   - component: {fileID: 5511152583149833478}
   - component: {fileID: 9090773630887482960}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: brake_007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1028,7 +1028,7 @@ GameObject:
   - component: {fileID: 4660490882511210910}
   - component: {fileID: 7945416141775874163}
   - component: {fileID: 7916108411404824528}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: TC_WHEEL_003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1112,7 +1112,7 @@ GameObject:
   - component: {fileID: 247470843209577433}
   - component: {fileID: 5176809741817679871}
   - component: {fileID: 7114237806349031815}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: bump_fro01_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1198,7 +1198,7 @@ GameObject:
   - component: {fileID: 6008120919701423490}
   - component: {fileID: 6553408376603176591}
   - component: {fileID: 6942302759569323374}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: glass2_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1279,7 +1279,7 @@ GameObject:
   - component: {fileID: 8215260013995955245}
   - component: {fileID: 5606050740463981181}
   - component: {fileID: 7110572040617181684}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: bonnet_ok_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1361,7 +1361,7 @@ GameObject:
   - component: {fileID: 5796593748704049263}
   - component: {fileID: 3382950824168890432}
   - component: {fileID: 3607557147272361877}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: TC_WHEEL_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1445,7 +1445,7 @@ GameObject:
   - component: {fileID: 1992583312656115464}
   - component: {fileID: 3500969782581316751}
   - component: {fileID: 3947886667124491658}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: bump_rea01_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1528,7 +1528,7 @@ GameObject:
   - component: {fileID: 4263009569489373815}
   - component: {fileID: 4877592163964644784}
   - component: {fileID: 1010817965311907628}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: door_lf_ok_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1619,7 +1619,7 @@ GameObject:
   - component: {fileID: 1915198969465656659}
   - component: {fileID: 8006158377676830081}
   - component: {fileID: 7771032471225145348}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Sun Visor_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1701,7 +1701,7 @@ GameObject:
   - component: {fileID: 1734394244174494145}
   - component: {fileID: 7330798696958467143}
   - component: {fileID: 4738130738226840919}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Headlights_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1793,7 +1793,7 @@ GameObject:
   - component: {fileID: 909016825575229169}
   - component: {fileID: 825510491812185046}
   - component: {fileID: 5593459525209509794}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: brake_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1878,7 +1878,7 @@ GameObject:
   - component: {fileID: 4550368897504450395}
   - component: {fileID: 5805942057187036761}
   - component: {fileID: 2586853989993686862}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: glass_ok01_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1959,7 +1959,7 @@ GameObject:
   - component: {fileID: 1788121208977146264}
   - component: {fileID: 8052932202508926676}
   - component: {fileID: 3800705084591939695}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: boot_ok_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2043,9 +2043,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6688024399109013058}
   - component: {fileID: -3889907081095442616}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Scion tC 2012 Fixed
-  m_TagString: Untagged
+  m_TagString: car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2081,6 +2081,7 @@ MonoBehaviour:
   carRenderer: {fileID: 6554605138152530320}
   defaultMaterialIndex: 0
   materialName: MainAlbedo
+  changeMaterial: {fileID: 0}
 --- !u!1 &6547602052902901373
 GameObject:
   m_ObjectHideFlags: 0
@@ -2092,7 +2093,7 @@ GameObject:
   - component: {fileID: 6090911890263951938}
   - component: {fileID: 5543668849843758709}
   - component: {fileID: 6846281100327322454}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: door_lf_ok_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2183,7 +2184,7 @@ GameObject:
   - component: {fileID: 6864195650188924734}
   - component: {fileID: 598845308812771546}
   - component: {fileID: 7475135281327377544}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Sun Visor_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2265,7 +2266,7 @@ GameObject:
   - component: {fileID: 1906246767428317058}
   - component: {fileID: 3745474368246941118}
   - component: {fileID: 5196001481722160056}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: glass1_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2346,7 +2347,7 @@ GameObject:
   - component: {fileID: 1108986046016530660}
   - component: {fileID: 6006796926600413672}
   - component: {fileID: 7906019955343654514}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Headlights_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2438,7 +2439,7 @@ GameObject:
   - component: {fileID: 6631203243235759077}
   - component: {fileID: 6922386793971397354}
   - component: {fileID: 362969346982144399}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: glass_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2520,7 +2521,7 @@ GameObject:
   - component: {fileID: 4910253751428625447}
   - component: {fileID: 3019651819405069075}
   - component: {fileID: 3415199526164344741}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: glass_ok01_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2601,7 +2602,7 @@ GameObject:
   - component: {fileID: 3813201272933704226}
   - component: {fileID: 5622602930524750773}
   - component: {fileID: 1960209956294831445}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front Seat_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2690,7 +2691,7 @@ GameObject:
   - component: {fileID: 5020983800636319872}
   - component: {fileID: 9089333304882078176}
   - component: {fileID: 6240726926784813756}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: TC_WHEEL_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2774,7 +2775,7 @@ GameObject:
   - component: {fileID: 8054571374682623841}
   - component: {fileID: 5021775456199460948}
   - component: {fileID: 1382681799906559749}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Root Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2848,7 +2849,7 @@ GameObject:
   - component: {fileID: 1508324829639054483}
   - component: {fileID: 3573390024273550110}
   - component: {fileID: 6554605138152530320}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: body_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2948,7 +2949,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 734105961665515896}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Axis Fix
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3014,7 +3015,7 @@ GameObject:
   - component: {fileID: 5852567793864532958}
   - component: {fileID: 8568960251862138478}
   - component: {fileID: 1406645944390505685}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front Seat_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}

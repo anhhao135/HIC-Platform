@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4445387395136170895}
   - component: {fileID: 328511476637348677}
   - component: {fileID: 2238452249943651763}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Rear Spoiler_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 6896924640259261274}
   - component: {fileID: 5100126048736098066}
   - component: {fileID: 7551383848957689542}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bucket Seat_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 8854462941874640037}
   - component: {fileID: 5379410829115571099}
   - component: {fileID: 5345956585092815478}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -252,7 +252,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8526874813205884734}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Axis Fix
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -412,7 +412,7 @@ GameObject:
   - component: {fileID: 3675922599779873543}
   - component: {fileID: 2998628173037964960}
   - component: {fileID: 4040731505538954595}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -493,7 +493,7 @@ GameObject:
   - component: {fileID: 6391910669567802947}
   - component: {fileID: 2817679425914084024}
   - component: {fileID: 5964232757439210085}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: skpC9E7_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -574,7 +574,7 @@ GameObject:
   - component: {fileID: 3673449590266331916}
   - component: {fileID: 2898413688350252611}
   - component: {fileID: 3757021068568047177}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Seat_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -658,7 +658,7 @@ GameObject:
   - component: {fileID: 2674362419066022789}
   - component: {fileID: 361909342304852048}
   - component: {fileID: 6260541028097488328}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Rear Seat Garnish_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -740,7 +740,7 @@ GameObject:
   - component: {fileID: 9036835186215830825}
   - component: {fileID: 7590581487985131749}
   - component: {fileID: 1946976064836948613}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front Belt Lock_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -822,7 +822,7 @@ GameObject:
   - component: {fileID: 4911807507426835772}
   - component: {fileID: 7764611622468874703}
   - component: {fileID: 4001455108023830703}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Subaru Stars_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -903,7 +903,7 @@ GameObject:
   - component: {fileID: 9219871208159619754}
   - component: {fileID: 2346441178851654605}
   - component: {fileID: 4682028453342167278}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Interior Tub_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -998,7 +998,7 @@ GameObject:
   - component: {fileID: 1334094678921373458}
   - component: {fileID: 6966196297730378421}
   - component: {fileID: 1324094542771199914}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Seat Strap_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1080,7 +1080,7 @@ GameObject:
   - component: {fileID: 3287401762728942108}
   - component: {fileID: 918917191313643809}
   - component: {fileID: 3583060269335875786}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front Seat Mechanism_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1161,7 +1161,7 @@ GameObject:
   - component: {fileID: 3565328542615286068}
   - component: {fileID: 3672602779265573742}
   - component: {fileID: 1348197984283566828}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1242,7 +1242,7 @@ GameObject:
   - component: {fileID: 6685482643612796016}
   - component: {fileID: 3786539701327693466}
   - component: {fileID: 483950819987153210}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Muffler_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1323,7 +1323,7 @@ GameObject:
   - component: {fileID: 4122725603850342456}
   - component: {fileID: 8198058267409971428}
   - component: {fileID: 1930530879281778043}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_032
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1404,7 +1404,7 @@ GameObject:
   - component: {fileID: 4051501495694952921}
   - component: {fileID: 900773796928462068}
   - component: {fileID: 8975686103606220265}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Headrest_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1489,7 +1489,7 @@ GameObject:
   - component: {fileID: 1123863056334359210}
   - component: {fileID: 8067115523781945016}
   - component: {fileID: 3533416719858573463}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Taillight Assembly_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1579,7 +1579,7 @@ GameObject:
   - component: {fileID: 7720965580136260064}
   - component: {fileID: 6789377203339260525}
   - component: {fileID: 5309762266722675227}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Door Glass_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1660,7 +1660,7 @@ GameObject:
   - component: {fileID: 8048951322010271810}
   - component: {fileID: 7363675410796142811}
   - component: {fileID: 5537552055075491787}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Underchassis Plastic_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1741,7 +1741,7 @@ GameObject:
   - component: {fileID: 818934763097921584}
   - component: {fileID: 2987431032274139881}
   - component: {fileID: 6075052424116263774}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Rear Belt 2_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1823,7 +1823,7 @@ GameObject:
   - component: {fileID: 7375066959105684110}
   - component: {fileID: 3361961843295353602}
   - component: {fileID: 7495009852667005410}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_029
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1904,7 +1904,7 @@ GameObject:
   - component: {fileID: 4956985896298468961}
   - component: {fileID: 4125995751092198057}
   - component: {fileID: 6230238490563344714}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Fog Lamp Cover_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1985,7 +1985,7 @@ GameObject:
   - component: {fileID: 3910879241643195443}
   - component: {fileID: 6094913649728159287}
   - component: {fileID: 9173205324072499800}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bucket Seat_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2066,7 +2066,7 @@ GameObject:
   - component: {fileID: 8869118031394098301}
   - component: {fileID: 8009724828726422771}
   - component: {fileID: 4641496358286090179}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_033
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2147,7 +2147,7 @@ GameObject:
   - component: {fileID: 1338777583421122693}
   - component: {fileID: 3877845209854362688}
   - component: {fileID: 854526453168777883}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Fog Lamp Cover_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2228,7 +2228,7 @@ GameObject:
   - component: {fileID: 1605516423952223314}
   - component: {fileID: 5235473614727244570}
   - component: {fileID: 342773617761719573}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: bump_rea01#2_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2315,7 +2315,7 @@ GameObject:
   - component: {fileID: 5690085397336332036}
   - component: {fileID: 7134811624472104253}
   - component: {fileID: 2040641808914685774}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Quartew Window Black Glass_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2396,7 +2396,7 @@ GameObject:
   - component: {fileID: 4289423347662978578}
   - component: {fileID: 1277904717802822829}
   - component: {fileID: 7648902833664809403}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Rear Quarter Window_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2477,7 +2477,7 @@ GameObject:
   - component: {fileID: 8496155220403581096}
   - component: {fileID: 8069148011278270563}
   - component: {fileID: 5993072942297862772}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_030
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2558,7 +2558,7 @@ GameObject:
   - component: {fileID: 4040792665650928617}
   - component: {fileID: 7107210268178163793}
   - component: {fileID: 4913928535030974803}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Plate 048_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2643,7 +2643,7 @@ GameObject:
   - component: {fileID: 4803001144486414673}
   - component: {fileID: 157006913500810865}
   - component: {fileID: 8170215016901800377}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Headlight Assembly_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2731,7 +2731,7 @@ GameObject:
   - component: {fileID: 8102484513989311283}
   - component: {fileID: 7864048723764566020}
   - component: {fileID: 966990671215114566}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2812,7 +2812,7 @@ GameObject:
   - component: {fileID: 3975122661475024699}
   - component: {fileID: 4003628542814560967}
   - component: {fileID: 4527809191207289766}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Rear Belt_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2894,7 +2894,7 @@ GameObject:
   - component: {fileID: 6822672791448566149}
   - component: {fileID: 8639368299125965673}
   - component: {fileID: 8312202140105263839}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: 3001_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2975,7 +2975,7 @@ GameObject:
   - component: {fileID: 3560030195364151496}
   - component: {fileID: 7427551729412415367}
   - component: {fileID: 8754112138789376901}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front Belt Buckle_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3057,7 +3057,7 @@ GameObject:
   - component: {fileID: 3568801717537394863}
   - component: {fileID: 2685889291913605136}
   - component: {fileID: 5922459988722351877}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_036
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3138,7 +3138,7 @@ GameObject:
   - component: {fileID: 4229138391857428538}
   - component: {fileID: 5294412486455922407}
   - component: {fileID: 3939359926158626595}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_027
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3219,7 +3219,7 @@ GameObject:
   - component: {fileID: 1734241863165592009}
   - component: {fileID: 66954302579708411}
   - component: {fileID: 2705727764894221329}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Fender Garnish 2_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3301,7 +3301,7 @@ GameObject:
   - component: {fileID: 8746131640361189660}
   - component: {fileID: 3858785293376477933}
   - component: {fileID: 2482446874693117703}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: bonnet_ok#2_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3383,7 +3383,7 @@ GameObject:
   - component: {fileID: 8506619084201427329}
   - component: {fileID: 6524130637296669777}
   - component: {fileID: 4968576508417735981}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3464,7 +3464,7 @@ GameObject:
   - component: {fileID: 7117151623358571133}
   - component: {fileID: 7233823759990002131}
   - component: {fileID: 8577951175041747235}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Wipers_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3545,7 +3545,7 @@ GameObject:
   - component: {fileID: 8275094723116685589}
   - component: {fileID: 2852751001746187941}
   - component: {fileID: 6090695323042496219}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Underchassis_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3626,7 +3626,7 @@ GameObject:
   - component: {fileID: 7595726120662896116}
   - component: {fileID: 1373133206242959238}
   - component: {fileID: 1402770278624348110}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Fender Garnish 2_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3708,7 +3708,7 @@ GameObject:
   - component: {fileID: 622623360591603131}
   - component: {fileID: 8926549311645305511}
   - component: {fileID: 9034266724484147278}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Rear Windshield_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3789,7 +3789,7 @@ GameObject:
   - component: {fileID: 904255643004851229}
   - component: {fileID: 8703510306156038853}
   - component: {fileID: 6153322076103718702}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: wheel_shin#2_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3873,7 +3873,7 @@ GameObject:
   - component: {fileID: 2061651272384198366}
   - component: {fileID: 5274619770884108701}
   - component: {fileID: 4001649857557950641}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Root Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3947,7 +3947,7 @@ GameObject:
   - component: {fileID: 5020852494075201722}
   - component: {fileID: 4981965412717761346}
   - component: {fileID: 3871571285340322942}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Black Glass_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4028,7 +4028,7 @@ GameObject:
   - component: {fileID: 2807199265476679781}
   - component: {fileID: 4445114535454930184}
   - component: {fileID: 1610833081366419811}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Rear Suspension_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4109,7 +4109,7 @@ GameObject:
   - component: {fileID: 5957611564560243709}
   - component: {fileID: 2981230753893030965}
   - component: {fileID: 8565132634556237254}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_031
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4190,7 +4190,7 @@ GameObject:
   - component: {fileID: 805324053698023279}
   - component: {fileID: 2598500841337078243}
   - component: {fileID: 2105937935969499991}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Backup Light Cover_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4272,7 +4272,7 @@ GameObject:
   - component: {fileID: 920499133849662197}
   - component: {fileID: 4209610694401628079}
   - component: {fileID: 7768288464431420489}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Rear Quarter Window_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4353,7 +4353,7 @@ GameObject:
   - component: {fileID: 5488172753983350267}
   - component: {fileID: 6065891174029377419}
   - component: {fileID: 3603083264985858678}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_025
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4434,7 +4434,7 @@ GameObject:
   - component: {fileID: 122176129069800782}
   - component: {fileID: 9207836034010668969}
   - component: {fileID: 510903760553312752}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4515,7 +4515,7 @@ GameObject:
   - component: {fileID: 7227810578400873402}
   - component: {fileID: 5955734035386166007}
   - component: {fileID: 6077256390273583998}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Rear Belt 2_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4597,7 +4597,7 @@ GameObject:
   - component: {fileID: 1542187783330718720}
   - component: {fileID: 8499757267952830255}
   - component: {fileID: 2951588581993478952}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Rear Seat Garnish_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4679,7 +4679,7 @@ GameObject:
   - component: {fileID: 9177842218761840777}
   - component: {fileID: 7972374786945719803}
   - component: {fileID: 6077000848238701154}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Door Glass_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4760,7 +4760,7 @@ GameObject:
   - component: {fileID: 4062124860857087653}
   - component: {fileID: 1583164460681441707}
   - component: {fileID: 4167147348186607186}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Exhaust Tip_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4843,7 +4843,7 @@ GameObject:
   - component: {fileID: 7899482592784794094}
   - component: {fileID: 8088451625969484079}
   - component: {fileID: 2731169005804240958}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front Seat Mechanism_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4924,7 +4924,7 @@ GameObject:
   - component: {fileID: 5039377443471035408}
   - component: {fileID: 2175005892554095844}
   - component: {fileID: 8928034246562080809}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: wheel_shin#2_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5008,7 +5008,7 @@ GameObject:
   - component: {fileID: 4761093788639361456}
   - component: {fileID: 8385683058074649795}
   - component: {fileID: 4015704127006848271}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Seat_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5092,7 +5092,7 @@ GameObject:
   - component: {fileID: 8656543528772120086}
   - component: {fileID: 2298281626530024776}
   - component: {fileID: 4541359144083222971}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Taillight Assembly_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5182,7 +5182,7 @@ GameObject:
   - component: {fileID: 708628007330969234}
   - component: {fileID: 1233299920105495646}
   - component: {fileID: 3168896165924151233}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: interior#2_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5280,7 +5280,7 @@ GameObject:
   - component: {fileID: 7489064737625796188}
   - component: {fileID: 2205772329287850679}
   - component: {fileID: 6203647494985164412}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Projector Cover_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5361,7 +5361,7 @@ GameObject:
   - component: {fileID: 728636719647299606}
   - component: {fileID: 8634877398210942673}
   - component: {fileID: 7019336427843779453}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front Belt Catch_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5442,7 +5442,7 @@ GameObject:
   - component: {fileID: 1072917185991677978}
   - component: {fileID: 8865916126115745492}
   - component: {fileID: 4231628297362117189}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Headlight CoverF_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5523,7 +5523,7 @@ GameObject:
   - component: {fileID: 9124255949780219457}
   - component: {fileID: 8572999968122608709}
   - component: {fileID: 8346305384761769564}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5604,7 +5604,7 @@ GameObject:
   - component: {fileID: 6147031994515034492}
   - component: {fileID: 589126670418309969}
   - component: {fileID: 1848564810821734324}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front Windshield_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5685,7 +5685,7 @@ GameObject:
   - component: {fileID: 7689391130216053236}
   - component: {fileID: 236658427103980894}
   - component: {fileID: 1400757809010631452}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Projector Cover_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5766,7 +5766,7 @@ GameObject:
   - component: {fileID: 3681972819426853729}
   - component: {fileID: 6322525352890573898}
   - component: {fileID: 5834720574849003793}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: D#1_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5847,7 +5847,7 @@ GameObject:
   - component: {fileID: 5426641088022790656}
   - component: {fileID: 4466235773225479499}
   - component: {fileID: 5594877422969880774}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5928,7 +5928,7 @@ GameObject:
   - component: {fileID: 4392973459168896553}
   - component: {fileID: 8494748075600526012}
   - component: {fileID: 5468184014048699713}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_034
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6009,7 +6009,7 @@ GameObject:
   - component: {fileID: 8282125524263155058}
   - component: {fileID: 1270217683342966821}
   - component: {fileID: 3242444473045135704}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Body_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6095,7 +6095,7 @@ GameObject:
   - component: {fileID: 2877997497559397986}
   - component: {fileID: 6586850182330141495}
   - component: {fileID: 1706406864272195566}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Seat Back_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6178,7 +6178,7 @@ GameObject:
   - component: {fileID: 3181090665528427267}
   - component: {fileID: 2902095038940919857}
   - component: {fileID: 1752444974310984987}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6259,7 +6259,7 @@ GameObject:
   - component: {fileID: 5433280922496106014}
   - component: {fileID: 2173189260391940132}
   - component: {fileID: 3983166461345476793}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Exhaust Tip_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6342,7 +6342,7 @@ GameObject:
   - component: {fileID: 3506208508268994408}
   - component: {fileID: 4893723086146175772}
   - component: {fileID: 3471013508395705449}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front Seat Belt_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6423,7 +6423,7 @@ GameObject:
   - component: {fileID: 8374825515086096245}
   - component: {fileID: 8814541241138038944}
   - component: {fileID: 8104869428554210572}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: door_lf_ok#2_003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6518,7 +6518,7 @@ GameObject:
   - component: {fileID: 7899242126344677717}
   - component: {fileID: 8144876434810665519}
   - component: {fileID: 4982305546012382146}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: wheel_shin#2_003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6602,7 +6602,7 @@ GameObject:
   - component: {fileID: 3340839759475478419}
   - component: {fileID: 6455493306331258036}
   - component: {fileID: 8758579725926684586}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Rear Belt 3_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6683,7 +6683,7 @@ GameObject:
   - component: {fileID: 8410076997517550818}
   - component: {fileID: 4448254702797822877}
   - component: {fileID: 3405428921649680187}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6764,7 +6764,7 @@ GameObject:
   - component: {fileID: 5624282772409069556}
   - component: {fileID: 8556922072504338694}
   - component: {fileID: 3058832640218988430}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front Belt Catch_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6845,7 +6845,7 @@ GameObject:
   - component: {fileID: 7413298712790748850}
   - component: {fileID: 4293060800527556599}
   - component: {fileID: 9143077466268815736}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: speedook#2_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6926,7 +6926,7 @@ GameObject:
   - component: {fileID: 8112714423002596934}
   - component: {fileID: 2186531866005253486}
   - component: {fileID: 2652547839217926537}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7007,7 +7007,7 @@ GameObject:
   - component: {fileID: 8746886816759441165}
   - component: {fileID: 3968785994463174771}
   - component: {fileID: 658782936601746876}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: boot_ok#2_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7093,7 +7093,7 @@ GameObject:
   - component: {fileID: 1396062683151694487}
   - component: {fileID: 3004633330822890013}
   - component: {fileID: 1359076199579195505}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_035
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7174,7 +7174,7 @@ GameObject:
   - component: {fileID: 3512333850156641508}
   - component: {fileID: 8013997788600059465}
   - component: {fileID: 5103791812197811042}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7255,7 +7255,7 @@ GameObject:
   - component: {fileID: 2176020460296077499}
   - component: {fileID: 2817242724931894250}
   - component: {fileID: 3510639980359920974}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Headlight Assembly_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7343,7 +7343,7 @@ GameObject:
   - component: {fileID: 8209392516651079947}
   - component: {fileID: 7507810788317572447}
   - component: {fileID: 1244986802961314723}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: RZ_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7424,7 +7424,7 @@ GameObject:
   - component: {fileID: 295638668143068260}
   - component: {fileID: 6778721471818933119}
   - component: {fileID: 8084362504611370479}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Quartew Window Black Glass_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7505,7 +7505,7 @@ GameObject:
   - component: {fileID: 5178541783915735343}
   - component: {fileID: 2277439615024712903}
   - component: {fileID: 1260238102777331599}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_023
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7586,7 +7586,7 @@ GameObject:
   - component: {fileID: 5811427745450364925}
   - component: {fileID: 3966071833621227902}
   - component: {fileID: 6491441913301684745}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: tahook#2_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7667,7 +7667,7 @@ GameObject:
   - component: {fileID: 6244546980258644356}
   - component: {fileID: 7507589734284558594}
   - component: {fileID: 8400695352950939416}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Headrest_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7752,7 +7752,7 @@ GameObject:
   - component: {fileID: 1424454438540807425}
   - component: {fileID: 8473050579906122516}
   - component: {fileID: 7733845618149263526}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Rear Belt_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7834,7 +7834,7 @@ GameObject:
   - component: {fileID: 4106265809368430015}
   - component: {fileID: 5595798239309177407}
   - component: {fileID: 6236341057662784091}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Font Suspension_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7915,7 +7915,7 @@ GameObject:
   - component: {fileID: 2751489774341552630}
   - component: {fileID: 80442327230991895}
   - component: {fileID: 8920178759810698829}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Driving Lights_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7999,7 +7999,7 @@ GameObject:
   - component: {fileID: 3099663817677230329}
   - component: {fileID: 7168836404617250533}
   - component: {fileID: 3116683502324835873}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front Belt Buckle_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8081,7 +8081,7 @@ GameObject:
   - component: {fileID: 8888347235640809636}
   - component: {fileID: 940302825445856446}
   - component: {fileID: 5934206322737200121}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8162,7 +8162,7 @@ GameObject:
   - component: {fileID: 3640169814709275047}
   - component: {fileID: 889927693946298621}
   - component: {fileID: 4908377885881315198}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: steering_o#2_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8246,7 +8246,7 @@ GameObject:
   - component: {fileID: 2891468902490964263}
   - component: {fileID: 4190590206949188097}
   - component: {fileID: 7461861921482651428}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8327,7 +8327,7 @@ GameObject:
   - component: {fileID: 4003340178271308996}
   - component: {fileID: 4689408699297489028}
   - component: {fileID: 3415315282602034075}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8408,7 +8408,7 @@ GameObject:
   - component: {fileID: 1554357904338469990}
   - component: {fileID: 2588808024040244172}
   - component: {fileID: 5911033590127064092}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Headlight CoverF_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8489,7 +8489,7 @@ GameObject:
   - component: {fileID: 6291339277271884044}
   - component: {fileID: 1285500057165927034}
   - component: {fileID: 2793972395629658633}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Driving Lights_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8573,7 +8573,7 @@ GameObject:
   - component: {fileID: 6974145017696601356}
   - component: {fileID: 3458240852028258967}
   - component: {fileID: 841331247293642576}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Steering Stitching_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8654,7 +8654,7 @@ GameObject:
   - component: {fileID: 5335771530311934266}
   - component: {fileID: 410256620361624104}
   - component: {fileID: 8968789697422924328}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: FB_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8735,7 +8735,7 @@ GameObject:
   - component: {fileID: 5686364233601777600}
   - component: {fileID: 8176528967915440668}
   - component: {fileID: 1224566155633667502}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Projector Lamp_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8817,7 +8817,7 @@ GameObject:
   - component: {fileID: 5411467071890230848}
   - component: {fileID: 4121108510821641140}
   - component: {fileID: 4232424967455995927}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: wheel_shin#2_004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8901,7 +8901,7 @@ GameObject:
   - component: {fileID: 2210218157257987293}
   - component: {fileID: 1021401895067590441}
   - component: {fileID: 2582491366907398348}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: bump_fro01#2_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8989,7 +8989,7 @@ GameObject:
   - component: {fileID: 1310398140469008843}
   - component: {fileID: 7035992988456183237}
   - component: {fileID: 306930960744349582}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_024
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9070,7 +9070,7 @@ GameObject:
   - component: {fileID: 4544279216674442946}
   - component: {fileID: 5377073854354173456}
   - component: {fileID: 5646636875138810773}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Sun Visor_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9152,7 +9152,7 @@ GameObject:
   - component: {fileID: 4836742228104223575}
   - component: {fileID: 7307312500823262923}
   - component: {fileID: 3485041011619125921}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Powerplant_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9235,7 +9235,7 @@ GameObject:
   - component: {fileID: 5891326337209015919}
   - component: {fileID: 1765705134961246803}
   - component: {fileID: 1703182249482361435}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front Seat Belt_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9316,7 +9316,7 @@ GameObject:
   - component: {fileID: 1751906917404931406}
   - component: {fileID: 1549823644427567379}
   - component: {fileID: 8399586287847963132}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9396,9 +9396,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8742613118639302099}
   - component: {fileID: -7366067521949294605}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Subaru BRZ FA20 2014 Fixed
-  m_TagString: Untagged
+  m_TagString: car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9446,7 +9446,7 @@ GameObject:
   - component: {fileID: 300536561425192407}
   - component: {fileID: 3371794248088230647}
   - component: {fileID: 3917237754930238415}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Antenna_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9527,7 +9527,7 @@ GameObject:
   - component: {fileID: 6523830400242030088}
   - component: {fileID: 6726462752376130027}
   - component: {fileID: 5960421481055407956}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Rear Belt 3_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9608,7 +9608,7 @@ GameObject:
   - component: {fileID: 9028200054525407093}
   - component: {fileID: 5231630809215638481}
   - component: {fileID: 7436006572747687432}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Projector Lamp_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9690,7 +9690,7 @@ GameObject:
   - component: {fileID: 7951758545395930637}
   - component: {fileID: 3796992157304054807}
   - component: {fileID: 3725630099626057488}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: door_lf_ok#2_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9785,7 +9785,7 @@ GameObject:
   - component: {fileID: 7989993328484366924}
   - component: {fileID: 5253844432385780132}
   - component: {fileID: 6440229444016614143}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9866,7 +9866,7 @@ GameObject:
   - component: {fileID: 9009308875927932414}
   - component: {fileID: 666063603718113412}
   - component: {fileID: 2930479656258369411}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9947,7 +9947,7 @@ GameObject:
   - component: {fileID: 4315758884750195956}
   - component: {fileID: 5293145067216635028}
   - component: {fileID: 121540504237680082}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Font Suspension_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10028,7 +10028,7 @@ GameObject:
   - component: {fileID: 1791560089697580372}
   - component: {fileID: 1610927883553883803}
   - component: {fileID: 7281469541670322683}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Rear Suspension_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10109,7 +10109,7 @@ GameObject:
   - component: {fileID: 8846801525023509679}
   - component: {fileID: 3299770925726178123}
   - component: {fileID: 4772022717297841945}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Sun Visor_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10191,7 +10191,7 @@ GameObject:
   - component: {fileID: 796939273876736042}
   - component: {fileID: 2473090709593979654}
   - component: {fileID: 2513392227615204771}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10272,7 +10272,7 @@ GameObject:
   - component: {fileID: 1107507953044553087}
   - component: {fileID: 6422831904127200911}
   - component: {fileID: 183626681924640628}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Seat Back_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10355,7 +10355,7 @@ GameObject:
   - component: {fileID: 4946807151938686173}
   - component: {fileID: 8422043889195226935}
   - component: {fileID: 1697433830993044980}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Underchassis Plastic_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10436,7 +10436,7 @@ GameObject:
   - component: {fileID: 7688083785531612569}
   - component: {fileID: 6677941513349295248}
   - component: {fileID: 5475664878138956448}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group_020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10517,7 +10517,7 @@ GameObject:
   - component: {fileID: 7209649565937922159}
   - component: {fileID: 5003097403884220882}
   - component: {fileID: 6299945685769571417}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Taillight Cover_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10598,7 +10598,7 @@ GameObject:
   - component: {fileID: 8392524255196579132}
   - component: {fileID: 6866296400143407298}
   - component: {fileID: 7232989169432321870}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Taillight Cover_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10679,7 +10679,7 @@ GameObject:
   - component: {fileID: 5986426980681373998}
   - component: {fileID: 4781438386409093876}
   - component: {fileID: 6705408015456146085}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Front Belt Lock_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10761,7 +10761,7 @@ GameObject:
   - component: {fileID: 8437271657972822011}
   - component: {fileID: 8894411129122745868}
   - component: {fileID: 2731931243445322592}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Seat Strap_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}

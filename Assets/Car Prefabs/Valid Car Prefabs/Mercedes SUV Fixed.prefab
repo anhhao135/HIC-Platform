@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2054477081583170575}
   - component: {fileID: 53278197003040364}
   - component: {fileID: 2405925254810753778}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Contorno6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 1756535189500243785}
   - component: {fileID: 66057239176090489}
   - component: {fileID: 5177324800692633183}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: PostDX2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 5838435191484021644}
   - component: {fileID: 291582783951845288}
   - component: {fileID: 6155926948616797229}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Logo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -254,7 +254,7 @@ GameObject:
   - component: {fileID: 5308228297926606769}
   - component: {fileID: 604919659832334368}
   - component: {fileID: 3291869636028017131}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: RetroVetro2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 1423135986083048168}
   - component: {fileID: 3413762412661647144}
   - component: {fileID: 2020825065601028673}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: VetroFanaleSX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 4933842741957379571}
   - component: {fileID: 5337548957216330843}
   - component: {fileID: 8628375205505339559}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Vetro1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -497,7 +497,7 @@ GameObject:
   - component: {fileID: 5596747084054039267}
   - component: {fileID: 5832118152407413940}
   - component: {fileID: 7661989891583178099}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Buchette
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -578,7 +578,7 @@ GameObject:
   - component: {fileID: 7790923985917125530}
   - component: {fileID: 228778823194515950}
   - component: {fileID: 7450237766470291298}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: PostSX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -659,7 +659,7 @@ GameObject:
   - component: {fileID: 2135790909848326050}
   - component: {fileID: 6535220929070184124}
   - component: {fileID: 4578300079727592382}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: LampFrecciaSX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -740,7 +740,7 @@ GameObject:
   - component: {fileID: 2544165644259408226}
   - component: {fileID: 4634609765814271731}
   - component: {fileID: 8428357145989569242}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: RetroVetro4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -821,7 +821,7 @@ GameObject:
   - component: {fileID: 5248004684328106921}
   - component: {fileID: 246262872945731837}
   - component: {fileID: 1393620801057580456}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -902,7 +902,7 @@ GameObject:
   - component: {fileID: 8631690848633209038}
   - component: {fileID: 7184694590030418541}
   - component: {fileID: 1124726128141587958}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Maniglie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -983,7 +983,7 @@ GameObject:
   - component: {fileID: 1122342604541636873}
   - component: {fileID: 1842073042435074148}
   - component: {fileID: 9132643693998583235}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: LuceFrecciaDX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1064,7 +1064,7 @@ GameObject:
   - component: {fileID: 4837326199053102879}
   - component: {fileID: 5326145652565835475}
   - component: {fileID: 1273152441258257959}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Logo6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1145,7 +1145,7 @@ GameObject:
   - component: {fileID: 9081440195875695816}
   - component: {fileID: 5420726150480770582}
   - component: {fileID: 1088351934731356422}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: VetroFanaleDX2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1226,7 +1226,7 @@ GameObject:
   - component: {fileID: 1164816842892110823}
   - component: {fileID: 6823198241632901468}
   - component: {fileID: 9030196209961225772}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: ParaurtiBasso4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1306,9 +1306,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1964502407541520400}
   - component: {fileID: 2800583860990351481}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Mercedes SUV Fixed
-  m_TagString: Untagged
+  m_TagString: car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1356,7 +1356,7 @@ GameObject:
   - component: {fileID: 6733387926901667397}
   - component: {fileID: 6699880450505668495}
   - component: {fileID: 6855394679755906819}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cofano2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1437,7 +1437,7 @@ GameObject:
   - component: {fileID: 4139510989082486089}
   - component: {fileID: 3038223026514521109}
   - component: {fileID: 8903672126038022040}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Griglia6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1518,7 +1518,7 @@ GameObject:
   - component: {fileID: 8373412903143168406}
   - component: {fileID: 5706567926425699602}
   - component: {fileID: 7031939889522865736}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: FrecciaAntDX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1599,7 +1599,7 @@ GameObject:
   - component: {fileID: 8640215653414934995}
   - component: {fileID: 5012623985197753584}
   - component: {fileID: 5934934408468762057}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Modello
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1680,7 +1680,7 @@ GameObject:
   - component: {fileID: 6065735402355643554}
   - component: {fileID: 6794649315399861159}
   - component: {fileID: 6990486447378449213}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Fendi2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1761,7 +1761,7 @@ GameObject:
   - component: {fileID: 6104720443219231255}
   - component: {fileID: 1770972552403977009}
   - component: {fileID: 7120227976346126160}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SuppDX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1842,7 +1842,7 @@ GameObject:
   - component: {fileID: 7334684842323784065}
   - component: {fileID: 6779058977303053991}
   - component: {fileID: 8957244382391498989}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: FrecceLat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1923,7 +1923,7 @@ GameObject:
   - component: {fileID: 4762260375319303702}
   - component: {fileID: 3759576611006490512}
   - component: {fileID: 252160711794996924}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Corpo1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2004,7 +2004,7 @@ GameObject:
   - component: {fileID: 6446543185904992058}
   - component: {fileID: 2836774054392367996}
   - component: {fileID: 656768507840448087}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: ParaurtiBasso2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2085,7 +2085,7 @@ GameObject:
   - component: {fileID: 2243557063448602793}
   - component: {fileID: 4090290141148236157}
   - component: {fileID: 6375098139488946436}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Marmitta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2166,7 +2166,7 @@ GameObject:
   - component: {fileID: 996107543890265102}
   - component: {fileID: 7025351472577712694}
   - component: {fileID: 9036996080651542693}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: ContFanaleDX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2247,7 +2247,7 @@ GameObject:
   - component: {fileID: 2671138164271892417}
   - component: {fileID: 1030067543509469267}
   - component: {fileID: 3578742807698537035}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Paracolpi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2328,7 +2328,7 @@ GameObject:
   - component: {fileID: 8998122288230695181}
   - component: {fileID: 1150881912007958289}
   - component: {fileID: 3719696879857162407}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: VetroLat1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2409,7 +2409,7 @@ GameObject:
   - component: {fileID: 6249439560011050370}
   - component: {fileID: 433880223616098198}
   - component: {fileID: 125357303827434856}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Griglia1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2490,7 +2490,7 @@ GameObject:
   - component: {fileID: 5349710439024238655}
   - component: {fileID: 6865688459461957908}
   - component: {fileID: 8075120366182548890}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: RetroFendi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2571,7 +2571,7 @@ GameObject:
   - component: {fileID: 246281929817272874}
   - component: {fileID: 2048287488138049673}
   - component: {fileID: 829037478586827606}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Corpo4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2652,7 +2652,7 @@ GameObject:
   - component: {fileID: 2374947787796541415}
   - component: {fileID: 7891449467034430315}
   - component: {fileID: 1245292888483295862}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: VetroLatDX2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2733,7 +2733,7 @@ GameObject:
   - component: {fileID: 8887803840655526753}
   - component: {fileID: 3190600500442184527}
   - component: {fileID: 9008749963566615800}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: VetroFrontale
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2814,7 +2814,7 @@ GameObject:
   - component: {fileID: 6443596614742491928}
   - component: {fileID: 3526579623913347016}
   - component: {fileID: 9184647216799510497}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Contorno2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2895,7 +2895,7 @@ GameObject:
   - component: {fileID: 9211039997094144366}
   - component: {fileID: 198803403559362115}
   - component: {fileID: 1518234731796322925}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Griglia4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2976,7 +2976,7 @@ GameObject:
   - component: {fileID: 2831781974527556576}
   - component: {fileID: 1302755308921870594}
   - component: {fileID: 2139791275888980309}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: ParaurtiAnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3057,7 +3057,7 @@ GameObject:
   - component: {fileID: 374538976874363787}
   - component: {fileID: 7484271880591334836}
   - component: {fileID: 4165549027703019897}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Tetto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3138,7 +3138,7 @@ GameObject:
   - component: {fileID: 892898683970157459}
   - component: {fileID: 1659120927907912263}
   - component: {fileID: 6182506414116763852}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Barre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3219,7 +3219,7 @@ GameObject:
   - component: {fileID: 3595904350786031846}
   - component: {fileID: 1634762311976906512}
   - component: {fileID: 8183956860903071888}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: FanaleSX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3300,7 +3300,7 @@ GameObject:
   - component: {fileID: 6881708733878622663}
   - component: {fileID: 563093133689823447}
   - component: {fileID: 4768073260980466861}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Spoiler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3381,7 +3381,7 @@ GameObject:
   - component: {fileID: 7154884886115793601}
   - component: {fileID: 1633723596676676404}
   - component: {fileID: 5174513641192701018}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Contorno5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3462,7 +3462,7 @@ GameObject:
   - component: {fileID: 2068976882052884988}
   - component: {fileID: 6362433726537150691}
   - component: {fileID: 2390662638364069260}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Contorno
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3543,7 +3543,7 @@ GameObject:
   - component: {fileID: 4108536517322172277}
   - component: {fileID: 2586828190018278386}
   - component: {fileID: 4832680626631537357}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Corpo3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3624,7 +3624,7 @@ GameObject:
   - component: {fileID: 7336427944920522028}
   - component: {fileID: 6879402715896457894}
   - component: {fileID: 3940834320668605126}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: VetroLatDX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3705,7 +3705,7 @@ GameObject:
   - component: {fileID: 6136843528622291084}
   - component: {fileID: 2735940500003146424}
   - component: {fileID: 3834933146576095208}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SpecchioDX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3786,7 +3786,7 @@ GameObject:
   - component: {fileID: 1912988010241739498}
   - component: {fileID: 4510453135421322119}
   - component: {fileID: 956955224192725770}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: LampPostSX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3867,7 +3867,7 @@ GameObject:
   - component: {fileID: 6924165028276216360}
   - component: {fileID: 5693148532833348484}
   - component: {fileID: 5628015261304731622}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Vetro2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3948,7 +3948,7 @@ GameObject:
   - component: {fileID: 8270657208029141409}
   - component: {fileID: 8827494466819622666}
   - component: {fileID: 1680801170913602992}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: AllSX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4029,7 +4029,7 @@ GameObject:
   - component: {fileID: 8773099323459389906}
   - component: {fileID: 7258036123623047845}
   - component: {fileID: 2557091052605021549}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: LedDX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4108,7 +4108,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4021576573749043096}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Axis Fix
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4251,7 +4251,7 @@ GameObject:
   - component: {fileID: 9176110264470183324}
   - component: {fileID: 4340997990814025324}
   - component: {fileID: 4941512082964413151}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Fendi1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4332,7 +4332,7 @@ GameObject:
   - component: {fileID: 386877928419584204}
   - component: {fileID: 3633001785108049547}
   - component: {fileID: 2150416245514324181}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: PostDX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4413,7 +4413,7 @@ GameObject:
   - component: {fileID: 6930034110235042254}
   - component: {fileID: 3404723092971104650}
   - component: {fileID: 3025629239518892866}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Griglia3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4494,7 +4494,7 @@ GameObject:
   - component: {fileID: 6666529064712560926}
   - component: {fileID: 1799950072837588577}
   - component: {fileID: 5633685734209815882}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Tetto2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4575,7 +4575,7 @@ GameObject:
   - component: {fileID: 761349002120255904}
   - component: {fileID: 2761393768878174455}
   - component: {fileID: 1726989849362627476}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: VetroFendi2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4656,7 +4656,7 @@ GameObject:
   - component: {fileID: 1477801728718247324}
   - component: {fileID: 4883071880494049807}
   - component: {fileID: 7404381244356086974}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: ContLogo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4737,7 +4737,7 @@ GameObject:
   - component: {fileID: 2672875927366351313}
   - component: {fileID: 7801492524516059119}
   - component: {fileID: 7213151744229034034}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Logo2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4818,7 +4818,7 @@ GameObject:
   - component: {fileID: 7074990206612712517}
   - component: {fileID: 3700665556712018443}
   - component: {fileID: 8363663478199585570}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SportelliSX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4899,7 +4899,7 @@ GameObject:
   - component: {fileID: 7505277306455659899}
   - component: {fileID: 5634421889177127713}
   - component: {fileID: 7076435062970358672}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SpecchiLat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4980,7 +4980,7 @@ GameObject:
   - component: {fileID: 3358738223013003941}
   - component: {fileID: 7755018279641020034}
   - component: {fileID: 1731522393681324872}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: RetroFanaleSX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5061,7 +5061,7 @@ GameObject:
   - component: {fileID: 6435970599336533948}
   - component: {fileID: 8552999494698488862}
   - component: {fileID: 5563558907371814031}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: VetroPost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5142,7 +5142,7 @@ GameObject:
   - component: {fileID: 79566977289697851}
   - component: {fileID: 3081468421988951422}
   - component: {fileID: 3836145338452680435}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: LampPostDX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5223,7 +5223,7 @@ GameObject:
   - component: {fileID: 4153148897653533133}
   - component: {fileID: 5310425006181230953}
   - component: {fileID: 8519688101568645527}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: ParaurtiBasso3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5304,7 +5304,7 @@ GameObject:
   - component: {fileID: 5497634617491586074}
   - component: {fileID: 8885022946749606382}
   - component: {fileID: 49787751642424031}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: FanaleDX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5385,7 +5385,7 @@ GameObject:
   - component: {fileID: 3781978737985763649}
   - component: {fileID: 4203414257314726486}
   - component: {fileID: 8884184976853033506}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: LuceFrecciaSX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5466,7 +5466,7 @@ GameObject:
   - component: {fileID: 4166455154546114665}
   - component: {fileID: 6356329129184752132}
   - component: {fileID: 5529325898537568989}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: AntDX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5547,7 +5547,7 @@ GameObject:
   - component: {fileID: 7999630113361714563}
   - component: {fileID: 2529213973623143344}
   - component: {fileID: 4173875385892538970}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: AllDX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5628,7 +5628,7 @@ GameObject:
   - component: {fileID: 8649940652651609853}
   - component: {fileID: 1296868480643225486}
   - component: {fileID: 1032229707400860619}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: AntDX2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5709,7 +5709,7 @@ GameObject:
   - component: {fileID: 4174688158783729747}
   - component: {fileID: 1339420157739202552}
   - component: {fileID: 2677568337675287638}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SportelliDX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5790,7 +5790,7 @@ GameObject:
   - component: {fileID: 5014765862171755810}
   - component: {fileID: 2992758513079026735}
   - component: {fileID: 5028891831074460351}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Contorno3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5871,7 +5871,7 @@ GameObject:
   - component: {fileID: 1443965302104422539}
   - component: {fileID: 4474758545245733656}
   - component: {fileID: 6295303741684003090}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Interno
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5952,7 +5952,7 @@ GameObject:
   - component: {fileID: 870797680029070021}
   - component: {fileID: 2450152923903738284}
   - component: {fileID: 396838055588842598}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Minigonne
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6033,7 +6033,7 @@ GameObject:
   - component: {fileID: 1665648321746205624}
   - component: {fileID: 4934342936292063246}
   - component: {fileID: 6235573623894581287}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SpecchioSX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6114,7 +6114,7 @@ GameObject:
   - component: {fileID: 2577074454350196105}
   - component: {fileID: 7988767685748626737}
   - component: {fileID: 107748051516197051}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: FrecciaAntSX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6195,7 +6195,7 @@ GameObject:
   - component: {fileID: 3922471496723121649}
   - component: {fileID: 6332119942469083647}
   - component: {fileID: 3664756951196070705}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: VetroFendi1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6276,7 +6276,7 @@ GameObject:
   - component: {fileID: 7671957749390998462}
   - component: {fileID: 6430213229844548414}
   - component: {fileID: 8531785489399107089}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Disco4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6357,7 +6357,7 @@ GameObject:
   - component: {fileID: 6390766409917058928}
   - component: {fileID: 927045530687308140}
   - component: {fileID: 4904787900043831053}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: PostSX1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6438,7 +6438,7 @@ GameObject:
   - component: {fileID: 5938046126438748557}
   - component: {fileID: 3045048132626431114}
   - component: {fileID: 7275651149380873542}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: RetroFanaleSX2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6519,7 +6519,7 @@ GameObject:
   - component: {fileID: 108424842154312276}
   - component: {fileID: 1441150347367301783}
   - component: {fileID: 4191258612218029501}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: ParaurtiBasso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6600,7 +6600,7 @@ GameObject:
   - component: {fileID: 696555581962353340}
   - component: {fileID: 6021871783987614233}
   - component: {fileID: 3454437185325986587}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SuppSX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6681,7 +6681,7 @@ GameObject:
   - component: {fileID: 7775966541055312776}
   - component: {fileID: 5758797058733904152}
   - component: {fileID: 586463594184632694}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: ContLogo2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6762,7 +6762,7 @@ GameObject:
   - component: {fileID: 8079288751692574684}
   - component: {fileID: 2915878891206396177}
   - component: {fileID: 381683825855300368}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Root Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6836,7 +6836,7 @@ GameObject:
   - component: {fileID: 5559601563866462336}
   - component: {fileID: 9132790203025103113}
   - component: {fileID: 1112703468127987586}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GriglieBuchette
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6917,7 +6917,7 @@ GameObject:
   - component: {fileID: 7808886917540166795}
   - component: {fileID: 8667571890343883164}
   - component: {fileID: 8331043958807182795}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: LampFendi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6998,7 +6998,7 @@ GameObject:
   - component: {fileID: 7787269964475251939}
   - component: {fileID: 3037610826206650511}
   - component: {fileID: 3632815539964180205}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: LedSX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7079,7 +7079,7 @@ GameObject:
   - component: {fileID: 5708315202085575502}
   - component: {fileID: 378711280165492042}
   - component: {fileID: 7641235984115520968}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Griglia5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7160,7 +7160,7 @@ GameObject:
   - component: {fileID: 1710903152547540386}
   - component: {fileID: 9190836348755434113}
   - component: {fileID: 3354319131183660200}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Contorno4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7241,7 +7241,7 @@ GameObject:
   - component: {fileID: 4990180019856922101}
   - component: {fileID: 8671449110696029983}
   - component: {fileID: 537484241738370752}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Disco1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7322,7 +7322,7 @@ GameObject:
   - component: {fileID: 1366978972286719465}
   - component: {fileID: 3696265068747712158}
   - component: {fileID: 5279404064013796874}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: AntSX1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7403,7 +7403,7 @@ GameObject:
   - component: {fileID: 4488512214903294720}
   - component: {fileID: 435175516991712496}
   - component: {fileID: 8782399351070202729}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: RetroVetro3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7484,7 +7484,7 @@ GameObject:
   - component: {fileID: 1259476800949375655}
   - component: {fileID: 5303286731829119943}
   - component: {fileID: 6542066806425305171}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Disco3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7565,7 +7565,7 @@ GameObject:
   - component: {fileID: 4792290806793383700}
   - component: {fileID: 6530295893092156438}
   - component: {fileID: 1383761650061276219}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Vetro3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7646,7 +7646,7 @@ GameObject:
   - component: {fileID: 3749542972783155001}
   - component: {fileID: 4222998228797617460}
   - component: {fileID: 8545425003479613878}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cofano
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7727,7 +7727,7 @@ GameObject:
   - component: {fileID: 2478908213909615368}
   - component: {fileID: 7127633709485974558}
   - component: {fileID: 9081353858677510229}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: AntSX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7808,7 +7808,7 @@ GameObject:
   - component: {fileID: 8710630329520282231}
   - component: {fileID: 5434650832331511670}
   - component: {fileID: 5370412595914803093}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: LuceRetro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7889,7 +7889,7 @@ GameObject:
   - component: {fileID: 2466838323376104668}
   - component: {fileID: 738580158246780374}
   - component: {fileID: 3729539111764996899}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: TergiPost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7970,7 +7970,7 @@ GameObject:
   - component: {fileID: 8810837161127971630}
   - component: {fileID: 5682239039795351245}
   - component: {fileID: 56074217408283692}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Scocca
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8051,7 +8051,7 @@ GameObject:
   - component: {fileID: 5629428696305243704}
   - component: {fileID: 8960665340816772540}
   - component: {fileID: 4388987902186055554}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: VetroLatSX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8132,7 +8132,7 @@ GameObject:
   - component: {fileID: 4730300675548834716}
   - component: {fileID: 2676811396768327090}
   - component: {fileID: 1335179333691001140}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: RetroFanal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8213,7 +8213,7 @@ GameObject:
   - component: {fileID: 9113567556773003137}
   - component: {fileID: 5987410438035726740}
   - component: {fileID: 3201485895330917805}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Corpo2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8294,7 +8294,7 @@ GameObject:
   - component: {fileID: 9140236293810752975}
   - component: {fileID: 4537045365364088048}
   - component: {fileID: 4761991352374565037}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: VetroFanaleDX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8375,7 +8375,7 @@ GameObject:
   - component: {fileID: 9151154934384452437}
   - component: {fileID: 4228584358939585488}
   - component: {fileID: 1650730962663865421}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Logo1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8456,7 +8456,7 @@ GameObject:
   - component: {fileID: 1586737271879578472}
   - component: {fileID: 4179128900694573278}
   - component: {fileID: 7508344217701671150}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: RetroFanaleDX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8537,7 +8537,7 @@ GameObject:
   - component: {fileID: 330697294946723021}
   - component: {fileID: 265214581702329295}
   - component: {fileID: 8430767089322767790}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: ContFanaleSX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8618,7 +8618,7 @@ GameObject:
   - component: {fileID: 7423946251030330280}
   - component: {fileID: 8710093351689450917}
   - component: {fileID: 9082563208639613666}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: LampFrecciaDX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8699,7 +8699,7 @@ GameObject:
   - component: {fileID: 1443087352777647015}
   - component: {fileID: 5584492070959934124}
   - component: {fileID: 3283409148634234133}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: CofanoPost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8780,7 +8780,7 @@ GameObject:
   - component: {fileID: 4474141360747281655}
   - component: {fileID: 1361371227449553860}
   - component: {fileID: 7896954773577363178}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Tettuccio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8861,7 +8861,7 @@ GameObject:
   - component: {fileID: 3393883324877231639}
   - component: {fileID: 3955625866545753249}
   - component: {fileID: 7677616499483411737}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: RetroVetro5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8942,7 +8942,7 @@ GameObject:
   - component: {fileID: 826615334509931966}
   - component: {fileID: 586946945409482076}
   - component: {fileID: 4948761007152724511}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Disco2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9023,7 +9023,7 @@ GameObject:
   - component: {fileID: 8992284545816990909}
   - component: {fileID: 8579199132940480209}
   - component: {fileID: 7156391343673819884}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: ParaurtiPost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9104,7 +9104,7 @@ GameObject:
   - component: {fileID: 5928148865850981009}
   - component: {fileID: 4573332963686238561}
   - component: {fileID: 4381020170121492218}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: TergiAnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9185,7 +9185,7 @@ GameObject:
   - component: {fileID: 1648399401838256012}
   - component: {fileID: 3402907283270072629}
   - component: {fileID: 329056955894126249}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Vetro4
   m_TagString: Untagged
   m_Icon: {fileID: 0}

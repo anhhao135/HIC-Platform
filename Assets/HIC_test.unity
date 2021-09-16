@@ -152,7 +152,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.909034, b: 0.7028302, a: 1}
-  m_Intensity: 0.2
+  m_Intensity: 0.6
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -590,13 +590,13 @@ GameObject:
   m_Component:
   - component: {fileID: 630627987}
   - component: {fileID: 630627986}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Projector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!119 &630627986
 Projector:
   m_ObjectHideFlags: 0
@@ -724,8 +724,8 @@ ReflectionProbe:
   m_TimeSlicingMode: 0
   m_Resolution: 2048
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 100, y: 100, z: 150}
-  m_BoxOffset: {x: 0, y: 0, z: 0}
+  m_BoxSize: {x: 291.49423, y: 100, z: 284.14365}
+  m_BoxOffset: {x: 47.21849, y: 0, z: 32.90715}
   m_NearClip: 0.3
   m_FarClip: 1000
   m_ShadowDistance: 100
@@ -739,7 +739,7 @@ ReflectionProbe:
   m_HDR: 1
   m_BoxProjection: 0
   m_RenderDynamicObjects: 1
-  m_UseOcclusionCulling: 1
+  m_UseOcclusionCulling: 0
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 8900000, guid: 5352f11870f4644489100c225525c742, type: 2}
 --- !u!4 &875170419
@@ -750,7 +750,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 875170417}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.85, z: 33.8}
+  m_LocalPosition: {x: 21.6, y: 3.85, z: 41.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -805,6 +805,7 @@ MonoBehaviour:
   multichannelDepth: 0
   depthFarClipPlane: 20
   toggleDepth: 1
+  toggleSeg: 1
   uberReplacementShader: {fileID: 4800000, guid: 171e6e515a12e4a298dce708924e98ba, type: 3}
   opticalFlowShader: {fileID: 4800000, guid: 2a970eca3c9e84f13b5b616e530a7919, type: 3}
   opticalFlowSensitivity: 1
@@ -840,7 +841,7 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: 3
+  m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
@@ -1113,7 +1114,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1223286425}
   - component: {fileID: 1223286424}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: HIC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1146,33 +1147,38 @@ MonoBehaviour:
   toggleCameraCapture: 1
   toggleDepthCapture: 0
   fixedFPS: 60
-  captureWidth: 800
-  captureHeight: 800
-  captureFrames: 1000
+  captureWidth: 1280
+  captureHeight: 720
+  captureFrames: 80
   cameraBoundingBoxDistance: 90
   toggleYOLOFormatRight: 1
   spawnCarPrefabs:
+  - {fileID: 4670636856842408810, guid: 62f53eab78f610f46a98ffe21949ea32, type: 3}
+  - {fileID: 1346629424379877940, guid: 32e3bebcecd97e24abc77d31ec42c416, type: 3}
+  - {fileID: 7404815176053837817, guid: b7d77b174df1ae443acd6439f1fa9c44, type: 3}
+  - {fileID: 2395653546054890750, guid: 8ab831640c543454a87b9cfabaae187f, type: 3}
   - {fileID: 7782508398762523695, guid: b43f8b3706134124eadc8582d01ae9ce, type: 3}
   - {fileID: 6905267226847131760, guid: 2e60ed2f98c0a9f4b972e19d382db1cb, type: 3}
   - {fileID: 1155314199134020266, guid: b2aa14f3bf9bf214a9d1b7a6145e2346, type: 3}
   - {fileID: 5378840428168828176, guid: e460ccafac9123a42b977fa6fd1c44df, type: 3}
   - {fileID: 95691737908236535, guid: 5729baa2eaa130f429c174760117ac47, type: 3}
   - {fileID: 6312765115246175480, guid: 624f8d32d31f1a54aa98d20989b9480e, type: 3}
+  - {fileID: 650316734191792946, guid: 13dbcc600d797fe429508bbf26be850e, type: 3}
   - {fileID: 8223521118977933161, guid: 55ca659bacb406a499ffefb14068df04, type: 3}
   - {fileID: 7864315584707755763, guid: 121145c274129d944bf83d9d9b7eecb9, type: 3}
   - {fileID: 2958752666430046682, guid: 44b9a40b0a5cad74e8ca39108e9707cc, type: 3}
   - {fileID: 3043032295253790716, guid: 9f2a45ac7db62364888850899f6f34d2, type: 3}
   - {fileID: 5431551439026376055, guid: 6b9103bdcd3be24478b78dd7c39aa843, type: 3}
-  - {fileID: 7404815176053837817, guid: b7d77b174df1ae443acd6439f1fa9c44, type: 3}
-  - {fileID: 8114050082632178989, guid: 969bac5acc3547943a2057d423b61e8d, type: 3}
-  - {fileID: 7287287199042469655, guid: 1e8d88fb4df3f4249b4de2b6ca556648, type: 3}
-  maxNumberOfCars: 12
+  maxNumberOfCars: 15
   mainProjector: {fileID: 630627986}
   sceneReflectionProbe: {fileID: 875170418}
   carSpawnYOffset: 2.2
   toggleStereoCameraBaseline: 0
+  bboxOcclusionRatio: 0.6
+  sun: {fileID: 21368813}
   homographyPlane: {fileID: 1031900441}
   carCollisionRadius: 2.5
+  toggleRandomCameraPlacement: 0
 --- !u!4 &1223286425
 Transform:
   m_ObjectHideFlags: 0
@@ -1294,7 +1300,7 @@ GameObject:
   - component: {fileID: 1474296779}
   - component: {fileID: 1474296781}
   - component: {fileID: 1474296780}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Left Cam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1330,6 +1336,7 @@ MonoBehaviour:
   multichannelDepth: 0
   depthFarClipPlane: 20
   toggleDepth: 1
+  toggleSeg: 0
   uberReplacementShader: {fileID: 4800000, guid: 171e6e515a12e4a298dce708924e98ba, type: 3}
   opticalFlowShader: {fileID: 4800000, guid: 2a970eca3c9e84f13b5b616e530a7919, type: 3}
   opticalFlowSensitivity: 1
@@ -1367,7 +1374,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
+  m_TargetDisplay: 2
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
@@ -1388,13 +1395,13 @@ GameObject:
   - component: {fileID: 1509995538}
   - component: {fileID: 1509995537}
   - component: {fileID: 1509995536}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1509995535
 Transform:
   m_ObjectHideFlags: 0
@@ -1849,7 +1856,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1738782039}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Chassis
   m_TagString: Untagged
   m_Icon: {fileID: 0}

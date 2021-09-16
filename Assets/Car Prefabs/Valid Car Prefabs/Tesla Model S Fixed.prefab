@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 621143805564509948}
   - component: {fileID: 5891498355427990121}
   - component: {fileID: 8263962499825867206}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: brake_caliper_RearRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 2748462000318182140}
   - component: {fileID: 6810832812054790499}
   - component: {fileID: 1392468670311813952}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: rim_logo_RearLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,7 +174,7 @@ GameObject:
   - component: {fileID: 6813368104611380109}
   - component: {fileID: 865736819639226544}
   - component: {fileID: 5773017994339047664}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Main_body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -255,7 +255,7 @@ GameObject:
   - component: {fileID: 5210553776005510654}
   - component: {fileID: 7587685986933005232}
   - component: {fileID: 7293291054867337304}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: rim__FrontRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,7 +336,7 @@ GameObject:
   - component: {fileID: 9076367500102486594}
   - component: {fileID: 2647033082885575536}
   - component: {fileID: 8243965180641993588}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: brake_disc_shield_FrontRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -417,7 +417,7 @@ GameObject:
   - component: {fileID: 8641780633575046625}
   - component: {fileID: 4566549229441332957}
   - component: {fileID: 499195800041851470}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: wheel_nuts_FrontLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -498,7 +498,7 @@ GameObject:
   - component: {fileID: 5803632776151996182}
   - component: {fileID: 3874045785083956699}
   - component: {fileID: 5695561809845575555}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: rim_logo_FrontLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -579,7 +579,7 @@ GameObject:
   - component: {fileID: 5197566563606721035}
   - component: {fileID: 9130252833258742261}
   - component: {fileID: 8519578017187399494}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: brake_disc_shield_RearLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -660,7 +660,7 @@ GameObject:
   - component: {fileID: 4645610131079209165}
   - component: {fileID: 2545385315992684560}
   - component: {fileID: 6315354555443313847}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Lights_chrome_bump2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -741,7 +741,7 @@ GameObject:
   - component: {fileID: 4556080669991758059}
   - component: {fileID: 1993615828995903457}
   - component: {fileID: 2692546600823699922}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: tire_RearRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -822,7 +822,7 @@ GameObject:
   - component: {fileID: 7040614456222737463}
   - component: {fileID: 8447753710143374245}
   - component: {fileID: 4249331576731791158}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Lights_glass_red_bump2_dark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -903,7 +903,7 @@ GameObject:
   - component: {fileID: 6378866096763650493}
   - component: {fileID: 1546873699346006954}
   - component: {fileID: 803853563595787484}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Under_Carriage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -984,7 +984,7 @@ GameObject:
   - component: {fileID: 3353274570336868775}
   - component: {fileID: 6357699048080510262}
   - component: {fileID: 3936428941678733883}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Lights_chrome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1065,7 +1065,7 @@ GameObject:
   - component: {fileID: 4827896755324691642}
   - component: {fileID: 5405721088144724809}
   - component: {fileID: 5764128572925971115}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: mirror
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1146,7 +1146,7 @@ GameObject:
   - component: {fileID: 8731185638130210032}
   - component: {fileID: 6615868046568498253}
   - component: {fileID: 7010750323373860472}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bumper_graphite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1225,7 +1225,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 633114804704149654}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: TeslaRoadster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1264,7 +1264,7 @@ GameObject:
   - component: {fileID: 6667280679327973880}
   - component: {fileID: 4558771395230216426}
   - component: {fileID: 635670309759541006}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: tire_FrontLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1344,9 +1344,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2469179254621723488}
   - component: {fileID: -2960325711488894019}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Tesla Model S Fixed
-  m_TagString: Untagged
+  m_TagString: car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1394,7 +1394,7 @@ GameObject:
   - component: {fileID: 5146236291590858043}
   - component: {fileID: 7958462751370766533}
   - component: {fileID: 3054492542558343541}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: rim_logo_FrontRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1473,7 +1473,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1448517895301532263}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: wheel_RearLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1513,7 +1513,7 @@ GameObject:
   - component: {fileID: 7301668714350415937}
   - component: {fileID: 2490611745848061513}
   - component: {fileID: 6330184636375876725}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: interior 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1592,7 +1592,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 107866892510892038}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: wheel_FrontLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1632,7 +1632,7 @@ GameObject:
   - component: {fileID: 7784585293001601130}
   - component: {fileID: 10605145828946783}
   - component: {fileID: 7556021239217367357}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Lights_glass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1713,7 +1713,7 @@ GameObject:
   - component: {fileID: 2291522215410744868}
   - component: {fileID: 5418683173884502724}
   - component: {fileID: 2869888347179699623}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: brake_disc_shield_RearRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1794,7 +1794,7 @@ GameObject:
   - component: {fileID: 2420571820442722550}
   - component: {fileID: 2924038458903552209}
   - component: {fileID: 5463948662881065192}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: tire_FrontRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1875,7 +1875,7 @@ GameObject:
   - component: {fileID: 8799071258882826459}
   - component: {fileID: 4178927567212472802}
   - component: {fileID: 8918092672991744227}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Lights_glass_white_bump
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1954,7 +1954,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7228386579818824704}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1993,7 +1993,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1073347248551700643}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: wheel_RearRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2033,7 +2033,7 @@ GameObject:
   - component: {fileID: 3065875950251849659}
   - component: {fileID: 7769285009954851075}
   - component: {fileID: 1536381526144255944}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: rim_valve_FrontRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2114,7 +2114,7 @@ GameObject:
   - component: {fileID: 1881393967705024688}
   - component: {fileID: 6542988827523024029}
   - component: {fileID: 472157315670512726}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Trim_chrome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2195,7 +2195,7 @@ GameObject:
   - component: {fileID: 7159312748635911017}
   - component: {fileID: 1597622078590439027}
   - component: {fileID: 8553693993464627404}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: headlight_silver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2277,7 +2277,7 @@ GameObject:
   - component: {fileID: 1174960989437005491}
   - component: {fileID: 481483612501395368}
   - component: {fileID: 7118344558600037872}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Lights_glass_red_bump
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2358,7 +2358,7 @@ GameObject:
   - component: {fileID: 8977455973010709535}
   - component: {fileID: 1306315340274250976}
   - component: {fileID: 7884233124852795940}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: interior_seats
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2437,7 +2437,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9214421525242886787}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: interior
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2477,7 +2477,7 @@ GameObject:
   - component: {fileID: 2877019428713102620}
   - component: {fileID: 5371576704066696097}
   - component: {fileID: 4851462397053565350}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: brake_disc_FrontRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2558,7 +2558,7 @@ GameObject:
   - component: {fileID: 7295745471275746582}
   - component: {fileID: 8144608111163061909}
   - component: {fileID: 2493072225016669663}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: rim_valwe_RearLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2639,7 +2639,7 @@ GameObject:
   - component: {fileID: 245592124267505017}
   - component: {fileID: 4323589663031357300}
   - component: {fileID: 221209570480905399}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Lights_glass_stripes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2720,7 +2720,7 @@ GameObject:
   - component: {fileID: 3592706205663057438}
   - component: {fileID: 4500351980401718285}
   - component: {fileID: 5364424686167769478}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: rim_RearRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2799,7 +2799,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1776468319392642034}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: wheel_FrontRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2839,7 +2839,7 @@ GameObject:
   - component: {fileID: 5094034893663370187}
   - component: {fileID: 929598898962455523}
   - component: {fileID: 4304172606742983764}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: rim_valve_FrontLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2920,7 +2920,7 @@ GameObject:
   - component: {fileID: 5095412169655048539}
   - component: {fileID: 25719807432460196}
   - component: {fileID: 7389100709511010845}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: rim_FrontLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3001,7 +3001,7 @@ GameObject:
   - component: {fileID: 6077280746774560298}
   - component: {fileID: 2241431925968635760}
   - component: {fileID: 2424349059089674808}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: wheel_nuts_RearLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3082,7 +3082,7 @@ GameObject:
   - component: {fileID: 2547133883287230320}
   - component: {fileID: 7090699101207486640}
   - component: {fileID: 67163403252348320}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: brake_disc_RearRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3161,7 +3161,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7556832957955881330}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3206,7 +3206,7 @@ GameObject:
   - component: {fileID: 157917896907183326}
   - component: {fileID: 1616770033289477181}
   - component: {fileID: 505529133444093165}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Lights_glass_white_bump2_Rear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3287,7 +3287,7 @@ GameObject:
   - component: {fileID: 6302462516667252596}
   - component: {fileID: 3977023426493628203}
   - component: {fileID: 3449092262530418319}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: brake_disc_shield_FrontLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3368,7 +3368,7 @@ GameObject:
   - component: {fileID: 8801730582833378484}
   - component: {fileID: 7181531830885607522}
   - component: {fileID: 210967691544022574}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: interior_screen1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3449,7 +3449,7 @@ GameObject:
   - component: {fileID: 2266858748388409426}
   - component: {fileID: 4544775218914225948}
   - component: {fileID: 4291281479495712808}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: brake_caliper_FrontRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3531,7 +3531,7 @@ GameObject:
   - component: {fileID: 2995590854683020986}
   - component: {fileID: 2983452295249592341}
   - component: {fileID: 1086159801803070302}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: brake_caliper_FrontLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3613,7 +3613,7 @@ GameObject:
   - component: {fileID: 7758080608917440447}
   - component: {fileID: 3354522173354532379}
   - component: {fileID: 5072600544946097898}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Trim_carpaint_black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3694,7 +3694,7 @@ GameObject:
   - component: {fileID: 6745795447582385109}
   - component: {fileID: 907281577171671044}
   - component: {fileID: 3103897057137381092}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Lights_glass_white_bump3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3775,7 +3775,7 @@ GameObject:
   - component: {fileID: 6008467131690856308}
   - component: {fileID: 7485346157439314385}
   - component: {fileID: 4615698009544328395}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Lights_glass_red_bump_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3856,7 +3856,7 @@ GameObject:
   - component: {fileID: 6692280086619801411}
   - component: {fileID: 4979652275040369488}
   - component: {fileID: 8415904144600480500}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: interior_screen2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3937,7 +3937,7 @@ GameObject:
   - component: {fileID: 6657837157514128564}
   - component: {fileID: 5637493326151049153}
   - component: {fileID: 9198497970238678537}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: interior_silver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4018,7 +4018,7 @@ GameObject:
   - component: {fileID: 4159145284665226393}
   - component: {fileID: 2528281840402843020}
   - component: {fileID: 3920309605650163262}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: brake_disc_FrontLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4099,7 +4099,7 @@ GameObject:
   - component: {fileID: 4796940369894784434}
   - component: {fileID: 8892755088626775089}
   - component: {fileID: 7246460359272767903}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: interior_beige
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4180,7 +4180,7 @@ GameObject:
   - component: {fileID: 4013782209659960547}
   - component: {fileID: 4718810386628569483}
   - component: {fileID: 3529887423910951024}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Root Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4254,7 +4254,7 @@ GameObject:
   - component: {fileID: 6101730761046818337}
   - component: {fileID: 6342888777087346921}
   - component: {fileID: 3708880978722224758}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: rim_valwe_RearRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4335,7 +4335,7 @@ GameObject:
   - component: {fileID: 7665199772564417479}
   - component: {fileID: 7075184335095294914}
   - component: {fileID: 6144076920982750687}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Trim_black_plastic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4416,7 +4416,7 @@ GameObject:
   - component: {fileID: 5352552990604142711}
   - component: {fileID: 5902773692542247765}
   - component: {fileID: 255445379176814289}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: tire_RearLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4497,7 +4497,7 @@ GameObject:
   - component: {fileID: 5666632215653295361}
   - component: {fileID: 4793982161504412726}
   - component: {fileID: 5211287917095953573}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: register_plate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4578,7 +4578,7 @@ GameObject:
   - component: {fileID: 6795685045540044642}
   - component: {fileID: 4610723580986269470}
   - component: {fileID: 463406589668530093}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: wheel_nuts_RearRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4659,7 +4659,7 @@ GameObject:
   - component: {fileID: 8382059253793347081}
   - component: {fileID: 5889930127877726712}
   - component: {fileID: 63130133060793091}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: headlight_lens
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4740,7 +4740,7 @@ GameObject:
   - component: {fileID: 135281711926169486}
   - component: {fileID: 3011780347451339998}
   - component: {fileID: 1546942796006344266}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: interior_wood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4821,7 +4821,7 @@ GameObject:
   - component: {fileID: 3545139213378533471}
   - component: {fileID: 8009844478016838675}
   - component: {fileID: 2882479012120493575}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: rim_logo_RearRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4902,7 +4902,7 @@ GameObject:
   - component: {fileID: 8445750758415554574}
   - component: {fileID: 4658904505456069035}
   - component: {fileID: 6006024747536419847}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: wheel_nuts_FrontRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4983,7 +4983,7 @@ GameObject:
   - component: {fileID: 8872522520961171687}
   - component: {fileID: 8281525936727890358}
   - component: {fileID: 7260726304904014051}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: rim_RearLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5064,7 +5064,7 @@ GameObject:
   - component: {fileID: 944230372317900461}
   - component: {fileID: 7038284196624329766}
   - component: {fileID: 1800721308461354833}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Lights_glass_orange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5145,7 +5145,7 @@ GameObject:
   - component: {fileID: 4821605742736695104}
   - component: {fileID: 4124096548934486484}
   - component: {fileID: 8980070076186765982}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: windows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5227,7 +5227,7 @@ GameObject:
   - component: {fileID: 7382559781317336426}
   - component: {fileID: 534332279092576704}
   - component: {fileID: 3420426062563664931}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: brake_caliper_RearLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5309,7 +5309,7 @@ GameObject:
   - component: {fileID: 4934396145473781850}
   - component: {fileID: 2300036677404655283}
   - component: {fileID: 1475185201159225947}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: brake_disc_RearLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5390,7 +5390,7 @@ GameObject:
   - component: {fileID: 3606334811363846901}
   - component: {fileID: 7775314525360085725}
   - component: {fileID: 5569483132450770673}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: interior_white
   m_TagString: Untagged
   m_Icon: {fileID: 0}
