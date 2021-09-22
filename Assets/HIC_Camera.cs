@@ -76,7 +76,7 @@ public class HIC_Camera : MonoBehaviour
 
     public List<List<FileInfo>> directionFileInfoLists = new List<List<FileInfo>>();
 
-    private string streetviewImagesRootDir = @"C:\Repos\Streetview sets\directory_japan";
+    private string streetviewImagesRootDir = @"C:\Repos\Streetview sets\japan2";
 
     public ReflectionProbe sceneReflectionProbe;
 
@@ -344,7 +344,7 @@ public class HIC_Camera : MonoBehaviour
 
                     placementTries++;
 
-                    if (placementTries > 100) //max number of possible positions
+                    if (placementTries > 200) //max number of possible positions
                     {
                         validPosition = false;
                         break;
@@ -361,16 +361,27 @@ public class HIC_Camera : MonoBehaviour
 
                     //spawnedCar.transform.position = transform.position +
 
-                    if (UnityEngine.Random.Range(0f, 1f) < 0.5f)
+                    float chance = UnityEngine.Random.Range(0f, 1f);
+
+                    if (chance < 0.40f)
                     {
                         spawnedCar.transform.Rotate(0f, UnityEngine.Random.Range(-5f, 5f), 0f);
                     }
-
-                    else
+                    
+                    if (chance >= 0.40f && chance < 0.80f)
                     {
                         spawnedCar.transform.Rotate(0f, 180f + UnityEngine.Random.Range(-5f, 5f), 0f);
                     }
 
+                    if (chance >= 0.80f && chance < 0.90f)
+                    {
+                        spawnedCar.transform.Rotate(0f, 90f + UnityEngine.Random.Range(-5f, 5f), 0f);
+                    }
+
+                    if (chance >= 0.90f)
+                    {
+                        spawnedCar.transform.Rotate(0f, 270f + UnityEngine.Random.Range(-5f, 5f), 0f);
+                    }
                     
 
                     CarMaterialChange spawnedCarChanger = spawnedCar.transform.GetComponent<CarMaterialChange>();
@@ -385,9 +396,11 @@ public class HIC_Camera : MonoBehaviour
 
                     float randomGreyfloat = UnityEngine.Random.Range(0.05f, 0.95f);
 
-                    Color randomGreyscale = new Color(randomGreyfloat, randomGreyfloat, randomGreyfloat);
+                    //Color randomGreyscale = new Color(randomGreyfloat, randomGreyfloat, randomGreyfloat);
 
-                    float randomGloss = UnityEngine.Random.Range(0.75f, 0.99f);
+                    Color randomGreyscale = UnityEngine.Random.ColorHSV(0, 1, 0, 0.8f, 0.4f, 1);
+
+                    float randomGloss = UnityEngine.Random.Range(0.5f, 0.95f);
 
                     foreach (Renderer renderer in renderers)
                     {
@@ -398,6 +411,9 @@ public class HIC_Camera : MonoBehaviour
 
                                 carMaterial.SetColor("_Color", randomGreyscale);
                                 carMaterial.SetFloat("_Glossiness", randomGloss);
+                                //carMaterial.SetTexture("_MainTex", LoadPNG(directionFileInfoLists[UnityEngine.Random.Range(0, 6)][viewIndex].FullName));
+                                //carMaterial.SetTextureScale("_MainTex", new Vector2(0.003f, 0.003f));
+                                //carMaterial.SetTextureOffset("_MainTex", new Vector2(UnityEngine.Random.Range(-5f, 5f), UnityEngine.Random.Range(-5f, 5f)));
                             }
                         }
                     }
@@ -516,7 +532,7 @@ public class HIC_Camera : MonoBehaviour
 
                     RandomizeCameraPlacement(rightCamera, 15f, 1f, 0.3f);
 
-                    sun.transform.localRotation = Quaternion.Euler(UnityEngine.Random.Range(0f, 360f), UnityEngine.Random.Range(0f, 360f), UnityEngine.Random.Range(0f, 360f));
+                    sun.transform.localRotation = Quaternion.Euler(UnityEngine.Random.Range(30f, 150f), UnityEngine.Random.Range(0f, 360f), 0);
 
                     BoundingBoxUtils.SaveImageAndBoundingBoxes(cameraChassis, rightCamera, cameraBoundingBoxDistance, rightCamDir, fixedUpdateIterations, captureWidth, captureHeight, classes, toggleYOLOFormatRight, bboxOcclusionRatio, 0);
                 }

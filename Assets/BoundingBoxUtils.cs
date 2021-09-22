@@ -191,7 +191,6 @@ public class BoundingBoxUtils : MonoBehaviour
                     {
                         float ratio = segmentArea / boxArea;
 
-                        Debug.Log(ratio);
 
                         if (classes.ContainsKey(className) && ratio > bboxOcclusionRatio) //if class is not defined, then do not save label
                         {

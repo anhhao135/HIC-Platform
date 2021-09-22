@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1.2
+  m_AmbientIntensity: 0.3
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 355d46016d67b4e439a709486ba5517f, type: 2}
@@ -151,8 +151,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.909034, b: 0.7028302, a: 1}
-  m_Intensity: 0.6
+  m_Color: {r: 1, g: 0.94432724, b: 0.8160377, a: 1}
+  m_Intensity: 1.15
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -209,13 +209,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 21368812}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 2.016, y: 2.363, z: -2.141}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &112895779
 GameObject:
   m_ObjectHideFlags: 0
@@ -805,7 +805,7 @@ MonoBehaviour:
   multichannelDepth: 0
   depthFarClipPlane: 20
   toggleDepth: 1
-  toggleSeg: 1
+  toggleSeg: 0
   uberReplacementShader: {fileID: 4800000, guid: 171e6e515a12e4a298dce708924e98ba, type: 3}
   opticalFlowShader: {fileID: 4800000, guid: 2a970eca3c9e84f13b5b616e530a7919, type: 3}
   opticalFlowSensitivity: 1
@@ -1147,9 +1147,9 @@ MonoBehaviour:
   toggleCameraCapture: 1
   toggleDepthCapture: 0
   fixedFPS: 60
-  captureWidth: 1280
-  captureHeight: 720
-  captureFrames: 1000
+  captureWidth: 900
+  captureHeight: 600
+  captureFrames: 10000
   cameraBoundingBoxDistance: 90
   toggleYOLOFormatRight: 1
   spawnCarPrefabs:
@@ -1169,7 +1169,9 @@ MonoBehaviour:
   - {fileID: 2958752666430046682, guid: 44b9a40b0a5cad74e8ca39108e9707cc, type: 3}
   - {fileID: 3043032295253790716, guid: 9f2a45ac7db62364888850899f6f34d2, type: 3}
   - {fileID: 5431551439026376055, guid: 6b9103bdcd3be24478b78dd7c39aa843, type: 3}
-  maxNumberOfCars: 10
+  - {fileID: 7847575575267435548, guid: 1b6ec53c35258634faf7707a243f60e6, type: 3}
+  - {fileID: 2926839296095847785, guid: 826905d82d0c09d48a3af9ba580ec435, type: 3}
+  maxNumberOfCars: 15
   mainProjector: {fileID: 630627986}
   sceneReflectionProbe: {fileID: 875170418}
   carSpawnYOffset: 2.2
